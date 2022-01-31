@@ -151,17 +151,17 @@ def run():
     
     1 Recien Nacido (Nacimiento - 6 semanas).
     
-    2 Lactante Menor (7 semanas - 1 año).
+    2 Lactante Menor (7 semanas - 11 meses).
     
     3 Lactante Mayor (1 año - 2 años).
     
-    4 Pre-escolar (2 años - 6 años).
+    4 Pre-escolar (3 años - 6 años).
     
-    5 Escolar (6 años - 13 años).
+    5 Escolar (7 años - 13 años).
     
-    6 Adolecente (13 años - 17 años).
+    6 Adolecente (14 años - 17 años).
     
-    7 Adulto (17 años en adelante).
+    7 Adulto (18 años en adelante).
     
     Cual es tu opción?: """))
 
