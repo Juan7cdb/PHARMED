@@ -1962,6 +1962,6 @@ def run():
         print(f"{med} no se puede reonocer en nuestra base de datos, por favor revisa si el medicamento esta bien escrito")
         return run()
 
-    
+
 if __name__ == "__main__":
     run()
