@@ -2002,6 +2002,77 @@ medicine_super_list = [
         - Ciclopropano inhalado
         - Haloperidol"""
     },
+    {
+        "medicamento": "Vasopresina",
+        "familia": "Vasopresor y antidiuretico",
+        "presentaciones": """• Desmopresina solución nasal:
+        - 200 mg / 5 mL 
+        - 400 mg / 5 mL 
+        - 800 mg / 5 mL
+        • Dopamina solución para perfusión:
+        - 80 mg / 100 mL 
+        - 160 mg / 100 mL
+        • Dopamina en dextrosa infusión:
+        - 40 mg / 100 mL 
+        - 80 mg / 100 mL
+        - 160 mg / 100 mL
+        - 320 mg / 100 mL 
+        - 640 mg / 100 mL 
+        • Interferon gamma""",
+        "indicaciones": """• •	Corrección de los desequilibrios hemodinámicos en estado de shock
+        • Infartos miocardicos
+        • Traumatismos
+        • Septicemias endotoxinas
+        • Cirugia cardiaca mayor
+        • Insuficiencia renal
+        • Insuficiencia cardiaca congestiva descompensada""",
+        "mecanismo de accion": """Catecolaminas simpatomimética precursora de norepinefrina, 
+        actúa como neurotransmisor generando estimulación directa de receptores adrenérgicos y dopaminérgicos 
+        provocando liberación de noradrenalina""",
+        "vias de administración": """• Via intravenosamediante perfusión en vena de gran calibre""",
+        "metabolismo": "• No posee metabolismo",
+        "excrecion": "Renal en primer paso",
+        "efectos Secundarios":"""• Extrasistoles
+        • Taquicardia supraventricular
+        • Angina de pecho
+        • Palpitaciones
+        • Disnea
+        • Hipotensión
+        • Vasoconstricción
+        • Cefalea
+        • Nauseas
+        • Vomito""",
+        "contraindicaciones": """• Mujeres embarazadas, solo si riesgo / beneficio lo valida
+        • Hipertension severa en parto
+        • Hipersensibilidad""",
+        "posologia": """• LA DOSIS ES ESTRICTAMENTE UNICA, PERSONAL E INDIVIDUAL.
+        
+        De acuerdo a las características patológicas y respuesta obtenida del paciente.
+        
+        Adultos: 
+        • Inicia: 2 – 5 mcg / Kg / min
+        • Aumenta: 1 – 4 mcg / Kg / min cada 10 – 30 minutos hasta obtener efectos terapéuticos adecuados.
+        • Mantenimiento: 5 – 20 mcg / Kg / min dependiendo de gravedad del cuadro.
+        
+        Dosis máxima recomendada: 20 mcg / Kg / min""",
+        "Interaccion con fármacos": """• Disminuye concentración:
+        - Propofol
+        - Guanetidina
+        • Acción potenciada:
+        - Inhibidores de monoaminooxidasa
+        - Metildopa
+        - Entacapona
+        • Efectos cardiacos antagonistas:
+        - Propanolol
+        - Metoprolol
+        • Potenciación vasopresora:
+        - Agentes vasopresores
+        • Riesgo hipotensión y bradicardia:
+        - fenitoina
+        • Extrema precausión:
+        - Ciclopropano inhalado
+        - Haloperidol"""
+    },
 ]
 
 
