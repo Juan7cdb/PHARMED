@@ -1933,7 +1933,7 @@ medicine_super_list = [
     },
     {
         "medicamento": "Dopamina",
-        "familia": "Inotrpico negativo",
+        "familia": "Inotrpico positiva",
         "presentaciones": """• Dopamina concentración para infusión:
         - 200 mg / 5 mL 
         - 400 mg / 5 mL 
