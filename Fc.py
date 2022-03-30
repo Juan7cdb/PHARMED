@@ -146,34 +146,18 @@ def fc_adulto(latidos):
 
 
 def run():
-    menu = int(input("""
-    Selecciona el rango en el que se encuentra tu paciente:
-    
-    1 Recien Nacido (Nacimiento - 6 semanas).
-    
-    2 Lactante Menor (7 semanas - 11 meses).
-    
-    3 Lactante Mayor (1 año - 2 años).
-    
-    4 Pre-escolar (3 años - 6 años).
-    
-    5 Escolar (7 años - 13 años).
-    
-    6 Adolecente (14 años - 17 años).
-    
-    7 Adulto (18 años en adelante).
-    
-    Cual es tu opción?: """))
+    edad_paciente = int(input("Años de tu paciente: "))
+    latidos_paciente = int(input("Cuantos latidos encontraste en 15 segundos: "))
 
-    if menu == 1:
+    if edad_paciente == 1:
         latidos = int(input("Cuantos latidos encotraste en tu paciente en 15 segundos?: "))
         fc_rn(latidos)
 
-    elif menu == 2:
+    elif edad_paciente == 2:
         latidos = int(input("Cuantos latidos encotraste en tu paciente en 15 segundos?: "))
         fc_lactante_menor(latidos)
 
-    elif menu == 3:
+    elif edad_paciente == 3:
         latidos = int(input("Cuantos latidos encotraste en tu paciente en 15 segundos?: "))
         fc_lactante_mayor(latidos)
 
