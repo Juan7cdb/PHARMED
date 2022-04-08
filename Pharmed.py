@@ -174,7 +174,7 @@ medicine_super_list = [
     {
         "medicamento": "Imipenem",
         "familia": "Carbapenemicos",
-        "presentaciones": """• 500mg + 500mg Polvo estéril para inyección.""",
+        "presentaciones": """• 500mg + 500mg Polvo estéril para inyección""",
         "indicaciones": """• Estados sépticos por Pseudomonas
         • Infecciones por listerias
         • Infecciones por H. influenzae
@@ -201,7 +201,7 @@ medicine_super_list = [
     {
         "medicamento": "Meropenem",
         "familia": "Carbapenemicos",
-        "presentaciones": """• 1 g y 500 g Polvo estéril para inyección.""",
+        "presentaciones": """• 1 g y 500 g Polvo estéril para inyección""",
         "indicaciones": """• Estados sépticos por Pseudomonas
         • Infecciones por listerias
         • Infecciones por H. influenzae
@@ -227,7 +227,7 @@ medicine_super_list = [
     {
         "medicamento": "Aztreonam",
         "familia": "Monobactamicos",
-        "presentaciones": """• 1 g Polvo estéril para inyección.""",
+        "presentaciones": "1 g Polvo estéril para inyección",
         "indicaciones": """• Infeccions por enterobacter
         • Infeccion por Pseudomonas
         • Infeccion por H. influenzae
@@ -251,32 +251,7 @@ medicine_super_list = [
     {
         "medicamento": "Piperacilina",
         "familia": "Ureidopenicilinas",
-        "presentaciones": """• 4.5 g Polvo estéril para inyección.""",
-        "indicaciones": """• Estados sépticos por Pseudomonas
-        • Infecciones por H. Influenzae
-        • Infecciones por eneterobacter
-        • Infecciones por enterococus fecalis
-        • Streptococo pyogenes y neumonía
-        • Infecciones por anaerobios""",
-        "mecanismo de accion": "Inhibir la síntesis de la pared celular",
-        "vias de administración": """• Intramuscular
-        • Intravenosa""",
-        "metabolismo": "No tienen proceso de metabolismo",
-        "excrecion": "Renal con diversos grados de actividad",
-        "efectos Secundarios":"""• Reacciones de hipersensibilidad
-        • Vomito
-        • Diarrea
-        • Neutropenia
-        • Convulsiones
-        • Nefritis intersticial reversible""",
-        "contraindicaciones": """• Paciente con hipersensibilidad al medicamento
-        • Mujeres en estado de embarazo""",
-        "posologia": "• Adultos y adolescentes: 4 g de piperacilina/0,5 g de tazobactam administrados cada 6 horas"
-    },
-    {
-        "medicamento": "Piperacilina",
-        "familia": "Ureidopenicilinas",
-        "presentaciones": """• 4.5 g Polvo estéril para inyección""",
+        "presentaciones": "4.5 g Polvo estéril para inyección",
         "indicaciones": """• Estados sépticos por Pseudomonas
         • Infecciones por H. Influenzae
         • Infecciones por eneterobacter
@@ -319,7 +294,7 @@ medicine_super_list = [
         • Nefritis intersticial reversible""",
         "contraindicaciones": """• Paciente con hipersensibilidad al medicamento
         • Mujeres en estado de embarazo""",
-        "posologia": """• Adultos y adolescentes: 4 g de piperacilina/0,5 g de tazobactam administrados cada 6 horas
+        "posologia": """Adultos y adolescentes: 
         • Dosis de hasta 2 g cada 6 horas resultan adecuadas para infecciones más severas
         • No se recomienda la vía intramuscular por ser sumamente dolorosa
         • La dosis máxima es de 10 a 12 g/día
