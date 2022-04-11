@@ -23,7 +23,7 @@ medicine_super_list = [
         • Actinomicosis
         • Listeria
         • Profilaxis""",
-        "mecanismo de accion": "Inhibir la síntesis de la pared celular",
+        "mecanismo de accion": "Inhibir la síntesis de la pared celular bacteriana",
         "vias de administración": """• Intramuscular
         • Intravenosa""",
         "metabolismo": "No tienen proceso de metabolismo",
@@ -55,7 +55,7 @@ medicine_super_list = [
         "familia": "Isosaxopenicilinas",
         "presentaciones": """• Ampolla 1 g de base polvo esteril inyectable.""",
         "indicaciones": """Infecciones Localizadas por S Aureus""",
-        "mecanismo de accion": "Inhibir la síntesis de la pared celular",
+        "mecanismo de accion": "Inhibir la síntesis de la pared celular bacteriana",
         "vias de administración": "Intramuscular",
         "metabolismo": "No tienen proceso de metabolismo",
         "excrecion": "Renal con diversos grados de actividad",
@@ -78,7 +78,7 @@ medicine_super_list = [
         • 250 y 500 mg Tabletas""",
         "indicaciones": """• Infecciones Localizadas por S. Aureus
         • Infecciones sistémicas por S. Aureus""",
-        "mecanismo de accion": "Inhibir la síntesis de la pared celular",
+        "mecanismo de accion": "Inhibir la síntesis de la pared celular bacteriana",
         "vias de administración": "Via oral",
         "metabolismo": "No tienen proceso de metabolismo",
         "excrecion": "Renal con diversos grados de actividad",
@@ -107,7 +107,7 @@ medicine_super_list = [
         • Infecciones digestivas por enterococos de vías genitales y digestivas
         • Listerias
         • Infecciones por E. Coli resistente, anaerobios, neisseria meningitides y gonorrea""",
-        "mecanismo de accion": "Inhibir la síntesis de la pared celular",
+        "mecanismo de accion": "Inhibir la síntesis de la pared celular bacteriana",
         "vias de administración": """• Intramuscular
         • Via oral""",
         "metabolismo": "No tienen proceso de metabolismo",
@@ -151,7 +151,7 @@ medicine_super_list = [
         • Infecciones digestivas por enterococos de vías genitales y digestivas
         • Listerias
         • Infecciones por E. Coli resistente, anaerobios, neisseria meningitides y gonorrea""",
-        "mecanismo de accion": "Inhibir la síntesis de la pared celular",
+        "mecanismo de accion": "Inhibir la síntesis de la pared celular bacteriana",
         "vias de administración": """• Intramuscular
         • Via oral""",
         "metabolismo": "No tienen proceso de metabolismo",
@@ -182,7 +182,7 @@ medicine_super_list = [
         • Infecciones por enterococus fecalis
         • Streptococo pyogenes y neumoniae
         • Infecciones por anaerobios""",
-        "mecanismo de accion": "Inhibir la síntesis de la pared celular",
+        "mecanismo de accion": "Inhibir la síntesis de la pared celular bacteriana",
         "vias de administración": """• Intramuscular
         • Intravenosa""",
         "metabolismo": "No tienen proceso de metabolismo",
@@ -209,7 +209,7 @@ medicine_super_list = [
         • Infecciones por enterococus fecalis
         • Streptococo pyogenes y neumoniae
         • Infecciones por anaerobios""",
-        "mecanismo de accion": "Inhibir la síntesis de la pared celular",
+        "mecanismo de accion": "Inhibir la síntesis de la pared celular bacteriana",
         "vias de administración": """• Intramuscular
         • Intravenosa""",
         "metabolismo": "No tienen proceso de metabolismo",
@@ -232,7 +232,7 @@ medicine_super_list = [
         • Infeccion por Pseudomonas
         • Infeccion por H. influenzae
         • Infeccion por neisseria meningitides""",
-        "mecanismo de accion": "Inhibir la síntesis de la pared celular",
+        "mecanismo de accion": "Inhibir la síntesis de la pared celular bacteriana",
         "vias de administración": """• Intramuscular
         • Intravenosa""",
         "metabolismo": "No tienen proceso de metabolismo",
@@ -258,7 +258,7 @@ medicine_super_list = [
         • Infecciones por enterococus fecalis
         • Streptococo pyogenes y neumonía
         • Infecciones por anaerobios""",
-        "mecanismo de accion": "Inhibir la síntesis de la pared celular",
+        "mecanismo de accion": "Inhibir la síntesis de la pared celular bacteriana",
         "vias de administración": """• Intramuscular
         • Intravenosa""",
         "metabolismo": "No tienen proceso de metabolismo",
@@ -283,7 +283,7 @@ medicine_super_list = [
         • Infecciones por enterococus fecalis
         • Streptococo pyogenes y neumonía
         • Infecciones por anaerobios""",
-        "mecanismo de accion": "Inhibir la síntesis de la pared celular",
+        "mecanismo de accion": "Inhibir la síntesis de la pared celular bacteriana",
         "vias de administración": """• Intramuscular
         • Intravenosa""",
         "metabolismo": "No tienen proceso de metabolismo",
@@ -307,7 +307,7 @@ medicine_super_list = [
         • Infección por Estreptococos
         • Infección por Proteus Mirabilis
         • Infección por Klebsiellas (excepto bacteroides fragilis)""",
-        "mecanismo de accion": "Inhibir la síntesis de la pared celular",
+        "mecanismo de accion": "Inhibir la síntesis de la pared celular bacteriana",
         "vias de administración": """• Intramuscular
         • Via Oral""",
         "metabolismo": "No tienen proceso de metabolismo",
@@ -328,12 +328,12 @@ medicine_super_list = [
     {
         "medicamento": "Cefazolina",
         "familia": "Cefalosporina de primera generación",
-        "presentaciones": """• 1 g Polvo estéril para inyección""",
+        "presentaciones": "1 g Polvo estéril para inyección",
         "indicaciones": """• Infección por estafilococos
         • Infección por Estreptococos
         • Infección por Proteus Mirabilis
         • Infección por Klebsiellas (excepto bacteroides fragilis)""",
-        "mecanismo de accion": "Inhibir la síntesis de la pared celular",
+        "mecanismo de accion": "Inhibir la síntesis de la pared celular bacteriana",
         "vias de administración": """• Intramuscular
         • Intravenosa""",
         "metabolismo": "No tienen proceso de metabolismo",
@@ -343,13 +343,26 @@ medicine_super_list = [
         • Neutropenia
         • Convulsiones
         • Nefritis intersticial reversible""",
-        "contraindicaciones": """• Paciente con hipersensibilidad al medicamento
-        • Mujeres en estado de embarazo""",
-        "posologia": """• Adultos y adolescentes: 4 g de piperacilina/0,5 g de tazobactam administrados cada 6 horas
-        • Dosis de hasta 2 g cada 6 horas resultan adecuadas para infecciones más severas
-        • No se recomienda la vía intramuscular por ser sumamente dolorosa
-        • La dosis máxima es de 10 a 12 g/día
-        • Niños mayores se recomienda 80 a 160 mg (100 mg en promedio), divididos en 4 a 6 dosis"""
+        "contraindicaciones": "• Paciente con hipersensibilidad al medicamento",
+        "posologia": """
+        Neonatos:
+        • ≥7 días: 25 mg/kg/dosis cada 12 h
+        • >2000 g: 25 mg/kg/dosis, cada 8 h
+        
+        Niños mayores a 1 mes:
+        • 25-50 mg/kg/día en 3 o 4 dosis
+        • Infección grave, septicemia o endocarditis, 100 mg/kg/día en 3 o 4 dosis
+        • Profilaxis quirúrgica, 25 mg/kg dosis
+        • Profilaxis de endocarditis bacteriana, 50 mg/kg de 30-60 min antes del procedimiento
+        
+        Adulto:
+        Intramuscular:
+        • 250 mg/mL, 1 g con 3,5 ml del disolvente (lidocaína 1%) hasta conseguir la concentración 
+        
+        Intravenosa:
+        • Bolo directo 100mg/mL en 3-5 minutos 
+        • Perfusión intermitente 20mg/mL en 10-60 minutos glucosa al 5%
+        • Perfusión intermitente 20mg/mL en 10-60 minutos suero salino al 0,9%"""
     },
     {
         "medicamento": "Cefalexina",
@@ -360,8 +373,8 @@ medicine_super_list = [
         • Infección por Estreptococos
         • Infección por Proteus Mirabilis
         • Infección por Klebsiellas (excepto bacteroides fragilis)""",
-        "mecanismo de accion": "Inhibir la síntesis de la pared celular",
-        "vias de administración": "• Via Oral",
+        "mecanismo de accion": "Inhibir la síntesis de la pared celular bacteriana",
+        "vias de administración": "Via Oral",
         "metabolismo": "No tienen proceso de metabolismo",
         "excrecion": "Renal con diversos grados de actividad",
         "efectos Secundarios":"""• Vomito
@@ -371,7 +384,8 @@ medicine_super_list = [
         • Nefritis intersticial reversible""",
         "contraindicaciones": """• Paciente con hipersensibilidad al medicamento
         • Mujeres en estado de embarazo""",
-        "posologia": """• Adultos y adolescentes: 500 mg cada 8 horas
+        "posologia": """• Adultos y adolescentes: 500 mg cada 8 
+        
         • Infecciones de piel y tejidos blandos, faringitis estreptocócica e infecciones leves y no complicadas del tracto urinario, 250 mg cada 6 horas"""
     },
     {
@@ -383,7 +397,7 @@ medicine_super_list = [
         • Infección por Estreptococos
         • Infección por Proteus Mirabilis
         • Infección por Klebsiellas (excepto bacteroides fragilis)""",
-        "mecanismo de accion": "Inhibir la síntesis de la pared celular",
+        "mecanismo de accion": "Inhibir la síntesis de la pared celular bacteriana",
         "vias de administración": """• Via Oral
         • Intramuscular""",
         "metabolismo": "No tienen proceso de metabolismo",
@@ -395,8 +409,13 @@ medicine_super_list = [
         • Nefritis intersticial reversible""",
         "contraindicaciones": """• Paciente con hipersensibilidad al medicamento
         • Mujeres en estado de embarazo""",
-        "posologia": """• Adultos y adolescentes: 250 a 500 mg cada 6 h o 500 mg a 1 g cada 12 h. No exceder de 4 g en 24 h
-        • Niños: 6.25 a 25 mg/kg de peso cada 6 h. La dosis máxima debe ser inferior a 4 g en 24 h"""
+        "posologia": """Adultos y adolescentes: 
+        • 250 a 500 mg cada 6 h o 500 mg a 1 g cada 12 h 
+        No exceder de 4 g en 24 h
+        
+        Niños: 
+        • 6.25 a 25 mg/kg de peso cada 6 h. 
+        La dosis máxima debe ser inferior a 4 g en 24 h"""
     },
     {
         "medicamento": "Cefuroxima",
@@ -409,7 +428,7 @@ medicine_super_list = [
         • Infección por neisseria meningitides
         • Infección por bacteroides fragilis
         • Infección por H. Influenzae""",
-        "mecanismo de accion": "Inhibir la síntesis de la pared celular",
+        "mecanismo de accion": "Inhibir la síntesis de la pared celular bacteriana",
         "vias de administración": """• Via Oral
         • Intramuscular""",
         "metabolismo": "No tienen proceso de metabolismo",
@@ -421,15 +440,24 @@ medicine_super_list = [
         • Nefritis intersticial reversible""",
         "contraindicaciones": """• Paciente con hipersensibilidad al medicamento
         • Mujeres en estado de embarazo""",
-        "posologia": """• Niños 3 meses-5 años: 15 mg/kg/día, c/12 horas (máx. 2-4 g/día)
-        • Niños 5 años-12 años: 125 mg, cada 12 h
-        • Niños >12 años: 250 mg/12 horas
-        • Adultos: 750 - 1000 mg, 3 veces al día (cada 8 horas)"""
+        "posologia": """
+        Niños 3 meses-5 años: 
+        • 15 mg/kg/día cada 12 horas (máx. 2-4 g/día)
+        
+        Niños 5 años-12 años: 
+        • 125 mg, cada 12 h
+        
+        Niños >12 años: 
+        •250 mg/12 horas
+        
+        Adultos: 
+        • 750 - 1000 mg cada 8 horas"""
     },
     {
         "medicamento": "Cetriaxona",
-        "familia": "Cefalosporina de tercera generacion generación",
-        "presentaciones": "• 1 g y 500 mg Polvo estéril para inyección",
+        "familia": "Cefalosporina de tercera generación",
+        "presentaciones": """• 1 g Polvo estéril para inyección
+        • 500 mg Polvo estéril para inyección""",
         "indicaciones": """• Infección por bacilos gram (-)
         • Infección por aerobios
         • Infección por enterobacter
@@ -437,7 +465,7 @@ medicine_super_list = [
         • Infección por proteus vulgaris
         • Infección por serratia
         • Infección por pseudomonas resistentes a otros""",
-        "mecanismo de accion": "Inhibir la síntesis de la pared celular",
+        "mecanismo de accion": "Inhibir la síntesis de la pared celular bacteriana",
         "vias de administración": """• Intramuscular
         • Intravenosa""",
         "metabolismo": "No tienen proceso de metabolismo",
@@ -449,13 +477,18 @@ medicine_super_list = [
         • Nefritis intersticial reversible""",
         "contraindicaciones": """• Paciente con hipersensibilidad al medicamento
         • Mujeres en estado de embarazo""",
-        "posologia": """• Niños: 20 a 50 mg/kg/24 h
-        • Adultos: 1-2 g durante 24 h"""
+        "posologia": """
+        Niños: 
+        • 20 a 50 mg/kg/24 h
+        
+        Adultos: 
+        • 1-2 g durante 24 h"""
     },
     {
         "medicamento": "Cefepime",
         "familia": "Cefalosporina de cuarta generacion generación",
-        "presentaciones": "• 1 g y 2 g Polvo estéril para inyección",
+        "presentaciones": """• 1 g Polvo esteril para inyectar  
+        • 2 g Polvo estéril para inyección""",
         "indicaciones": """• Infección por bacilos gram (-)
         • Infección por aerobios
         • Infección por enterobacter
@@ -463,7 +496,7 @@ medicine_super_list = [
         • Infección por proteus vulgaris
         • Infección por serratia
         • Infección por pseudomonas resistentes a otros""",
-        "mecanismo de accion": "Inhibir la síntesis de la pared celular",
+        "mecanismo de accion": "Inhibir la síntesis de la pared celular bacteriana",
         "vias de administración": """• Intramuscular
         • Intravenosa""",
         "metabolismo": "No tienen proceso de metabolismo",
@@ -475,20 +508,29 @@ medicine_super_list = [
         • Nefritis intersticial reversible""",
         "contraindicaciones": """• Paciente con hipersensibilidad al medicamento
         • Mujeres en estado de embarazo""",
-        "posologia": """• Bebes de 1 - 3 meses: 30 mg/kg cada 12 horas
-        • Niños: 50 mg/kg cada 12 h
-        • Adultos: 2 g cada 12 h"""
+        "posologia": """Niños de 1 - 3 meses: 
+        • 30 mg/kg cada 12 horas
+        
+        •Niños: 
+        • 50 mg/kg cada 12 h
+        
+        Adultos: 
+        • 2 g cada 12 h"""
     },
     {
         "medicamento": "Gentamicina",
         "familia": "Aminoglucocidos",
         "presentaciones": """• 0.30% Ungüento oftálmico
         • 3 mg/2 ml Gotas oftálmicas
-        • 20, 40, 80, 160 mg Solución inyectable""",
+        • 20 mg Solución inyectable
+        • 40 mg Solución inyectable
+        • 80 mg Solución inyectable 
+        • 160 mg Solución inyectable""",
         "indicaciones": """• Infecciones de ojo y oído
         • Infección Urinaria con otros fármacos
         • Estados sépticos bacilos gram(-)""",
-        "mecanismo de accion": "Inhibidor 30s principalmente, también altera la pared celular y por eso es BACTERICIDA",
+        "mecanismo de accion": """• Inhibidor 30s ribosomal principalmente 
+        • también altera la pared celular, por eso es BACTERICIDA""",
         "vias de administración": """• Intramuscular
         • Intravenosa
         • Tópica""",
@@ -499,9 +541,15 @@ medicine_super_list = [
         "contraindicaciones": """• Pacientes con enfermedad renal terminal
         • Pacientes sordos o con lesión auditiva severa
         • Pacientes con enfermedad renal crónica se debe usar con precaución “Costo vs Beneficio” (calcular dosis con el índice de daño renal)""",
-        "posologia": """• Bebes de 1 - 3 meses: 7,5 mg/kg/día (2,5 mg/kg administrados cada 8 horas)
-        • Niños: 6 a 7,5 mg/kg/día (2-2,5 mg/kg administrados cada 8 horas)
-        • Adultos: 3 mg/kg/día, administrada en forma de dosis única diaria o repartidas en tres dosis, 1 mg/kg cada 8 h"""
+        "posologia": """
+        Bebes de 1 - 3 meses: 
+        • 7,5 mg/kg/día (2,5 mg/kg administrados cada 8 horas)
+        
+        Niños: 
+        • 6 a 7,5 mg/kg/día (2-2,5 mg/kg administrados cada 8 horas)
+        
+        Adultos: 
+        • 3 mg/kg/día, administrada en forma de dosis única diaria o repartidas en tres dosis, 1 mg/kg cada 8 h"""
     },
     {
         "medicamento": "Amikacina",
