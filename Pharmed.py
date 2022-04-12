@@ -554,11 +554,13 @@ medicine_super_list = [
     {
         "medicamento": "Amikacina",
         "familia": "Aminoglucocidos",
-        "presentaciones": "• 100mg/2ml - 500mg/2ml Solución inyectable",
+        "presentaciones": """• 100mg/2ml solucion inyectable
+        • 500mg/2ml Solución inyectable""",
         "indicaciones": """• Infecciones de ojo y oído
         • Infección Urinaria con otros fármacos
         • Estados sépticos bacilos gram(-)""",
-        "mecanismo de accion": "Inhibidor 30s principalmente, también altera la pared celular y por eso es BACTERICIDA",
+        "mecanismo de accion": """• Inhibidor 30s principalmente
+        • Altera la pared celular y por eso es BACTERICIDA""",
         "vias de administración": """• Intramuscular
         • Intravenosa""",
         "metabolismo": "No tienen proceso de metabolismo",
@@ -568,16 +570,18 @@ medicine_super_list = [
         "contraindicaciones": """• Pacientes con enfermedad renal terminal
         • Pacientes sordos o con lesión auditiva severa
         • Pacientes con enfermedad renal crónica se debe usar con precaución “Costo vs Beneficio” (calcular dosis con el índice de daño renal)""",
-        "posologia": "• Adultos: 15 mg/kg/día, dividida en 2 ó 3 dosis"
+        "posologia": """Adultos: 
+        • 15 mg/kg/día, dividida en 2 ó 3 dosis"""
     },
     {
         "medicamento": "Estreptomicina",
         "familia": "Aminoglucocidos",
-        "presentaciones": "• 1g polvo esteril para inyeccióno",
+        "presentaciones": "1g polvo esteril para inyeccióno",
         "indicaciones": """• Tularemia y plaga (yersinia)
         • Endocarditis Bacteriana por estreptococo viridians
         • Tuberculosis juanto a ptrps medicamentos en el tratamiento""",
-        "mecanismo de accion": "Inhibidor 30s principalmente, también altera la pared celular y por eso es BACTERICIDA",
+        "mecanismo de accion": """• Inhibidor 30s principalmente
+        • Altera la pared celular y por eso es BACTERICIDA""",
         "vias de administración": """• Intramuscular
         • Intravenosa""",
         "metabolismo": "No tienen proceso de metabolismo",
@@ -588,13 +592,17 @@ medicine_super_list = [
         • Pacientes sordos o con lesión auditiva severa
         • Pacientes con enfermedad renal crónica se debe usar con precaución “Costo vs Beneficio” (calcular dosis con el índice de daño renal)""",
         "posologia": """• Lesiones tuberculosas deberá iniciarse el tratamiento con 1 g diario
-        • Niños: 20 mg/kg/día
-        • Adultos: 0.5 a 2 g dosis unica cada 24 h"""
+        
+        Niños: 
+        • 20 mg/kg/día
+        
+        Adultos: 
+        • 0.5 a 2 g dosis unica cada 24 h"""
     },
     {
         "medicamento": "Tetraciclina",
         "familia": "Tetraciclinas",
-        "presentaciones": "• 500 mg Capsula",
+        "presentaciones": "500 mg Capsula",
         "indicaciones": """• Estreptococo pneumoniae
         • Ricketsias
         • Clamidias
@@ -605,9 +613,10 @@ medicine_super_list = [
         • Infecciones Venéreas (gonorrea, sífilis, chancroide, granuloma inguinal, uretritis o cevitis por clamidia)
         • Amibiasis intestinal o hepática""",
         "mecanismo de accion": "Inhibidor 30s de los ribosomas, es bacteriostatico",
-        "vias de administración": "• Via Oral",
+        "vias de administración": "Via Oral",
         "metabolismo": "Una variable es conjugada por hígado, pero la gran mayoría no posee metabolismo",
-        "excrecion": "En un 60% renal y un 40% por heces",
+        "excrecion": """• 60% renal
+        • 40% por heces""",
         "efectos Secundarios":"""• Nauseas
         • Vomito
         • Diarrea
@@ -620,13 +629,17 @@ medicine_super_list = [
         • Enfermos del hígado
         • Pacientes con antecedentes de foto-sensibilidad""",
         "posologia": """• Lesiones tuberculosas deberá iniciarse el tratamiento con 1 g diario
-        • Niños: 20 mg/kg/día
-        • Adultos: 0.5 a 2 g dosis unica cada 24 h"""
+        
+        Niños: 
+        • 20 mg/kg/día
+        
+        Adultos: 
+        • 0.5 a 2 g dosis unica cada 24 h"""
     },
     {
         "medicamento": "Doxiciclina",
         "familia": "Tetraciclinas",
-        "presentaciones": "• 100 mg Capsula o Tabletas",
+        "presentaciones": "100 mg Capsula o Tabletas",
         "indicaciones": """• Estreptococo pneumoniae
         • Ricketsias
         • Clamidias
@@ -637,9 +650,10 @@ medicine_super_list = [
         • Infecciones Venéreas (gonorrea, sífilis, chancroide, granuloma inguinal, uretritis o cevitis por clamidia)
         • Amibiasis intestinal o hepática""",
         "mecanismo de accion": "Inhibidor 30s de los ribosomas, es bacteriostatico",
-        "vias de administración": "• Via Oral",
+        "vias de administración": "Via Oral",
         "metabolismo": "Una variable es conjugada por hígado, pero la gran mayoría no posee metabolismo",
-        "excrecion": "En un 60% renal y un 40% por heces",
+        "excrecion": """• 60% renal
+        • 40% por heces""",
         "efectos Secundarios":"""• Nauseas
         • Vomito
         • Diarrea
@@ -651,8 +665,11 @@ medicine_super_list = [
         • Mujeres embarazadas
         • Enfermos del hígado
         • Pacientes con antecedentes de foto-sensibilidad""",
-        "posologia": """• Niños: 25 a 50 mg/kg/día divididos en dosis cada 6 h
-        • Adultos: 250 a 500 mg/ cada 6 a 12 h"""
+        "posologia": """Niños: 
+        • 25 a 50 mg/kg/día divididos en dosis cada 6 h
+        
+        Adultos: 
+        • 250 a 500 mg/ cada 6 a 12 h"""
     },
     {
         "medicamento": "Cloranfenicol",
@@ -677,8 +694,11 @@ medicine_super_list = [
         "contraindicaciones": """• No se debe dar a niños
         • Mujeres embarazadas
         • Enfermedad hepatica severa""",
-        "posologia": """• Niños: 6.25 mg/kg cada 6 horas
-        • Adultos: 12.5 mg/kg cada 6 horas"""
+        "posologia": """Niños: 
+        • 6.25 mg/kg cada 6 horas
+        
+        Adultos: 
+        • 12.5 mg/kg cada 6 horas"""
     },
     {
         "medicamento": "Eritromicina",
@@ -689,7 +709,7 @@ medicine_super_list = [
         • Infecciones por legionella
         • Infecciones por cocos en alérgicos a penicilina""",
         "mecanismo de accion": "Inhibe la porción 50s de los ribosomas por lo tanto es bacteriostático",
-        "vias de administración": "• Via Oral",
+        "vias de administración": "Via Oral",
         "metabolismo": "Hepático en varios pasos",
         "excrecion": "Renal, no se elimina por hemodiálisis",
         "efectos Secundarios":"""• Nauseas
@@ -702,8 +722,11 @@ medicine_super_list = [
         • Exantema pruriginoso""",
         "contraindicaciones": """• Pacientes con enfermedades hepáticas graves
         • Dar con precaución en mujeres embarazadas y lactantes""",
-        "posologia": """• Niños: 30-50 mg/kg diariamente, divididas cada 6 horas durante 10 a 14 días
-        • Adultos: 250 mg por vía oral cada 6 horas durante 10 a 14 días"""
+        "posologia": """Niños: 
+        • 30-50 mg/kg diariamente, divididas cada 6 horas durante 10 a 14 días
+        
+        Adultos: 
+        •250 mg por vía oral cada 6 horas durante 10 a 14 días"""
     },
     {
         "medicamento": "Claritromicina",
@@ -731,19 +754,23 @@ medicine_super_list = [
         • Exantema pruriginoso""",
         "contraindicaciones": """• Pacientes con enfermedades hepáticas graves
         • Dar con precaución en mujeres embarazadas y lactantes""",
-        "posologia": """• Niños: 7,5 mg/kg, 2 veces al día durante 5 a 10 días
-        • Adultos: 250 mg, 2 veces al día durante 6 a 14 días"""
+        "posologia": """Niños: 
+        •7,5 mg/kg, 2 veces al día durante 5 a 10 días
+        
+        Adultos: 
+        • 250 mg, 2 veces al día durante 6 a 14 días"""
     },
      {
         "medicamento": "Azitromicina",
         "familia": "Macrolidos",
-        "presentaciones": """• 500 mg ó 1 g Tabletas
+        "presentaciones": """• 500 mg tabletas
+        • 1 g Tabletas
         • 200mg/5ml (4%) Reconstitución oral""",
         "indicaciones": """• Infecciones por mycoplasma
         • Infecciones por legionella
         • Infecciones por cocos en alérgicos a penicilina""",
         "mecanismo de accion": "Inhibe la porción 50s de los ribosomas por lo tanto es bacteriostático",
-        "vias de administración": "• Via Oral",
+        "vias de administración": "Via Oral",
         "metabolismo": "Hepático en varios pasos",
         "excrecion": "Renal, no se elimina por hemodiálisis",
         "efectos Secundarios":"""• Nauseas
@@ -756,8 +783,11 @@ medicine_super_list = [
         • Exantema pruriginoso""",
         "contraindicaciones": """• Pacientes con enfermedades hepáticas graves
         • Dar con precaución en mujeres embarazadas y lactantes""",
-        "posologia": """• Niños: 500 mg sólo para niños y adolescentes de más de 45 kg de peso
-        • Adultos: 500 mg una vez al día durante 3 días consecutivos, dosis total de 1500 mg"""
+        "posologia": """Niños: 
+        • 500 mg sólo para niños y adolescentes de más de 45 kg de peso
+        
+        Adultos: 
+        • 500 mg una vez al día durante 3 días consecutivos, dosis total de 1500 mg"""
     },
     {
         "medicamento": "Clindamicina",
