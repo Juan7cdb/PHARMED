@@ -67,9 +67,11 @@ medicine_super_list = [
         • Nefritis intersticial reversible""",
         "contraindicaciones": """• Paciente con hipersensibilidad al medicamento
         • Mujeres en estado de embarazo""",
-        "posologia": """• Adultos: 0,5-1 g c/4-6 h que puede llegar a 2 g 
+        "posologia": """Adultos: 
+        • 0,5-1 g c/4-6 h que puede llegar a 2 g 
         
-        • Niños: 50-100 mg/kg/d en dosis divididas"""
+        Niños: 
+        • 50-100 mg/kg/d en dosis divididas"""
     },
     {
         "medicamento": "Dicloxacilina",
@@ -90,9 +92,11 @@ medicine_super_list = [
         • Nefritis intersticial reversible""",
         "contraindicaciones": """• Paciente con hipersensibilidad al medicamento
         • Mujeres en estado de embarazo""",
-        "posologia": """• Adultos: 500 mg vía oral cada 6 horas 
+        "posologia": """Niños: 
+        • 25 – 50 mg/kg/día en dosis fraccionadas cada 6 horas, vía oral
         
-        • Niños: 25 – 50 mg/kg/día en dosis fraccionadas cada 6 horas, vía oral"""
+        Adultos: 
+        • 500 mg vía oral cada 6 horas"""
     },
     {
         "medicamento": "Ampicilina",
@@ -195,8 +199,9 @@ medicine_super_list = [
         • Nefritis intersticial reversible""",
         "contraindicaciones": """• Paciente con hipersensibilidad al medicamento
         • Mujeres en estado de embarazo""",
-        "posologia": """• Adultos y adolescentes: 500 mg/500 mg cada 6 horas
-        1.000 mg/1.000 mg cada 8 horas ó cada 6 horas"""
+        "posologia": """Adultos y adolescentes: 
+        • 500 mg/500 mg cada 6 horas
+        • 1.000 mg/1.000 mg cada 8 horas ó cada 6 horas"""
     },
     {
         "medicamento": "Meropenem",
@@ -222,7 +227,8 @@ medicine_super_list = [
         • Nefritis intersticial reversible""",
         "contraindicaciones": """• Paciente con hipersensibilidad al medicamento
         • Mujeres en estado de embarazo""",
-        "posologia": """• Adultos y adolescentes: 500 mg cada 8 horas"""
+        "posologia": """Adultos y adolescentes: 
+        • 500 mg cada 8 horas"""
     },
     {
         "medicamento": "Aztreonam",
@@ -245,8 +251,11 @@ medicine_super_list = [
         • Nefritis intersticial reversible""",
         "contraindicaciones": """• Paciente con hipersensibilidad al medicamento
         • Mujeres en estado de embarazo""",
-        "posologia": """• Adultos y adolescentes: 500 mg o 1 g cada 8-12 horas
-        • Niños: 50 mg/kg/dosis cada 6 u 8 horas"""
+        "posologia": """Adultos y adolescentes: 
+        • 500 mg o 1 g cada 8-12 horas
+        
+        Niños: 
+        • 50 mg/kg/dosis cada 6 u 8 horas"""
     },
     {
         "medicamento": "Piperacilina",
@@ -271,7 +280,8 @@ medicine_super_list = [
         • Nefritis intersticial reversible""",
         "contraindicaciones": """• Paciente con hipersensibilidad al medicamento
         • Mujeres en estado de embarazo""",
-        "posologia": "• Adultos y adolescentes: 4 g de piperacilina/0,5 g de tazobactam administrados cada 6 horas"
+        "posologia": """Adultos y adolescentes: 
+        • 4 g de piperacilina/0,5 g de tazobactam administrados cada 6 horas"""
     },
     {
         "medicamento": "Piperacilina",
@@ -296,7 +306,8 @@ medicine_super_list = [
         • Nefritis intersticial reversible""",
         "contraindicaciones": """• Paciente con hipersensibilidad al medicamento
         • Mujeres en estado de embarazo""",
-        "posologia": "• Adultos y adolescentes: 4 g de piperacilina/0,5 g de tazobactam administrados cada 6 horas"
+        "posologia": """Adultos y adolescentes: 
+        • 4 g de piperacilina/0,5 g de tazobactam administrados cada 6 horas"""
     },
     {
         "medicamento": "Cefalotina",
@@ -319,11 +330,15 @@ medicine_super_list = [
         • Nefritis intersticial reversible""",
         "contraindicaciones": """• Paciente con hipersensibilidad al medicamento
         • Mujeres en estado de embarazo""",
-        "posologia": """• Adultos y adolescentes: 4 g de piperacilina/0,5 g de tazobactam administrados cada 6 horas
-        • Dosis de hasta 2 g cada 6 horas resultan adecuadas para infecciones más severas
-        • No se recomienda la vía intramuscular por ser sumamente dolorosa
+        "posologia": """Adultos y adolescentes: 
+        •4 g de piperacilina/0,5 g de tazobactam administrados cada 6 horas
         • La dosis máxima es de 10 a 12 g/día
-        • Niños mayores se recomienda 80 a 160 mg (100 mg en promedio), divididos en 4 a 6 dosis"""
+        • Dosis de hasta 2 g cada 6 horas resultan adecuadas para infecciones más severas
+        
+        No se recomienda la vía intramuscular por ser sumamente dolorosa
+        
+        Niños mayores:
+        • 80 a 160 mg (100 mg en promedio), divididos en 4 a 6 dosis"""
     },
     {
         "medicamento": "Cefazolina",
@@ -792,7 +807,10 @@ medicine_super_list = [
     {
         "medicamento": "Clindamicina",
         "familia": "Lincosamida",
-        "presentaciones": "• 15% Solución Inyectable",
+        "presentaciones": """• 600 mg / 4 mL Solución Inyectable
+        • 300 mg capsulas
+        • 500 mg capsulas
+        • 1% crema topica""",
         "indicaciones": """• Infecciones obstétricas y ginecológicas por estreptococos del grupo
         • Infecciones en piel por S. Pypgenes pneumonia y viridans
         • Infecciones por estafilococos
@@ -811,13 +829,19 @@ medicine_super_list = [
         • Bloqueo neuromuscular en algunos pacientes""",
         "contraindicaciones": """• No dar en lactantes ni recién nacidos
         • Administrase con precaución en mujeres embarazadas""",
-        "posologia": """• Niños: 500 mg sólo para niños y adolescentes de más de 45 kg de peso
-        • Adultos: 600 a 1.800 mg al día divididos en 2, 3 o 4 dosis iguales"""
+        "posologia": """Niños: 
+        • 500 mg sólo para niños
+        
+        Adolescentes:
+        • 500 mg cada 8 horas
+        
+        Adultos: 
+        • 600 a 1.800 mg al día divididos en 2, 3 o 4 dosis iguales"""
     },
     {
         "medicamento": "Vancomicina",
         "familia": "Glucopeptido",
-        "presentaciones": "• 500 mg Polvo estéril para inyección",
+        "presentaciones": "500 mg Polvo estéril para inyección",
         "indicaciones": """• Infecciones por S. Aureus
         • Profilaxis en endocarditis bacteriana
         • Colitis pseudomembranosa""",
@@ -832,9 +856,12 @@ medicine_super_list = [
         • Exantema
         • Ototoxicidad
         • Nefrotoxicidad""",
-        "contraindicaciones": "• No tiene contraindicaciones marcadas",
-        "posologia": """• Niños: 10 mg/kg/6 horas (dosis total diaria de 40 mg/kg de peso)
-        • Adultos: (30 - 50 mg/kg/día) 1 g/12 horas ó de 500 mg/6 horas"""
+        "contraindicaciones": "No tiene contraindicaciones marcadas",
+        "posologia": """Niños: 
+        •10 mg/kg/6 horas (dosis total diaria de 40 mg/kg de peso)
+        
+        Adultos: 
+        • (30 - 50 mg/kg/día) 1 g/12 horas ó de 500 mg/6 horas"""
     },
     {
         "medicamento": "Sulfametaxazol",
@@ -865,20 +892,23 @@ medicine_super_list = [
         • Pacientes mayores de edad con Pancitopenia
         • Pacientes con Colitis pseudomenbranosa
         • Pacientes que reciben anti-coagulantes""",
-        "posologia": """• Niños: 6 mg de trimetoprima/ 30 mg de sulfametoxazol/kg/24 horas
-        • Adultos: 1 comprimido de 160 mg/800 mg cada 12 horas"""
+        "posologia": """Niños: 
+        • 6 mg de trimetoprima/ 30 mg de sulfametoxazol/kg/24 horas
+        
+        Adultos: 
+        • 1 comprimido de 160 mg/800 mg cada 12 horas"""
     },
     {
         "medicamento": "Sulfasalazina",
         "familia": "Sulfas",
-        "presentaciones": "• 500mg Tabletas",
+        "presentaciones": "500mg Tabletas",
         "indicaciones": """• Infección tracto urinario
         • En combinación con pirimetamina, tratamiento de toxoplasmosis, etapa aguda no embarazo
         • Neumonía por Pneumocystiscarinii en pacientes con VIH
         • Infecciones por nocardia-nocardosis pulmonar""",
         "mecanismo de accion": """• Ac. Fólico – PABA = No hay producción de ADN, no sintetizan purinas
         • Si las sulfas se asocian con trimetropin, se incrementa el efecto Bacteriostatico y puede llegar a ser Bactericida""",
-        "vias de administración": "• Via Oral",
+        "vias de administración": "Via Oral",
         "metabolismo": "Hepatico, producen metabolitos no toxicos",
         "excrecion": "Renal y pequeñas cantidades heces y bilis",
         "efectos Secundarios":"""• Cristaluria
@@ -893,19 +923,21 @@ medicine_super_list = [
         • Pacientes mayores de edad con Pancitopenia
         • Pacientes con Colitis pseudomenbranosa
         • Pacientes que reciben anti-coagulantes""",
-        "posologia": "• Adultos: 2 g 2 a 3 veces al día durante 6 semanas como mínimo"
+        "posologia": """Adultos: 
+        • 2 g 2 a 3 veces al día durante 6 semanas como mínimo"""
     },
     {
         "medicamento": "Sulfacetamida",
         "familia": "Sulfas",
-        "presentaciones": "• 10 y 30% Solución Oftálmica",
+        "presentaciones": """• 10% solución Oftalmica
+        • 30% Solución Oftálmica""",
         "indicaciones": """• Infección tracto urinario
         • En combinación con pirimetamina, tratamiento de toxoplasmosis, etapa aguda no embarazo
         • Neumonía por Pneumocystiscarinii en pacientes con VIH
         • Infecciones por nocardia-nocardosis pulmonar""",
         "mecanismo de accion": """• Ac. Fólico – PABA = No hay producción de ADN, no sintetizan purinas
         • Si las sulfas se asocian con trimetropin, se incrementa el efecto Bacteriostatico y puede llegar a ser Bactericida""",
-        "vias de administración": "• Via Oftalmica",
+        "vias de administración": "Via Oftalmica",
         "metabolismo": "Hepatico, producen metabolitos no toxicos",
         "excrecion": "Renal y pequeñas cantidades heces y bilis",
         "efectos Secundarios":"""• Cristaluria
@@ -920,19 +952,20 @@ medicine_super_list = [
         • Pacientes mayores de edad con Pancitopenia
         • Pacientes con Colitis pseudomenbranosa
         • Pacientes que reciben anti-coagulantes""",
-        "posologia": "• Adultos: Una o dos gotas de la solución al 0.1%, tres a cuatro veces al día"
+        "posologia": """Adultos: 
+        • Una o dos gotas de la solución al 0.1%, tres a cuatro veces al día"""
     },
     {
-        "medicamento": "Sulfadiacinaargentica",
+        "medicamento": "Sulfadiazina - argentica",
         "familia": "Tambien conocida como Sulfaplata, viene de la familia de las Sulfas",
-        "presentaciones": "• 1g Crema",
+        "presentaciones": "1g Crema",
         "indicaciones": """• Infección tracto urinario
         • En combinación con pirimetamina, tratamiento de toxoplasmosis, etapa aguda no embarazo
         • Neumonía por Pneumocystiscarinii en pacientes con VIH
         • Infecciones por nocardia-nocardosis pulmonar""",
         "mecanismo de accion": """• Ac. Fólico – PABA = No hay producción de ADN, no sintetizan purinas
         • Si las sulfas se asocian con trimetropin, se incrementa el efecto Bacteriostatico y puede llegar a ser Bactericida""",
-        "vias de administración": "• Via Topica",
+        "vias de administración": "Via Topica",
         "metabolismo": "Hepatico, producen metabolitos no toxicos",
         "excrecion": "Renal y pequeñas cantidades heces y bilis",
         "efectos Secundarios":"""• Cristaluria
@@ -948,20 +981,21 @@ medicine_super_list = [
         • Pacientes con Colitis pseudomenbranosa
         • Pacientes que reciben anti-coagulantes""",
         "posologia": """• Se debe aplicar una capa de 3 mm de espesor sobre la superficie lesionada 1-2 veces/día en quemaduras y heridas no muy contaminadas.
-        • Una capa de 3 mm de espesor sobre la superficie lesionadahasta cada 4-6 h en el caso de heridas muy contaminadas."""
+        • Una capa de 3 mm de espesor sobre la superficie lesionadahasta cada 4-6 h en el caso de heridas muy contaminadas"""
     },
     {
         "medicamento": "Ciprofloxacina",
         "familia": "Quinolonas",
-        "presentaciones": "• 250mg y 500mg Tabletas",
+        "presentaciones": """• 250 mg Tabletas
+        • 500mg Tabletas""",
         "indicaciones": """• Infección del tracto urinario por aerobios Gram (-)
         • Prostatitis especialmente en pacientes con infección crónica
         • Infección de tracto gastrointestinal (salmonella,shiguella) perfora el intestino
         • Artritis y Osteomielitis
         • Infecciones respiratorias bajas (Clamidias y micoplasma)
         • Blenorragia y EPI (Enfermedad Pélvica Inflamatoria) y chancroide""",
-        "mecanismo de accion": "Inhibiendo la replicación del ADN y ocasiona la muerte bacteriana",
-        "vias de administración": "• Via Oral",
+        "mecanismo de accion": "Inhibe replicación del ADN, ocasionando muerte bacteriana",
+        "vias de administración": "Via Oral",
         "metabolismo": """• Hepatico parcialmente en un 50%
         • Absorcion intestinal
         • Posee buena distribución en tejidos como pulmones, tracto genito urinario, vesicula biliar
@@ -979,8 +1013,13 @@ medicine_super_list = [
         • Lactante en población pediátrica
         • Antecedentes severos de alergia en la piel
         • Reacciones alérgicas""",
-        "posologia": """• Adultos: 250-500 mg cada 12 horas durante 7 a 14 días
-        • Niños: 20-30 mg/kg/día divididos en dos dosis cada 12 horas dependiendo de la gravedad de infección. Las dosis máximas son de 1,5 g por día"""
+        "posologia": """Adultos: 
+        • 250-500 mg cada 12 horas durante 7 a 14 días
+        
+        Niños: 
+        • 20-30 mg/kg/día divididos en dos dosis cada 12 horas dependiendo de la gravedad de infección. 
+        
+        Las dosis máximas son de 1,5 g por día"""
     },
     {
         "medicamento": "Norfloxacina",
