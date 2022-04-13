@@ -1024,7 +1024,7 @@ medicine_super_list = [
     {
         "medicamento": "Norfloxacina",
         "familia": "Quinolonas",
-        "presentaciones": "• 400mg Tabletas",
+        "presentaciones": "400 mg Tabletas",
         "indicaciones": """• Infección del tracto urinario por aerobios Gram (-)
         • Prostatitis especialmente en pacientes con infección crónica
         • Infección de tracto gastrointestinal (salmonella,shiguella) perfora el intestino
@@ -1032,7 +1032,7 @@ medicine_super_list = [
         • Infecciones respiratorias bajas (Clamidias y micoplasma)
         • Blenorragia y EPI (Enfermedad Pélvica Inflamatoria) y chancroide""",
         "mecanismo de accion": "Inhibiendo la replicación del ADN y ocasiona la muerte bacteriana",
-        "vias de administración": "• Via Oral",
+        "vias de administración": "Via Oral",
         "metabolismo": """• Hepatico parcialmente en un 50%
         • Absorcion intestinal
         • Posee buena distribución en tejidos como pulmones, tracto genito urinario, vesicula biliar
@@ -1049,19 +1049,21 @@ medicine_super_list = [
         "contraindicaciones": """• Mujeres en estado de embarazo
         • Lactante en población pediátrica
         • Antecedentes severos de alergia en la piel
-        • Reacciones alérgicas""",
-        "posologia": """• Adultos: 1 tableta de 400mg cada 12 horas con un máximo diario de 2 tabletas (800 mg de norfloxacino) diarias durante 7 a 10 diás
-        • Niños: NO debe emplearse en niños debido a la posible aparición de artropatías (enfermedad de las articulaciones)"""
+        • Reacciones alérgicas 
+        • NO debe emplearse en niños debido a la posible aparición de artropatías (enfermedad de las articulaciones)""",
+        "posologia": """Adultos: 
+        • 1 tableta de 400mg cada 12 horas con un máximo diario de 2 tabletas (800 mg de norfloxacino) diarias durante 7 a 10 diás"""
     },
     {
         "medicamento": "Isoniazida",
         "familia": "Acido isonicotinico (V-B) sintesis quimica",
-        "presentaciones": "• 100 mg y 300 mg Tabletas",
+        "presentaciones": """• 100 mg Tabletas
+        • 300 mg Tabletas""",
         "indicaciones": """• Utilizada principalmente como primera opción en TUBERCULOSIS
         • Reducción de los temblores asociados a la esclerosis múltiple
         • Tratamiento profilacyico en conjunto para pacientes con VIH y SIDA""",
         "mecanismo de accion": "Impiden la formación de pared celular por bloqueo de ácidos grasos",
-        "vias de administración": "• Via Oral",
+        "vias de administración": "Via Oral",
         "metabolismo": """• Excelente biodisponibilidad y absorción
         • Metabolizan en hígado""",
         "excrecion": "Renal",
@@ -1074,8 +1076,11 @@ medicine_super_list = [
         • Lactante en población pediátrica
         • Antecedentes severos de alergia en la piel
         • Alteraciones y enfermedades hepaticas""",
-        "posologia": """• Adultos: isoniazida 5 mg/kg/dia (hasta un máximo de 300 mg/dia)
-        • Niños: 10—15 mg/kg una vez al día (hasta un máximo de 300 mg) tratamiento maximo por 6 meses"""
+        "posologia": """Adultos: 
+        • isoniazida 5 mg/kg/dia (hasta un máximo de 300 mg/dia)
+        
+        Niños: 
+        • 10—15 mg/kg una vez al día (hasta un máximo de 300 mg) tratamiento maximo por 6 meses"""
     },
     {
         "medicamento": "Rifampicina",
@@ -1086,7 +1091,7 @@ medicine_super_list = [
         • Brucelosis
         • Erradicación de meningococos en portadores asintomáticos""",
         "mecanismo de accion": "Bloquea RNA polimerasa",
-        "vias de administración": "• Via Oral",
+        "vias de administración": "Via Oral",
         "metabolismo": """• Excelente biodisponibilidad y absorción
         • Metabolizan en hígado""",
         "excrecion": "Renal",
@@ -1100,30 +1105,39 @@ medicine_super_list = [
         • Pacientes con hipersensibilidad a las rifamicinas
         • Pacientes con enfermedad hepática activa
         • En combinación con la asociación saquinavir/ritonavir""",
-        "posologia": """• Adultos: 10 mg/kg/día, sin superar los 600 mg/día, en una sola toma
-        • Niños mayores de 3 años: 15 mg/Kg día"""
+        "posologia": """Adultos: 
+        • 10 mg/kg/día
+        • Sin superar los 600 mg/día, en una sola toma
+        
+        Niños mayores de 3 años: 
+        • 15 mg/Kg día"""
     },
     {
         "medicamento": "Etambutol",
-        "familia": "Alcohol hidrosoluble y termoestable, síntesis quimica",
+        "familia": """• Alcohol hidrosoluble y termoestable
+        • Síntesis quimica""",
         "presentaciones": "400 mg Tabletas",
         "indicaciones": "Tuberculosis en todas sus formas (en asociación con otros agentes tuberculostáticos)",
         "mecanismo de accion": "Impiden la articulación de la pared celular",
-        "vias de administración": "• Via Oral",
+        "vias de administración": "Via Oral",
         "metabolismo": """• Excelente biodisponibilidad y absorción
         • Metabolizan en hígado""",
-        "excrecion": "No tiene metabolismo",
+        "excrecion": "No tiene excreción",
         "efectos Secundarios":"""• Neuritis óptica (dosis - dependiente)
         • Disminución de la agudeza visual""",
         "contraindicaciones": """• Mujeres en estado de embarazo
         • Lactante en población pediátrica""",
-        "posologia": """• Adultos: 15 - 25 mg/kg/dia cada 24 horas via oral
-        • Niños mayores de 3 años: 2.5 mg una dosis al día"""
+        "posologia": """Adultos: 
+        • 15 - 25 mg/kg/dia cada 24 horas via oral
+        
+        Niños mayores de 3 años: 
+        • 2.5 mg una dosis al día"""
     },
     {
         "medicamento": "Pirazinamida",
         "familia": "Analogo de la nicotinamida",
-        "presentaciones": "400 mg y 500 mg Tabletas",
+        "presentaciones": """• 400 mg Tabletas
+        • 500 mg Tabletas""",
         "indicaciones": "Tuberculosis en todas sus formas (en asociación con otros agentes tuberculostáticos)",
         "mecanismo de accion": "Impiden la articulación de la pared celular",
         "vias de administración": "• Via Oral",
