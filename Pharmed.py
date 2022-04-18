@@ -260,7 +260,6 @@ medicine_super_list = [
     {
         "medicamento": "Piperacilina",
         "familia": "Ureidopenicilinas",
-<<<<<<< HEAD
         "presentaciones": """• 4.5 g Polvo estéril para inyección.""",
         "indicaciones": """• Estados sépticos por Pseudomonas
         • Infecciones por H. Influenzae
@@ -288,9 +287,6 @@ medicine_super_list = [
         "medicamento": "Piperacilina",
         "familia": "Ureidopenicilinas",
         "presentaciones": """• 4.5 g Polvo estéril para inyección""",
-=======
-        "presentaciones": "4.5 g Polvo estéril para inyección",
->>>>>>> development
         "indicaciones": """• Estados sépticos por Pseudomonas
         • Infecciones por H. Influenzae
         • Infecciones por eneterobacter
@@ -335,12 +331,8 @@ medicine_super_list = [
         "contraindicaciones": """• Paciente con hipersensibilidad al medicamento
         • Mujeres en estado de embarazo""",
         "posologia": """Adultos y adolescentes: 
-<<<<<<< HEAD
-        •4 g de piperacilina/0,5 g de tazobactam administrados cada 6 horas
-=======
         • Dosis de hasta 2 g cada 6 horas resultan adecuadas para infecciones más severas
         • No se recomienda la vía intramuscular por ser sumamente dolorosa
->>>>>>> development
         • La dosis máxima es de 10 a 12 g/día
         • Dosis de hasta 2 g cada 6 horas resultan adecuadas para infecciones más severas
         
