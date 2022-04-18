@@ -1139,27 +1139,29 @@ medicine_super_list = [
         "presentaciones": """• 400 mg Tabletas
         • 500 mg Tabletas""",
         "indicaciones": "Tuberculosis en todas sus formas (en asociación con otros agentes tuberculostáticos)",
-        "mecanismo de accion": "Impiden la articulación de la pared celular",
-        "vias de administración": "• Via Oral",
+        "mecanismo de accion": "Impiden la articulación de la pared celular bacteriana",
+        "vias de administración": "Via Oral",
         "metabolismo": """• Excelente biodisponibilidad y absorción
-        • Metabolizan en hígado""",
+        • Metabolismo a nivel hepatico""",
         "excrecion": "Hepatico",
         "efectos Secundarios":"""• Lesiones hepaticas graves
         • Necrosis hepatica""",
         "contraindicaciones": """• Mujeres en estado de embarazo
         • Lactante en población pediátrica""",
-        "posologia": "• Adultos: 20-30 mg/Kg/día vía oral, en 2-3 dosis divididas"
+        "posologia": """Adultos: 
+        • 20-30 mg/Kg/día vía oral, cada 8 horas o 12 horas"""
     },
     {
         "medicamento": "Etionamida",
         "familia": "Amina – síntesis química (Amina sintetizada)",
-        "presentaciones": "250 mg Tabletas",
+        "presentaciones": """• 250 mg Tabletas
+        • 500 mg Tableta""",
         "indicaciones": "Tuberculosis en todas sus formas (en asociación con otros agentes tuberculostáticos)",
         "mecanismo de accion": "Impiden la formación de pared celular por bloqueo de ácidos grasos",
-        "vias de administración": "• Via Oral",
+        "vias de administración": "Via Oral",
         "metabolismo": """• Excelente biodisponibilidad y absorción
-        • Metabolizan en hígado""",
-        "excrecion": "No tiene metabolismo",
+        • Metabolismo a nivel hepatico""",
+        "excrecion": "No tiene excresión",
         "efectos Secundarios":"""• Nauseas
         • Vomito
         • Lesiones neurologicas en casos graves
@@ -1169,15 +1171,18 @@ medicine_super_list = [
         • Vision borrosa""",
         "contraindicaciones": """• Mujeres en estado de embarazo
         • Lactante en población pediátrica""",
-        "posologia": "• Adultos: 10-15 mg/Kg/día vía oral (normalmente 500-750 mg) como dosis única diaria, hasta un máximo de 1 g/día"
+        "posologia": """Adultos: 
+        • 10-15 mg/Kg/día vía oral (normalmente 500-750 mg) como dosis única diaria
+        Hasta un máximo de 1 g/día"""
     },
     {
         "medicamento": "Dapsona",
         "familia": "Se deriva de las sulfas por síntesis quimica",
-        "presentaciones": "100 mg Tabletas",
+        "presentaciones": """• 50 mg Tabletas
+        • 100 mg Tabletas""",
         "indicaciones": "Tratamiento para la lepra",
-        "mecanismo de accion": "Afecta la síntesis de ácido fólico",
-        "vias de administración": "• Via Oral",
+        "mecanismo de accion": "Afecta la síntesis normal de ácido fólico",
+        "vias de administración": "Via Oral",
         "metabolismo": """• Metabolismo hepático
         • Lento en acetiladores bajos que hipersensibilidad""",
         "excrecion": """• Renal al 80%
@@ -1188,18 +1193,23 @@ medicine_super_list = [
         • Alteración de gastrointestinales leves""",
         "contraindicaciones": """• Mujeres en estado de embarazo
         • Lactante en población pediátrica""",
-        "posologia": """• Adultos: 50 mg -1 00 mg/día vía oral
-        • Niños: 1 mg - 1,5 mg/Kg/día vía oral"""
+        "posologia": """Adultos: 
+        • 50 mg -1 00 mg/día vía oral
+        
+        Niños: 
+        • 1 mg - 1,5 mg/Kg/día vía oral"""
     },
     {
         "medicamento": "Clofazimina",
-        "familia": "Síntesis química y se creó hace 20 años",
-        "presentaciones": "100 mg Tabletas",
+        "familia": """• Síntesis química
+        • Se creó hace 20 años""",
+        "presentaciones": """• 50 mg Capsulas
+        • 100 mg Capsulas""",
         "indicaciones": """• Tratamiento para la lepra
         • Infecciones atípicas por mycobacterium""",
-        "mecanismo de accion": "Afecta la replicación del ADN",
-        "vias de administración": "• Via Oral",
-        "metabolismo": "No se metaboliza",
+        "mecanismo de accion": "Afecta la replicación del ADN de la mycobacteria",
+        "vias de administración": "Via Oral",
+        "metabolismo": "No tiene proceso metabolico",
         "excrecion": "Se elimina inalterada por orina y heces. (muy lenta)",
         "efectos Secundarios":"""• Coloración roja de la piel
         • Acumulacion de cristales en uñas, lecho ungual y lagrimas
@@ -1207,14 +1217,15 @@ medicine_super_list = [
         • Alteraciones gastro intestinales: diarrea y dolor abdominal""",
         "contraindicaciones": """• Mujeres en estado de embarazo
         • Lactante en población pediátrica""",
-        "posologia": """• Adultos: 
-        - Lepra e infecciones por M. avium complex: 100 mg/día vía oral con comida.
-        - Eritema nudoso leproso: Hasta 200 mg/día vía oral."""
+        "posologia": """Adultos: 
+        • Lepra e infecciones por M. avium complex: 100 mg/día vía oral con comida
+        • Eritema nudoso leproso: Hasta 200 mg/día vía oral"""
     },
     {
         "medicamento": "Cloroquina",
         "familia": "Sintético desarrollado en la segunda guerra mundial",
         "presentaciones": """• 150 mg Tabletas
+        • 250 mg Tabletas
         • 60mg / 2ml Solución inyectable
         • 420mg / 5ml Solución inyectable
         • 25mg / 5ml jarabe""",
@@ -1241,21 +1252,30 @@ medicine_super_list = [
         • Ototoxicidad""",
         "contraindicaciones": """• Mujeres en estado de embarazo
         • NO utilizar en menores de 5 años, por vía parenteral por efecto cardiodepresor severo""",
-        "posologia": """• Adultos: 
-        - Profilaxis de malaria: 500 mg vía oral 1 vez por semana
-        - Tratamiento de la malaria: Comenzar con 1 g, seguir con 500 mg a las 6 horas y con 500 mg 1 vez al día el segundo y tercer días
-        - Amebiasis extraintestinal: 1 g al día durante 2 días, seguidos de 500 mg al día durante 2-3 semanas como mínimo
-        - Artritis reumatoide, lupus eritematoso: 250 mg cada 24 horas por 4 meses
+        "posologia": """Adultos: 
+        • Profilaxis de malaria: 500 mg vía oral 1 vez por semana
+        • Tratamiento de la malaria: Comenzar con 1 g, seguir con 500 mg a las 6 horas y con 500 mg 1 vez al día el segundo y tercer días
+        • Amebiasis extraintestinal: 1 g al día durante 2 días, seguidos de 500 mg al día durante 2-3 semanas como mínimo
+        • Artritis reumatoide, lupus eritematoso: 250 mg cada 24 horas por 4 meses
         
-        • Niños > 45 Kg: 250 mg de mefloquina
-        • Niños entre 15-19 Kg: 1/4 de la dosis de adultos
-        • Niños entre 20-30 Kg: 1/2 de la dosis de adultos
-        • Niños entre 31-45 Kg: 3/4 de la dosis de adultos"""
+        Niños > 45 Kg: 
+        • 250 mg de mefloquina
+        
+        Niños entre 15-19 Kg: 
+        • 1/4 de la dosis de adultos
+        
+        Niños entre 20-30 Kg: 
+        • 1/2 de la dosis de adultos
+        
+        Niños entre 31-45 Kg: 
+        • 3/4 de la dosis de adultos"""
     },
     {
         "medicamento": "Quinina",
         "familia": "Alcaloide de la corteza de la chinchonia",
-        "presentaciones": """• 200 mg, 300 mg y 600 mg Tabletas
+        "presentaciones": """• 200 mg Tabletas
+        • 300 mg Tabletas
+        • 600 mg Tabletas
         • 100mg / 2ml Solución inyectable""",
         "indicaciones": """• Forma circulante de falciparumcomo segunda línea (sulfato de quinina)
         • Esquizonticida eritrocitico de vivax no destruye forma tisular""",
@@ -1263,8 +1283,8 @@ medicine_super_list = [
         "vias de administración": """• Via Oral
         • Via intravenosa
         • Via intramuscular""",
-        "metabolismo": "Hepático",
-        "excrecion": "Renal",
+        "metabolismo": "A nivel Hepático",
+        "excrecion": "A  nivel Renal",
         "efectos Secundarios":"""• Bradicardia
         • Arritmias
         • Hipotensión
@@ -1284,22 +1304,24 @@ medicine_super_list = [
         • Hemolisis
         • Hemoglobinuria""",
         "contraindicaciones": """• Mujeres en estado de embarazo
-        • SOLO utiliar en pacientes hospitalizados""",
-        "posologia": "• Adultos: 275 mg - 825 mg/día vía oral"
+        • SOLO utilizar en pacientes hospitalizados""",
+        "posologia": """Adultos: 
+        • 275 mg - 825 mg/día vía oral"""
     },
     {
         "medicamento": "Mefloquina",
         "familia": "Alcaloide de la corteza de la chinchonia",
-        "presentaciones": """• 200 mg, 300 mg y 600 mg Tabletas
-        • 100mg / 2ml Solución inyectable""",
+        "presentaciones": "250 mg Tabletas",
         "indicaciones": """• Forma circulante de falciparumcomo segunda línea (sulfato de quinina)
         • Esquizonticida eritrocitico de vivax no destruye forma tisular""",
         "mecanismo de accion": "Impide actividad de las enzimas del plasmodium anti R.L actuen",
-        "vias de administración": """• Via Oral
-        • Via intravenosa
-        • Via intramuscular""",
-        "metabolismo": "Hepático",
-        "excrecion": "Renal",
+        "vias de administración": "Via Oral",
+        "metabolismo": """• Se absorbe muy bien en el tubo digestivo
+        • Se concentra en el hígado pero no destruye el parasito (por eso no es ideal en formas tisulares) 
+        • Al concentrar en hígado aumenta su tiempo de vipues retarda el matabolismo hepático. 
+        • Tambien se concentra en musculo
+        • A nivel Hepático""",
+        "excrecion": "A nivel renal",
         "efectos Secundarios":"""• Bradicardia
         • Hipotensión
         • Arritmias
@@ -1319,10 +1341,17 @@ medicine_super_list = [
         • Hemoglobinuria""",
         "contraindicaciones": """• Mujeres en estado de embarazo
         • SOLO utiliar en pacientes hospitalizados""",
-        "posologia": """• Adultos: 10-15 mg/kg (dosis máxima 750 mg) dosis separadas entre 3 y 4 al dia
-        • Niños con peso entre 20-30 kg: 1/2 comprimido (125 mg) 1 vez a la semana
-        • Niños con peso entre 30-45 kg: 3/4 comprimido (187,5 mg) 1 vez a la semana
-        • Niños con peso entre >45 kg: 1 comprimido (250 mg) 1 vez a la semana."""
+        "posologia": """Adultos: 
+        • 10-15 mg/kg (dosis máxima 750 mg) entre 6 a 8 horas cada una
+        
+        Niños con peso entre 20-30 kg: 
+        • 1/2 comprimido (125 mg) 1 vez a la semana
+        
+        Niños con peso entre 30-45 kg: 
+        • 3/4 comprimido (187,5 mg) 1 vez a la semana
+        
+        Niños con peso entre >45 kg: 
+        • 1 comprimido (250 mg) 1 vez a la semana"""
     },
     {
         "medicamento": "Artesunato",
