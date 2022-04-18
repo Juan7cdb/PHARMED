@@ -2,60 +2,24 @@ def fr_rn(respiraciones):
     fr = int(respiraciones)
     if fr < 40:
         print(f"""
+        La edad del paciente pertenece al grupo recien nacido.
+              
         La frecuencia respiratoria de tu paciente es {str(fr)}.
         
         Tu paciente se encuentra bradipneico.""")
 
     elif fr > 45:
         print(f"""
+        La edad del paciente pertenece al grupo recien nacido.
+              
         La frecuencia cardiaca de tu paciente es {str(fr)}.
         
         Tu paciente se encuentra taquipneico.""")
 
     else:
         print(f"""
-        La frecuencia cardiaca de tu paciente es {str(fr)}.
-        
-        Tu paciente se encuentra en los rangos normales de frecuencia respiratoria.""")
-
-
-def fr_lactante_menor(respiraciones):
-    fr = int(respiraciones)
-    if fr < 20:
-        print(f"""
-        La frecuencia cardiaca de tu paciente es {str(fr)}.
-        
-        Tu paciente se encuentra bradicardico.""")
-
-    elif fr > 30:
-        print(f"""
-        La frecuencia cardiaca de tu paciente es {str(fr)}.
-        
-        Tu paciente se encuentra taquicardico.""")
-
-    else:
-        print(f"""
-        La frecuencia cardiaca de tu paciente es {str(fr)}.
-        
-        Tu paciente se encuentra en los rangos normales de frecuencia respiratoria.""")
-
-
-def fr_lactante_mayor(respiraciones):
-    fr = int(respiraciones)
-    if fr < 20:
-        print(f"""
-        La frecuencia cardiaca de tu paciente es {str(fr)}.
-        
-        Tu paciente se encuentra bradipneico.""")
-
-    elif fr > 30:
-        print(f"""
-        La frecuencia cardiaca de tu paciente es {str(fr)}.
-        
-        Tu paciente se encuentra taquipneico.""")
-
-    else:
-        print(f"""
+        La edad del paciente pertenece al grupo recien nacido.
+              
         La frecuencia cardiaca de tu paciente es {str(fr)}.
         
         Tu paciente se encuentra en los rangos normales de frecuencia respiratoria.""")
@@ -65,18 +29,24 @@ def fr_preescolar(respiraciones):
     fr = int(respiraciones)
     if fr < 20:
         print(f"""
+        La edad del paciente pertenece al grupo pre-escolar.
+              
         La frecuencia cardiaca de tu paciente es {str(fr)}.
         
         Tu paciente se encuentra bradipneico.""")
 
-    elif fr > 300:
+    elif fr > 30:
         print(f"""
+        La edad del paciente pertenece al grupo pre-escolar.
+              
         La frecuencia cardiaca de tu paciente es {str(fr)}.
         
         Tu paciente se encuentra taquipneico.""")
 
     else:
         print(f"""
+        La edad del paciente pertenece al grupo pre-escolar.
+              
         La frecuencia cardiaca de tu paciente es {str(fr)}.
         
         Tu paciente se encuentra en los rangos normales de frecuencia respiratoria.""")
@@ -86,18 +56,24 @@ def fr_escolar(respiraciones):
     fr = int(respiraciones)
     if fr < 12:
         print(f"""
+        La edad del paciente pertenece al grupo escolar.
+              
         La frecuencia cardiaca de tu paciente es {str(fr)}.
         
         Tu paciente se encuentra bradipneico.""")
 
     elif fr > 20:
         print(f"""
+        La edad del paciente pertenece al grupo escolar.
+              
         La frecuencia cardiaca de tu paciente es {str(fr)}.
         
         Tu paciente se encuentra taquipneico.""")
 
     else:
         print(f"""
+        La edad del paciente pertenece al grupo escolar.
+              
         La frecuencia cardiaca de tu paciente es {str(fr)}.
         
         Tu paciente se encuentra en los rangos normales de frecuencia respiratoria.""")
@@ -107,18 +83,24 @@ def fr_adolecente(respiraciones):
     fr = int(respiraciones)
     if fr < 12:
         print(f"""
+        La edad del paciente pertenece al grupo adolecente.
+              
         La frecuencia cardiaca de tu paciente es {str(fr)}.
         
         Tu paciente se encuentra bradipneico.""")
 
     elif fr > 20:
         print(f"""
+        La edad del paciente pertenece al grupo adolecente.
+              
         La frecuencia cardiaca de tu paciente es {str(fr)}.
         
         Tu paciente se encuentra taquipneico.""")
 
     else:
         print(f"""
+        La edad del paciente pertenece al grupo adolecente.
+              
         La frecuencia cardiaca de tu paciente es {str(fr)}.
         
         Tu paciente se encuentra en los rangos normales de frecuencia respiratoria.""")
@@ -128,69 +110,51 @@ def fr_adulto(respiraciones):
     fr = int(respiraciones)
     if fr < 12:
         print(f"""
+        La edad del paciente pertenece al grupo adulto.
+              
         La frecuencia cardiaca de tu paciente es {str(fr)}.
         
         Tu paciente se encuentra bradipneico.""")
 
     elif fr > 20:
         print(f"""
+        La edad del paciente pertenece al grupo adulto.
+              
         La frecuencia cardiaca de tu paciente es {str(fr)}.
         
         Tu paciente se encuentra taquipneico.""")
 
     else:
         print(f"""
+        La edad del paciente pertenece al grupo adulto.
+              
         La frecuencia cardiaca de tu paciente es {str(fr)}.
         
         Tu paciente se encuentra en los rangos normales de frecuencia respiratoria.""")
 
 
 def run():
-    menu = int(input("""
-    Selecciona el rango en el que se encuentra tu paciente:
-    
-    1 Recien Nacido (Nacimiento - 6 semanas).
-    
-    2 Lactante Menor (7 semanas - 11 meses).
-    
-    3 Lactante Mayor (1 año - 2 años).
-    
-    4 Pre-escolar (3 años - 6 años).
-    
-    5 Escolar (7 años - 13 años).
-    
-    6 Adolecente (14 años - 17 años).
-    
-    7 Adulto (18 años en adelante).
-    
-    Cual es tu opción?: """))
+    edad_paciente = int(input("Edad de tu paciente: "))
+    respiraciones_paciente = int(input("Respiraciones contadas en 1 minuto: "))
 
-    if menu == 1:
-        respiraciones = int(input("Cuantas respiraciones encotraste en tu paciente durante 1 minuto?: "))
+    if edad_paciente <= 1:
+        respiraciones = respiraciones_paciente
         fr_rn(respiraciones)
 
-    elif menu == 2:
-        respiraciones = int(input("Cuantas respiraciones encotraste en tu paciente durante 1 minuto?: "))
-        fr_lactante_menor(respiraciones)
-
-    elif menu == 3:
-        respiraciones = int(input("Cuantas respiraciones encotraste en tu paciente durante 1 minuto?: "))
-        fr_lactante_mayor(respiraciones)
-
-    elif menu == 4:
-        respiraciones = int(input("Cuantas respiraciones encotraste en tu paciente durante 1 minuto?: "))
+    elif edad_paciente <= 6:
+        respiraciones = respiraciones_paciente
         fr_preescolar(respiraciones)
 
-    elif menu == 5:
-        respiraciones = int(input("Cuantas respiraciones encotraste en tu paciente durante 1 minuto?: "))
+    elif edad_paciente <=13:
+        respiraciones = respiraciones_paciente
         fr_escolar(respiraciones)
 
-    elif menu == 6:
-        respiraciones = int(input("Cuantas respiraciones encotraste en tu paciente durante 1 minuto?: "))
+    elif edad_paciente <= 17:
+        respiraciones = respiraciones_paciente
         fr_adolecente(respiraciones)
 
-    elif menu == 7:
-        respiraciones = int(input("Cuantas respiraciones encotraste en tu paciente durante 1 minuto?: "))
+    elif edad_paciente >= 18:
+        respiraciones = respiraciones_paciente
         fr_adulto(respiraciones)
 
     else:
