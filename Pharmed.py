@@ -1357,7 +1357,10 @@ medicine_super_list = [
     {
         "medicamento": "Artesunato",
         "familia": "Artemisia amia, por síntesis química",
-        "presentaciones": "600 mg Tabletas",
+        "presentaciones": """• 100 mg Tabletas
+        • 200 mg + 600 mg Tabletas (con Amodiaquina)
+        • 240 mg / 5 mL suspención oral botella de 100 mL
+        • Ampolla de 60 mg""",
         "indicaciones": """• Infecciones complicadas por falciparum o vivax en asocio con doxicilina + clindamicina
         • Infecciones por falciparum no complicados (1ra línea)
         • Infecciones por P. Vivas (2da línea)""",
@@ -1365,9 +1368,11 @@ medicine_super_list = [
         • El plasmodium muere de hambre""",
         "vias de administración": """• Via Oral
         • Via Parenteral
-        • Via Rectal""",
+        • Via Rectal
+        • Via intravenosa
+        • Via Intramuscular""",
         "metabolismo": "Hepático con metabolitos inactivos",
-        "excrecion": "Renal",
+        "excrecion": "A nivel renal",
         "efectos Secundarios":"""• Elevación de las enzimas hepaticas
         • Nauseas
         • Vomito
@@ -1382,8 +1387,11 @@ medicine_super_list = [
         • Prohibido en lactantes
         • Pacientes con transtornos de repolarización cardiaca
         • Pacientes con enfermedades hematologicas diagnoticadas""",
-        "posologia": """• Adultos: 5 mg/ kg el primer dia, luego 2.5 mg/kg, en combinación con mefloquina (15mg/kg)
-        • Niños con más de 6 meses: 2.5 mg/kg al dia"""
+        "posologia": """Adultos: 
+        • 5 mg/ kg el primer dia, luego 2.5 mg/kg, en combinación con mefloquina (15mg/kg)
+        
+        Niños con más de 6 meses: 
+        • 2.5 mg/kg al dia"""
     },
     {
         "medicamento": "Artemeter",
