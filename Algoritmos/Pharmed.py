@@ -1170,7 +1170,8 @@ medicine_super_list = [
     },
     {
         "medicamento": "Artesunato",
-        "familia": "Artemisia amia, por síntesis química",
+        "familia": """• Artemisia amia 
+        • síntesis química""",
         "presentaciones": "600 mg Tabletas",
         "indicaciones": """• Infecciones complicadas por falciparum o vivax en asocio con doxicilina + clindamicina
         • Infecciones por falciparum no complicados (1ra línea)
@@ -1196,12 +1197,16 @@ medicine_super_list = [
         • Prohibido en lactantes
         • Pacientes con transtornos de repolarización cardiaca
         • Pacientes con enfermedades hematologicas diagnoticadas""",
-        "posologia": """• Adultos: 5 mg/ kg el primer dia, luego 2.5 mg/kg, en combinación con mefloquina (15mg/kg)
-        • Niños con más de 6 meses: 2.5 mg/kg al dia"""
+        "posologia": """Niños con más de 6 meses: 
+        • 2.5 mg/kg al dia
+        
+        Adultos:
+        • 5 mg/ kg el primer dia, luego 2.5 mg/kg, en combinación con mefloquina (15mg/kg)"""
     },
     {
         "medicamento": "Artemeter",
-        "familia": "Artemisia amia, por síntesis química",
+        "familia": """• Artemisia amia 
+        • síntesis química""",
         "presentaciones": """Se administra Artemeter + Lumefantrine:
         • 20mg + 120mg Tabletas""",
         "indicaciones": """• Infecciones complicadas por falciparum o vivax en asocio con doxicilina + clindamicina
@@ -1228,9 +1233,14 @@ medicine_super_list = [
         • Prohibido en lactantes
         • Pacientes con transtornos de repolarización cardiaca
         • Pacientes con enfermedades hematologicas diagnoticadas""",
-        "posologia": """• Adultos: 4 tabletas en 24 dosis administradas a las 8, 24, 36, 48 y 60 horas
-        • Niños con más de 35 kg: 4 tabletas en 24 dosis administradas a las 8, 24, 36, 48 y 60 horas
-        • Niños con menos de 35 kg: 1 comprimido inicial, después continuar con 5 dosis adicionales de 1 comprimido a las 8, 24, 36, 48 y 60 horas"""
+        "posologia": """Niños con menos de 35 kg: 
+        • 1 comprimido inicial, después continuar con 5 dosis adicionales de 1 comprimido a las 8, 24, 36, 48 y 60 horas
+        
+        Niños con más de 35 kg: 
+        • 4 tabletas en 24 dosis administradas a las 8, 24, 36, 48 y 60 horas
+        
+        Adultos: 
+        •  4 tabletas en 24 dosis administradas a las 8, 24, 36, 48 y 60 horas"""
     },
     {
         "medicamento": "Primaquina",
