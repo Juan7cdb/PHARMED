@@ -23,7 +23,7 @@ medicine_super_list = [
         • Actinomicosis
         • Listeria
         • Profilaxis""",
-        "mecanismo de accion": "Inhibir la síntesis de la pared celular",
+        "mecanismo de accion": "Inhibir la síntesis de la pared celular bacteriana",
         "vias de administración": """• Intramuscular
         • Intravenosa""",
         "metabolismo": "No tienen proceso de metabolismo",
@@ -55,7 +55,7 @@ medicine_super_list = [
         "familia": "Isosaxopenicilinas",
         "presentaciones": """• Ampolla 1 g de base polvo esteril inyectable.""",
         "indicaciones": """Infecciones Localizadas por S Aureus""",
-        "mecanismo de accion": "Inhibir la síntesis de la pared celular",
+        "mecanismo de accion": "Inhibir la síntesis de la pared celular bacteriana",
         "vias de administración": "Intramuscular",
         "metabolismo": "No tienen proceso de metabolismo",
         "excrecion": "Renal con diversos grados de actividad",
@@ -67,9 +67,11 @@ medicine_super_list = [
         • Nefritis intersticial reversible""",
         "contraindicaciones": """• Paciente con hipersensibilidad al medicamento
         • Mujeres en estado de embarazo""",
-        "posologia": """• Adultos: 0,5-1 g c/4-6 h que puede llegar a 2 g 
+        "posologia": """Adultos: 
+        • 0,5-1 g c/4-6 h que puede llegar a 2 g 
         
-        • Niños: 50-100 mg/kg/d en dosis divididas"""
+        Niños: 
+        • 50-100 mg/kg/d en dosis divididas"""
     },
     {
         "medicamento": "Dicloxacilina",
@@ -78,7 +80,7 @@ medicine_super_list = [
         • 250 y 500 mg Tabletas""",
         "indicaciones": """• Infecciones Localizadas por S. Aureus
         • Infecciones sistémicas por S. Aureus""",
-        "mecanismo de accion": "Inhibir la síntesis de la pared celular",
+        "mecanismo de accion": "Inhibir la síntesis de la pared celular bacteriana",
         "vias de administración": "Via oral",
         "metabolismo": "No tienen proceso de metabolismo",
         "excrecion": "Renal con diversos grados de actividad",
@@ -90,9 +92,11 @@ medicine_super_list = [
         • Nefritis intersticial reversible""",
         "contraindicaciones": """• Paciente con hipersensibilidad al medicamento
         • Mujeres en estado de embarazo""",
-        "posologia": """• Adultos: 500 mg vía oral cada 6 horas 
+        "posologia": """Niños: 
+        • 25 – 50 mg/kg/día en dosis fraccionadas cada 6 horas, vía oral
         
-        • Niños: 25 – 50 mg/kg/día en dosis fraccionadas cada 6 horas, vía oral"""
+        Adultos: 
+        • 500 mg vía oral cada 6 horas"""
     },
     {
         "medicamento": "Ampicilina",
@@ -107,7 +111,7 @@ medicine_super_list = [
         • Infecciones digestivas por enterococos de vías genitales y digestivas
         • Listerias
         • Infecciones por E. Coli resistente, anaerobios, neisseria meningitides y gonorrea""",
-        "mecanismo de accion": "Inhibir la síntesis de la pared celular",
+        "mecanismo de accion": "Inhibir la síntesis de la pared celular bacteriana",
         "vias de administración": """• Intramuscular
         • Via oral""",
         "metabolismo": "No tienen proceso de metabolismo",
@@ -151,7 +155,7 @@ medicine_super_list = [
         • Infecciones digestivas por enterococos de vías genitales y digestivas
         • Listerias
         • Infecciones por E. Coli resistente, anaerobios, neisseria meningitides y gonorrea""",
-        "mecanismo de accion": "Inhibir la síntesis de la pared celular",
+        "mecanismo de accion": "Inhibir la síntesis de la pared celular bacteriana",
         "vias de administración": """• Intramuscular
         • Via oral""",
         "metabolismo": "No tienen proceso de metabolismo",
@@ -182,7 +186,7 @@ medicine_super_list = [
         • Infecciones por enterococus fecalis
         • Streptococo pyogenes y neumoniae
         • Infecciones por anaerobios""",
-        "mecanismo de accion": "Inhibir la síntesis de la pared celular",
+        "mecanismo de accion": "Inhibir la síntesis de la pared celular bacteriana",
         "vias de administración": """• Intramuscular
         • Intravenosa""",
         "metabolismo": "No tienen proceso de metabolismo",
@@ -195,8 +199,9 @@ medicine_super_list = [
         • Nefritis intersticial reversible""",
         "contraindicaciones": """• Paciente con hipersensibilidad al medicamento
         • Mujeres en estado de embarazo""",
-        "posologia": """• Adultos y adolescentes: 500 mg/500 mg cada 6 horas
-        1.000 mg/1.000 mg cada 8 horas ó cada 6 horas"""
+        "posologia": """Adultos y adolescentes: 
+        • 500 mg/500 mg cada 6 horas
+        • 1.000 mg/1.000 mg cada 8 horas ó cada 6 horas"""
     },
     {
         "medicamento": "Meropenem",
@@ -209,7 +214,7 @@ medicine_super_list = [
         • Infecciones por enterococus fecalis
         • Streptococo pyogenes y neumoniae
         • Infecciones por anaerobios""",
-        "mecanismo de accion": "Inhibir la síntesis de la pared celular",
+        "mecanismo de accion": "Inhibir la síntesis de la pared celular bacteriana",
         "vias de administración": """• Intramuscular
         • Intravenosa""",
         "metabolismo": "No tienen proceso de metabolismo",
@@ -222,7 +227,8 @@ medicine_super_list = [
         • Nefritis intersticial reversible""",
         "contraindicaciones": """• Paciente con hipersensibilidad al medicamento
         • Mujeres en estado de embarazo""",
-        "posologia": """• Adultos y adolescentes: 500 mg cada 8 horas"""
+        "posologia": """Adultos y adolescentes: 
+        • 500 mg cada 8 horas"""
     },
     {
         "medicamento": "Aztreonam",
@@ -232,7 +238,7 @@ medicine_super_list = [
         • Infeccion por Pseudomonas
         • Infeccion por H. influenzae
         • Infeccion por neisseria meningitides""",
-        "mecanismo de accion": "Inhibir la síntesis de la pared celular",
+        "mecanismo de accion": "Inhibir la síntesis de la pared celular bacteriana",
         "vias de administración": """• Intramuscular
         • Intravenosa""",
         "metabolismo": "No tienen proceso de metabolismo",
@@ -245,20 +251,23 @@ medicine_super_list = [
         • Nefritis intersticial reversible""",
         "contraindicaciones": """• Paciente con hipersensibilidad al medicamento
         • Mujeres en estado de embarazo""",
-        "posologia": """• Adultos y adolescentes: 500 mg o 1 g cada 8-12 horas
-        • Niños: 50 mg/kg/dosis cada 6 u 8 horas"""
+        "posologia": """Adultos y adolescentes: 
+        • 500 mg o 1 g cada 8-12 horas
+        
+        Niños: 
+        • 50 mg/kg/dosis cada 6 u 8 horas"""
     },
     {
         "medicamento": "Piperacilina",
         "familia": "Ureidopenicilinas",
-        "presentaciones": "4.5 g Polvo estéril para inyección",
+        "presentaciones": """• 4.5 g Polvo estéril para inyección.""",
         "indicaciones": """• Estados sépticos por Pseudomonas
         • Infecciones por H. Influenzae
         • Infecciones por eneterobacter
         • Infecciones por enterococus fecalis
         • Streptococo pyogenes y neumonía
         • Infecciones por anaerobios""",
-        "mecanismo de accion": "Inhibir la síntesis de la pared celular",
+        "mecanismo de accion": "Inhibir la síntesis de la pared celular bacteriana",
         "vias de administración": """• Intramuscular
         • Intravenosa""",
         "metabolismo": "No tienen proceso de metabolismo",
@@ -271,7 +280,34 @@ medicine_super_list = [
         • Nefritis intersticial reversible""",
         "contraindicaciones": """• Paciente con hipersensibilidad al medicamento
         • Mujeres en estado de embarazo""",
-        "posologia": "• Adultos y adolescentes: 4 g de piperacilina/0,5 g de tazobactam administrados cada 6 horas"
+        "posologia": """Adultos y adolescentes: 
+        • 4 g de piperacilina/0,5 g de tazobactam administrados cada 6 horas"""
+    },
+    {
+        "medicamento": "Piperacilina",
+        "familia": "Ureidopenicilinas",
+        "presentaciones": """• 4.5 g Polvo estéril para inyección""",
+        "indicaciones": """• Estados sépticos por Pseudomonas
+        • Infecciones por H. Influenzae
+        • Infecciones por eneterobacter
+        • Infecciones por enterococus fecalis
+        • Streptococo pyogenes y neumonía
+        • Infecciones por anaerobios""",
+        "mecanismo de accion": "Inhibir la síntesis de la pared celular bacteriana",
+        "vias de administración": """• Intramuscular
+        • Intravenosa""",
+        "metabolismo": "No tienen proceso de metabolismo",
+        "excrecion": "Renal con diversos grados de actividad",
+        "efectos Secundarios":"""• Reacciones de hipersensibilidad
+        • Vomito
+        • Diarrea
+        • Neutropenia
+        • Convulsiones
+        • Nefritis intersticial reversible""",
+        "contraindicaciones": """• Paciente con hipersensibilidad al medicamento
+        • Mujeres en estado de embarazo""",
+        "posologia": """Adultos y adolescentes: 
+        • 4 g de piperacilina/0,5 g de tazobactam administrados cada 6 horas"""
     },
     {
         "medicamento": "Cefalotina",
@@ -282,7 +318,7 @@ medicine_super_list = [
         • Infección por Estreptococos
         • Infección por Proteus Mirabilis
         • Infección por Klebsiellas (excepto bacteroides fragilis)""",
-        "mecanismo de accion": "Inhibir la síntesis de la pared celular",
+        "mecanismo de accion": "Inhibir la síntesis de la pared celular bacteriana",
         "vias de administración": """• Intramuscular
         • Via Oral""",
         "metabolismo": "No tienen proceso de metabolismo",
@@ -298,17 +334,22 @@ medicine_super_list = [
         • Dosis de hasta 2 g cada 6 horas resultan adecuadas para infecciones más severas
         • No se recomienda la vía intramuscular por ser sumamente dolorosa
         • La dosis máxima es de 10 a 12 g/día
-        • Niños mayores se recomienda 80 a 160 mg (100 mg en promedio), divididos en 4 a 6 dosis"""
+        • Dosis de hasta 2 g cada 6 horas resultan adecuadas para infecciones más severas
+        
+        No se recomienda la vía intramuscular por ser sumamente dolorosa
+        
+        Niños mayores:
+        • 80 a 160 mg (100 mg en promedio), divididos en 4 a 6 dosis"""
     },
     {
         "medicamento": "Cefazolina",
         "familia": "Cefalosporina de primera generación",
-        "presentaciones": """• 1 g Polvo estéril para inyección""",
+        "presentaciones": "1 g Polvo estéril para inyección",
         "indicaciones": """• Infección por estafilococos
         • Infección por Estreptococos
         • Infección por Proteus Mirabilis
         • Infección por Klebsiellas (excepto bacteroides fragilis)""",
-        "mecanismo de accion": "Inhibir la síntesis de la pared celular",
+        "mecanismo de accion": "Inhibir la síntesis de la pared celular bacteriana",
         "vias de administración": """• Intramuscular
         • Intravenosa""",
         "metabolismo": "No tienen proceso de metabolismo",
@@ -318,13 +359,26 @@ medicine_super_list = [
         • Neutropenia
         • Convulsiones
         • Nefritis intersticial reversible""",
-        "contraindicaciones": """• Paciente con hipersensibilidad al medicamento
-        • Mujeres en estado de embarazo""",
-        "posologia": """• Adultos y adolescentes: 4 g de piperacilina/0,5 g de tazobactam administrados cada 6 horas
-        • Dosis de hasta 2 g cada 6 horas resultan adecuadas para infecciones más severas
-        • No se recomienda la vía intramuscular por ser sumamente dolorosa
-        • La dosis máxima es de 10 a 12 g/día
-        • Niños mayores se recomienda 80 a 160 mg (100 mg en promedio), divididos en 4 a 6 dosis"""
+        "contraindicaciones": "• Paciente con hipersensibilidad al medicamento",
+        "posologia": """
+        Neonatos:
+        • ≥7 días: 25 mg/kg/dosis cada 12 h
+        • >2000 g: 25 mg/kg/dosis, cada 8 h
+        
+        Niños mayores a 1 mes:
+        • 25-50 mg/kg/día en 3 o 4 dosis
+        • Infección grave, septicemia o endocarditis, 100 mg/kg/día en 3 o 4 dosis
+        • Profilaxis quirúrgica, 25 mg/kg dosis
+        • Profilaxis de endocarditis bacteriana, 50 mg/kg de 30-60 min antes del procedimiento
+        
+        Adulto:
+        Intramuscular:
+        • 250 mg/mL, 1 g con 3,5 ml del disolvente (lidocaína 1%) hasta conseguir la concentración 
+        
+        Intravenosa:
+        • Bolo directo 100mg/mL en 3-5 minutos 
+        • Perfusión intermitente 20mg/mL en 10-60 minutos glucosa al 5%
+        • Perfusión intermitente 20mg/mL en 10-60 minutos suero salino al 0,9%"""
     },
     {
         "medicamento": "Cefalexina",
@@ -335,8 +389,8 @@ medicine_super_list = [
         • Infección por Estreptococos
         • Infección por Proteus Mirabilis
         • Infección por Klebsiellas (excepto bacteroides fragilis)""",
-        "mecanismo de accion": "Inhibir la síntesis de la pared celular",
-        "vias de administración": "• Via Oral",
+        "mecanismo de accion": "Inhibir la síntesis de la pared celular bacteriana",
+        "vias de administración": "Via Oral",
         "metabolismo": "No tienen proceso de metabolismo",
         "excrecion": "Renal con diversos grados de actividad",
         "efectos Secundarios":"""• Vomito
@@ -346,7 +400,8 @@ medicine_super_list = [
         • Nefritis intersticial reversible""",
         "contraindicaciones": """• Paciente con hipersensibilidad al medicamento
         • Mujeres en estado de embarazo""",
-        "posologia": """• Adultos y adolescentes: 500 mg cada 8 horas
+        "posologia": """• Adultos y adolescentes: 500 mg cada 8 
+        
         • Infecciones de piel y tejidos blandos, faringitis estreptocócica e infecciones leves y no complicadas del tracto urinario, 250 mg cada 6 horas"""
     },
     {
@@ -358,7 +413,7 @@ medicine_super_list = [
         • Infección por Estreptococos
         • Infección por Proteus Mirabilis
         • Infección por Klebsiellas (excepto bacteroides fragilis)""",
-        "mecanismo de accion": "Inhibir la síntesis de la pared celular",
+        "mecanismo de accion": "Inhibir la síntesis de la pared celular bacteriana",
         "vias de administración": """• Via Oral
         • Intramuscular""",
         "metabolismo": "No tienen proceso de metabolismo",
@@ -370,8 +425,13 @@ medicine_super_list = [
         • Nefritis intersticial reversible""",
         "contraindicaciones": """• Paciente con hipersensibilidad al medicamento
         • Mujeres en estado de embarazo""",
-        "posologia": """• Adultos y adolescentes: 250 a 500 mg cada 6 h o 500 mg a 1 g cada 12 h. No exceder de 4 g en 24 h
-        • Niños: 6.25 a 25 mg/kg de peso cada 6 h. La dosis máxima debe ser inferior a 4 g en 24 h"""
+        "posologia": """Adultos y adolescentes: 
+        • 250 a 500 mg cada 6 h o 500 mg a 1 g cada 12 h 
+        No exceder de 4 g en 24 h
+        
+        Niños: 
+        • 6.25 a 25 mg/kg de peso cada 6 h. 
+        La dosis máxima debe ser inferior a 4 g en 24 h"""
     },
     {
         "medicamento": "Cefuroxima",
@@ -384,7 +444,7 @@ medicine_super_list = [
         • Infección por neisseria meningitides
         • Infección por bacteroides fragilis
         • Infección por H. Influenzae""",
-        "mecanismo de accion": "Inhibir la síntesis de la pared celular",
+        "mecanismo de accion": "Inhibir la síntesis de la pared celular bacteriana",
         "vias de administración": """• Via Oral
         • Intramuscular""",
         "metabolismo": "No tienen proceso de metabolismo",
@@ -396,15 +456,24 @@ medicine_super_list = [
         • Nefritis intersticial reversible""",
         "contraindicaciones": """• Paciente con hipersensibilidad al medicamento
         • Mujeres en estado de embarazo""",
-        "posologia": """• Niños 3 meses-5 años: 15 mg/kg/día, c/12 horas (máx. 2-4 g/día)
-        • Niños 5 años-12 años: 125 mg, cada 12 h
-        • Niños >12 años: 250 mg/12 horas
-        • Adultos: 750 - 1000 mg, 3 veces al día (cada 8 horas)"""
+        "posologia": """
+        Niños 3 meses-5 años: 
+        • 15 mg/kg/día cada 12 horas (máx. 2-4 g/día)
+        
+        Niños 5 años-12 años: 
+        • 125 mg, cada 12 h
+        
+        Niños >12 años: 
+        •250 mg/12 horas
+        
+        Adultos: 
+        • 750 - 1000 mg cada 8 horas"""
     },
     {
         "medicamento": "Cetriaxona",
-        "familia": "Cefalosporina de tercera generacion generación",
-        "presentaciones": "• 1 g y 500 mg Polvo estéril para inyección",
+        "familia": "Cefalosporina de tercera generación",
+        "presentaciones": """• 1 g Polvo estéril para inyección
+        • 500 mg Polvo estéril para inyección""",
         "indicaciones": """• Infección por bacilos gram (-)
         • Infección por aerobios
         • Infección por enterobacter
@@ -412,7 +481,7 @@ medicine_super_list = [
         • Infección por proteus vulgaris
         • Infección por serratia
         • Infección por pseudomonas resistentes a otros""",
-        "mecanismo de accion": "Inhibir la síntesis de la pared celular",
+        "mecanismo de accion": "Inhibir la síntesis de la pared celular bacteriana",
         "vias de administración": """• Intramuscular
         • Intravenosa""",
         "metabolismo": "No tienen proceso de metabolismo",
@@ -424,13 +493,18 @@ medicine_super_list = [
         • Nefritis intersticial reversible""",
         "contraindicaciones": """• Paciente con hipersensibilidad al medicamento
         • Mujeres en estado de embarazo""",
-        "posologia": """• Niños: 20 a 50 mg/kg/24 h
-        • Adultos: 1-2 g durante 24 h"""
+        "posologia": """
+        Niños: 
+        • 20 a 50 mg/kg/24 h
+        
+        Adultos: 
+        • 1-2 g durante 24 h"""
     },
     {
         "medicamento": "Cefepime",
         "familia": "Cefalosporina de cuarta generacion generación",
-        "presentaciones": "• 1 g y 2 g Polvo estéril para inyección",
+        "presentaciones": """• 1 g Polvo esteril para inyectar  
+        • 2 g Polvo estéril para inyección""",
         "indicaciones": """• Infección por bacilos gram (-)
         • Infección por aerobios
         • Infección por enterobacter
@@ -438,7 +512,7 @@ medicine_super_list = [
         • Infección por proteus vulgaris
         • Infección por serratia
         • Infección por pseudomonas resistentes a otros""",
-        "mecanismo de accion": "Inhibir la síntesis de la pared celular",
+        "mecanismo de accion": "Inhibir la síntesis de la pared celular bacteriana",
         "vias de administración": """• Intramuscular
         • Intravenosa""",
         "metabolismo": "No tienen proceso de metabolismo",
@@ -450,20 +524,29 @@ medicine_super_list = [
         • Nefritis intersticial reversible""",
         "contraindicaciones": """• Paciente con hipersensibilidad al medicamento
         • Mujeres en estado de embarazo""",
-        "posologia": """• Bebes de 1 - 3 meses: 30 mg/kg cada 12 horas
-        • Niños: 50 mg/kg cada 12 h
-        • Adultos: 2 g cada 12 h"""
+        "posologia": """Niños de 1 - 3 meses: 
+        • 30 mg/kg cada 12 horas
+        
+        •Niños: 
+        • 50 mg/kg cada 12 h
+        
+        Adultos: 
+        • 2 g cada 12 h"""
     },
     {
         "medicamento": "Gentamicina",
         "familia": "Aminoglucocidos",
         "presentaciones": """• 0.30% Ungüento oftálmico
         • 3 mg/2 ml Gotas oftálmicas
-        • 20, 40, 80, 160 mg Solución inyectable""",
+        • 20 mg Solución inyectable
+        • 40 mg Solución inyectable
+        • 80 mg Solución inyectable 
+        • 160 mg Solución inyectable""",
         "indicaciones": """• Infecciones de ojo y oído
         • Infección Urinaria con otros fármacos
         • Estados sépticos bacilos gram(-)""",
-        "mecanismo de accion": "Inhibidor 30s principalmente, también altera la pared celular y por eso es BACTERICIDA",
+        "mecanismo de accion": """• Inhibidor 30s ribosomal principalmente 
+        • también altera la pared celular, por eso es BACTERICIDA""",
         "vias de administración": """• Intramuscular
         • Intravenosa
         • Tópica""",
@@ -474,18 +557,26 @@ medicine_super_list = [
         "contraindicaciones": """• Pacientes con enfermedad renal terminal
         • Pacientes sordos o con lesión auditiva severa
         • Pacientes con enfermedad renal crónica se debe usar con precaución “Costo vs Beneficio” (calcular dosis con el índice de daño renal)""",
-        "posologia": """• Bebes de 1 - 3 meses: 7,5 mg/kg/día (2,5 mg/kg administrados cada 8 horas)
-        • Niños: 6 a 7,5 mg/kg/día (2-2,5 mg/kg administrados cada 8 horas)
-        • Adultos: 3 mg/kg/día, administrada en forma de dosis única diaria o repartidas en tres dosis, 1 mg/kg cada 8 h"""
+        "posologia": """
+        Bebes de 1 - 3 meses: 
+        • 7,5 mg/kg/día (2,5 mg/kg administrados cada 8 horas)
+        
+        Niños: 
+        • 6 a 7,5 mg/kg/día (2-2,5 mg/kg administrados cada 8 horas)
+        
+        Adultos: 
+        • 3 mg/kg/día, administrada en forma de dosis única diaria o repartidas en tres dosis, 1 mg/kg cada 8 h"""
     },
     {
         "medicamento": "Amikacina",
         "familia": "Aminoglucocidos",
-        "presentaciones": "• 100mg/2ml - 500mg/2ml Solución inyectable",
+        "presentaciones": """• 100mg/2ml solucion inyectable
+        • 500mg/2ml Solución inyectable""",
         "indicaciones": """• Infecciones de ojo y oído
         • Infección Urinaria con otros fármacos
         • Estados sépticos bacilos gram(-)""",
-        "mecanismo de accion": "Inhibidor 30s principalmente, también altera la pared celular y por eso es BACTERICIDA",
+        "mecanismo de accion": """• Inhibidor 30s principalmente
+        • Altera la pared celular y por eso es BACTERICIDA""",
         "vias de administración": """• Intramuscular
         • Intravenosa""",
         "metabolismo": "No tienen proceso de metabolismo",
@@ -495,16 +586,18 @@ medicine_super_list = [
         "contraindicaciones": """• Pacientes con enfermedad renal terminal
         • Pacientes sordos o con lesión auditiva severa
         • Pacientes con enfermedad renal crónica se debe usar con precaución “Costo vs Beneficio” (calcular dosis con el índice de daño renal)""",
-        "posologia": "• Adultos: 15 mg/kg/día, dividida en 2 ó 3 dosis"
+        "posologia": """Adultos: 
+        • 15 mg/kg/día, dividida en 2 ó 3 dosis"""
     },
     {
         "medicamento": "Estreptomicina",
         "familia": "Aminoglucocidos",
-        "presentaciones": "• 1g polvo esteril para inyeccióno",
+        "presentaciones": "1g polvo esteril para inyeccióno",
         "indicaciones": """• Tularemia y plaga (yersinia)
         • Endocarditis Bacteriana por estreptococo viridians
         • Tuberculosis juanto a ptrps medicamentos en el tratamiento""",
-        "mecanismo de accion": "Inhibidor 30s principalmente, también altera la pared celular y por eso es BACTERICIDA",
+        "mecanismo de accion": """• Inhibidor 30s principalmente
+        • Altera la pared celular y por eso es BACTERICIDA""",
         "vias de administración": """• Intramuscular
         • Intravenosa""",
         "metabolismo": "No tienen proceso de metabolismo",
@@ -515,13 +608,17 @@ medicine_super_list = [
         • Pacientes sordos o con lesión auditiva severa
         • Pacientes con enfermedad renal crónica se debe usar con precaución “Costo vs Beneficio” (calcular dosis con el índice de daño renal)""",
         "posologia": """• Lesiones tuberculosas deberá iniciarse el tratamiento con 1 g diario
-        • Niños: 20 mg/kg/día
-        • Adultos: 0.5 a 2 g dosis unica cada 24 h"""
+        
+        Niños: 
+        • 20 mg/kg/día
+        
+        Adultos: 
+        • 0.5 a 2 g dosis unica cada 24 h"""
     },
     {
         "medicamento": "Tetraciclina",
         "familia": "Tetraciclinas",
-        "presentaciones": "• 500 mg Capsula",
+        "presentaciones": "500 mg Capsula",
         "indicaciones": """• Estreptococo pneumoniae
         • Ricketsias
         • Clamidias
@@ -532,9 +629,10 @@ medicine_super_list = [
         • Infecciones Venéreas (gonorrea, sífilis, chancroide, granuloma inguinal, uretritis o cevitis por clamidia)
         • Amibiasis intestinal o hepática""",
         "mecanismo de accion": "Inhibidor 30s de los ribosomas, es bacteriostatico",
-        "vias de administración": "• Via Oral",
+        "vias de administración": "Via Oral",
         "metabolismo": "Una variable es conjugada por hígado, pero la gran mayoría no posee metabolismo",
-        "excrecion": "En un 60% renal y un 40% por heces",
+        "excrecion": """• 60% renal
+        • 40% por heces""",
         "efectos Secundarios":"""• Nauseas
         • Vomito
         • Diarrea
@@ -547,13 +645,17 @@ medicine_super_list = [
         • Enfermos del hígado
         • Pacientes con antecedentes de foto-sensibilidad""",
         "posologia": """• Lesiones tuberculosas deberá iniciarse el tratamiento con 1 g diario
-        • Niños: 20 mg/kg/día
-        • Adultos: 0.5 a 2 g dosis unica cada 24 h"""
+        
+        Niños: 
+        • 20 mg/kg/día
+        
+        Adultos: 
+        • 0.5 a 2 g dosis unica cada 24 h"""
     },
     {
         "medicamento": "Doxiciclina",
         "familia": "Tetraciclinas",
-        "presentaciones": "• 100 mg Capsula o Tabletas",
+        "presentaciones": "100 mg Capsula o Tabletas",
         "indicaciones": """• Estreptococo pneumoniae
         • Ricketsias
         • Clamidias
@@ -564,9 +666,10 @@ medicine_super_list = [
         • Infecciones Venéreas (gonorrea, sífilis, chancroide, granuloma inguinal, uretritis o cevitis por clamidia)
         • Amibiasis intestinal o hepática""",
         "mecanismo de accion": "Inhibidor 30s de los ribosomas, es bacteriostatico",
-        "vias de administración": "• Via Oral",
+        "vias de administración": "Via Oral",
         "metabolismo": "Una variable es conjugada por hígado, pero la gran mayoría no posee metabolismo",
-        "excrecion": "En un 60% renal y un 40% por heces",
+        "excrecion": """• 60% renal
+        • 40% por heces""",
         "efectos Secundarios":"""• Nauseas
         • Vomito
         • Diarrea
@@ -578,8 +681,11 @@ medicine_super_list = [
         • Mujeres embarazadas
         • Enfermos del hígado
         • Pacientes con antecedentes de foto-sensibilidad""",
-        "posologia": """• Niños: 25 a 50 mg/kg/día divididos en dosis cada 6 h
-        • Adultos: 250 a 500 mg/ cada 6 a 12 h"""
+        "posologia": """Niños: 
+        • 25 a 50 mg/kg/día divididos en dosis cada 6 h
+        
+        Adultos: 
+        • 250 a 500 mg/ cada 6 a 12 h"""
     },
     {
         "medicamento": "Cloranfenicol",
@@ -604,8 +710,11 @@ medicine_super_list = [
         "contraindicaciones": """• No se debe dar a niños
         • Mujeres embarazadas
         • Enfermedad hepatica severa""",
-        "posologia": """• Niños: 6.25 mg/kg cada 6 horas
-        • Adultos: 12.5 mg/kg cada 6 horas"""
+        "posologia": """Niños: 
+        • 6.25 mg/kg cada 6 horas
+        
+        Adultos: 
+        • 12.5 mg/kg cada 6 horas"""
     },
     {
         "medicamento": "Eritromicina",
@@ -616,7 +725,7 @@ medicine_super_list = [
         • Infecciones por legionella
         • Infecciones por cocos en alérgicos a penicilina""",
         "mecanismo de accion": "Inhibe la porción 50s de los ribosomas por lo tanto es bacteriostático",
-        "vias de administración": "• Via Oral",
+        "vias de administración": "Via Oral",
         "metabolismo": "Hepático en varios pasos",
         "excrecion": "Renal, no se elimina por hemodiálisis",
         "efectos Secundarios":"""• Nauseas
@@ -629,8 +738,11 @@ medicine_super_list = [
         • Exantema pruriginoso""",
         "contraindicaciones": """• Pacientes con enfermedades hepáticas graves
         • Dar con precaución en mujeres embarazadas y lactantes""",
-        "posologia": """• Niños: 30-50 mg/kg diariamente, divididas cada 6 horas durante 10 a 14 días
-        • Adultos: 250 mg por vía oral cada 6 horas durante 10 a 14 días"""
+        "posologia": """Niños: 
+        • 30-50 mg/kg diariamente, divididas cada 6 horas durante 10 a 14 días
+        
+        Adultos: 
+        •250 mg por vía oral cada 6 horas durante 10 a 14 días"""
     },
     {
         "medicamento": "Claritromicina",
@@ -658,19 +770,23 @@ medicine_super_list = [
         • Exantema pruriginoso""",
         "contraindicaciones": """• Pacientes con enfermedades hepáticas graves
         • Dar con precaución en mujeres embarazadas y lactantes""",
-        "posologia": """• Niños: 7,5 mg/kg, 2 veces al día durante 5 a 10 días
-        • Adultos: 250 mg, 2 veces al día durante 6 a 14 días"""
+        "posologia": """Niños: 
+        •7,5 mg/kg, 2 veces al día durante 5 a 10 días
+        
+        Adultos: 
+        • 250 mg, 2 veces al día durante 6 a 14 días"""
     },
      {
         "medicamento": "Azitromicina",
         "familia": "Macrolidos",
-        "presentaciones": """• 500 mg ó 1 g Tabletas
+        "presentaciones": """• 500 mg tabletas
+        • 1 g Tabletas
         • 200mg/5ml (4%) Reconstitución oral""",
         "indicaciones": """• Infecciones por mycoplasma
         • Infecciones por legionella
         • Infecciones por cocos en alérgicos a penicilina""",
         "mecanismo de accion": "Inhibe la porción 50s de los ribosomas por lo tanto es bacteriostático",
-        "vias de administración": "• Via Oral",
+        "vias de administración": "Via Oral",
         "metabolismo": "Hepático en varios pasos",
         "excrecion": "Renal, no se elimina por hemodiálisis",
         "efectos Secundarios":"""• Nauseas
@@ -683,13 +799,19 @@ medicine_super_list = [
         • Exantema pruriginoso""",
         "contraindicaciones": """• Pacientes con enfermedades hepáticas graves
         • Dar con precaución en mujeres embarazadas y lactantes""",
-        "posologia": """• Niños: 500 mg sólo para niños y adolescentes de más de 45 kg de peso
-        • Adultos: 500 mg una vez al día durante 3 días consecutivos, dosis total de 1500 mg"""
+        "posologia": """Niños: 
+        • 500 mg sólo para niños y adolescentes de más de 45 kg de peso
+        
+        Adultos: 
+        • 500 mg una vez al día durante 3 días consecutivos, dosis total de 1500 mg"""
     },
     {
         "medicamento": "Clindamicina",
         "familia": "Lincosamida",
-        "presentaciones": "• 15% Solución Inyectable",
+        "presentaciones": """• 600 mg / 4 mL Solución Inyectable
+        • 300 mg capsulas
+        • 500 mg capsulas
+        • 1% crema topica""",
         "indicaciones": """• Infecciones obstétricas y ginecológicas por estreptococos del grupo
         • Infecciones en piel por S. Pypgenes pneumonia y viridans
         • Infecciones por estafilococos
@@ -708,13 +830,19 @@ medicine_super_list = [
         • Bloqueo neuromuscular en algunos pacientes""",
         "contraindicaciones": """• No dar en lactantes ni recién nacidos
         • Administrase con precaución en mujeres embarazadas""",
-        "posologia": """• Niños: 500 mg sólo para niños y adolescentes de más de 45 kg de peso
-        • Adultos: 600 a 1.800 mg al día divididos en 2, 3 o 4 dosis iguales"""
+        "posologia": """Niños: 
+        • 500 mg sólo para niños
+        
+        Adolescentes:
+        • 500 mg cada 8 horas
+        
+        Adultos: 
+        • 600 a 1.800 mg al día divididos en 2, 3 o 4 dosis iguales"""
     },
     {
         "medicamento": "Vancomicina",
         "familia": "Glucopeptido",
-        "presentaciones": "• 500 mg Polvo estéril para inyección",
+        "presentaciones": "500 mg Polvo estéril para inyección",
         "indicaciones": """• Infecciones por S. Aureus
         • Profilaxis en endocarditis bacteriana
         • Colitis pseudomembranosa""",
@@ -729,9 +857,12 @@ medicine_super_list = [
         • Exantema
         • Ototoxicidad
         • Nefrotoxicidad""",
-        "contraindicaciones": "• No tiene contraindicaciones marcadas",
-        "posologia": """• Niños: 10 mg/kg/6 horas (dosis total diaria de 40 mg/kg de peso)
-        • Adultos: (30 - 50 mg/kg/día) 1 g/12 horas ó de 500 mg/6 horas"""
+        "contraindicaciones": "No tiene contraindicaciones marcadas",
+        "posologia": """Niños: 
+        •10 mg/kg/6 horas (dosis total diaria de 40 mg/kg de peso)
+        
+        Adultos: 
+        • (30 - 50 mg/kg/día) 1 g/12 horas ó de 500 mg/6 horas"""
     },
     {
         "medicamento": "Sulfametaxazol",
@@ -762,20 +893,23 @@ medicine_super_list = [
         • Pacientes mayores de edad con Pancitopenia
         • Pacientes con Colitis pseudomenbranosa
         • Pacientes que reciben anti-coagulantes""",
-        "posologia": """• Niños: 6 mg de trimetoprima/ 30 mg de sulfametoxazol/kg/24 horas
-        • Adultos: 1 comprimido de 160 mg/800 mg cada 12 horas"""
+        "posologia": """Niños: 
+        • 6 mg de trimetoprima/ 30 mg de sulfametoxazol/kg/24 horas
+        
+        Adultos: 
+        • 1 comprimido de 160 mg/800 mg cada 12 horas"""
     },
     {
         "medicamento": "Sulfasalazina",
         "familia": "Sulfas",
-        "presentaciones": "• 500mg Tabletas",
+        "presentaciones": "500mg Tabletas",
         "indicaciones": """• Infección tracto urinario
         • En combinación con pirimetamina, tratamiento de toxoplasmosis, etapa aguda no embarazo
         • Neumonía por Pneumocystiscarinii en pacientes con VIH
         • Infecciones por nocardia-nocardosis pulmonar""",
         "mecanismo de accion": """• Ac. Fólico – PABA = No hay producción de ADN, no sintetizan purinas
         • Si las sulfas se asocian con trimetropin, se incrementa el efecto Bacteriostatico y puede llegar a ser Bactericida""",
-        "vias de administración": "• Via Oral",
+        "vias de administración": "Via Oral",
         "metabolismo": "Hepatico, producen metabolitos no toxicos",
         "excrecion": "Renal y pequeñas cantidades heces y bilis",
         "efectos Secundarios":"""• Cristaluria
@@ -790,19 +924,21 @@ medicine_super_list = [
         • Pacientes mayores de edad con Pancitopenia
         • Pacientes con Colitis pseudomenbranosa
         • Pacientes que reciben anti-coagulantes""",
-        "posologia": "• Adultos: 2 g 2 a 3 veces al día durante 6 semanas como mínimo"
+        "posologia": """Adultos: 
+        • 2 g 2 a 3 veces al día durante 6 semanas como mínimo"""
     },
     {
         "medicamento": "Sulfacetamida",
         "familia": "Sulfas",
-        "presentaciones": "• 10 y 30% Solución Oftálmica",
+        "presentaciones": """• 10% solución Oftalmica
+        • 30% Solución Oftálmica""",
         "indicaciones": """• Infección tracto urinario
         • En combinación con pirimetamina, tratamiento de toxoplasmosis, etapa aguda no embarazo
         • Neumonía por Pneumocystiscarinii en pacientes con VIH
         • Infecciones por nocardia-nocardosis pulmonar""",
         "mecanismo de accion": """• Ac. Fólico – PABA = No hay producción de ADN, no sintetizan purinas
         • Si las sulfas se asocian con trimetropin, se incrementa el efecto Bacteriostatico y puede llegar a ser Bactericida""",
-        "vias de administración": "• Via Oftalmica",
+        "vias de administración": "Via Oftalmica",
         "metabolismo": "Hepatico, producen metabolitos no toxicos",
         "excrecion": "Renal y pequeñas cantidades heces y bilis",
         "efectos Secundarios":"""• Cristaluria
@@ -817,19 +953,20 @@ medicine_super_list = [
         • Pacientes mayores de edad con Pancitopenia
         • Pacientes con Colitis pseudomenbranosa
         • Pacientes que reciben anti-coagulantes""",
-        "posologia": "• Adultos: Una o dos gotas de la solución al 0.1%, tres a cuatro veces al día"
+        "posologia": """Adultos: 
+        • Una o dos gotas de la solución al 0.1%, tres a cuatro veces al día"""
     },
     {
-        "medicamento": "Sulfadiacinaargentica",
+        "medicamento": "Sulfadiazina - argentica",
         "familia": "Tambien conocida como Sulfaplata, viene de la familia de las Sulfas",
-        "presentaciones": "• 1g Crema",
+        "presentaciones": "1g Crema",
         "indicaciones": """• Infección tracto urinario
         • En combinación con pirimetamina, tratamiento de toxoplasmosis, etapa aguda no embarazo
         • Neumonía por Pneumocystiscarinii en pacientes con VIH
         • Infecciones por nocardia-nocardosis pulmonar""",
         "mecanismo de accion": """• Ac. Fólico – PABA = No hay producción de ADN, no sintetizan purinas
         • Si las sulfas se asocian con trimetropin, se incrementa el efecto Bacteriostatico y puede llegar a ser Bactericida""",
-        "vias de administración": "• Via Topica",
+        "vias de administración": "Via Topica",
         "metabolismo": "Hepatico, producen metabolitos no toxicos",
         "excrecion": "Renal y pequeñas cantidades heces y bilis",
         "efectos Secundarios":"""• Cristaluria
@@ -845,20 +982,21 @@ medicine_super_list = [
         • Pacientes con Colitis pseudomenbranosa
         • Pacientes que reciben anti-coagulantes""",
         "posologia": """• Se debe aplicar una capa de 3 mm de espesor sobre la superficie lesionada 1-2 veces/día en quemaduras y heridas no muy contaminadas.
-        • Una capa de 3 mm de espesor sobre la superficie lesionadahasta cada 4-6 h en el caso de heridas muy contaminadas."""
+        • Una capa de 3 mm de espesor sobre la superficie lesionadahasta cada 4-6 h en el caso de heridas muy contaminadas"""
     },
     {
         "medicamento": "Ciprofloxacina",
         "familia": "Quinolonas",
-        "presentaciones": "• 250mg y 500mg Tabletas",
+        "presentaciones": """• 250 mg Tabletas
+        • 500mg Tabletas""",
         "indicaciones": """• Infección del tracto urinario por aerobios Gram (-)
         • Prostatitis especialmente en pacientes con infección crónica
         • Infección de tracto gastrointestinal (salmonella,shiguella) perfora el intestino
         • Artritis y Osteomielitis
         • Infecciones respiratorias bajas (Clamidias y micoplasma)
         • Blenorragia y EPI (Enfermedad Pélvica Inflamatoria) y chancroide""",
-        "mecanismo de accion": "Inhibiendo la replicación del ADN y ocasiona la muerte bacteriana",
-        "vias de administración": "• Via Oral",
+        "mecanismo de accion": "Inhibe replicación del ADN, ocasionando muerte bacteriana",
+        "vias de administración": "Via Oral",
         "metabolismo": """• Hepatico parcialmente en un 50%
         • Absorcion intestinal
         • Posee buena distribución en tejidos como pulmones, tracto genito urinario, vesicula biliar
@@ -876,13 +1014,18 @@ medicine_super_list = [
         • Lactante en población pediátrica
         • Antecedentes severos de alergia en la piel
         • Reacciones alérgicas""",
-        "posologia": """• Adultos: 250-500 mg cada 12 horas durante 7 a 14 días
-        • Niños: 20-30 mg/kg/día divididos en dos dosis cada 12 horas dependiendo de la gravedad de infección. Las dosis máximas son de 1,5 g por día"""
+        "posologia": """Adultos: 
+        • 250-500 mg cada 12 horas durante 7 a 14 días
+        
+        Niños: 
+        • 20-30 mg/kg/día divididos en dos dosis cada 12 horas dependiendo de la gravedad de infección. 
+        
+        Las dosis máximas son de 1,5 g por día"""
     },
     {
         "medicamento": "Norfloxacina",
         "familia": "Quinolonas",
-        "presentaciones": "• 400mg Tabletas",
+        "presentaciones": "400 mg Tabletas",
         "indicaciones": """• Infección del tracto urinario por aerobios Gram (-)
         • Prostatitis especialmente en pacientes con infección crónica
         • Infección de tracto gastrointestinal (salmonella,shiguella) perfora el intestino
@@ -890,7 +1033,7 @@ medicine_super_list = [
         • Infecciones respiratorias bajas (Clamidias y micoplasma)
         • Blenorragia y EPI (Enfermedad Pélvica Inflamatoria) y chancroide""",
         "mecanismo de accion": "Inhibiendo la replicación del ADN y ocasiona la muerte bacteriana",
-        "vias de administración": "• Via Oral",
+        "vias de administración": "Via Oral",
         "metabolismo": """• Hepatico parcialmente en un 50%
         • Absorcion intestinal
         • Posee buena distribución en tejidos como pulmones, tracto genito urinario, vesicula biliar
@@ -907,19 +1050,21 @@ medicine_super_list = [
         "contraindicaciones": """• Mujeres en estado de embarazo
         • Lactante en población pediátrica
         • Antecedentes severos de alergia en la piel
-        • Reacciones alérgicas""",
-        "posologia": """• Adultos: 1 tableta de 400mg cada 12 horas con un máximo diario de 2 tabletas (800 mg de norfloxacino) diarias durante 7 a 10 diás
-        • Niños: NO debe emplearse en niños debido a la posible aparición de artropatías (enfermedad de las articulaciones)"""
+        • Reacciones alérgicas 
+        • NO debe emplearse en niños debido a la posible aparición de artropatías (enfermedad de las articulaciones)""",
+        "posologia": """Adultos: 
+        • 1 tableta de 400mg cada 12 horas con un máximo diario de 2 tabletas (800 mg de norfloxacino) diarias durante 7 a 10 diás"""
     },
     {
         "medicamento": "Isoniazida",
         "familia": "Acido isonicotinico (V-B) sintesis quimica",
-        "presentaciones": "• 100 mg y 300 mg Tabletas",
+        "presentaciones": """• 100 mg Tabletas
+        • 300 mg Tabletas""",
         "indicaciones": """• Utilizada principalmente como primera opción en TUBERCULOSIS
         • Reducción de los temblores asociados a la esclerosis múltiple
         • Tratamiento profilacyico en conjunto para pacientes con VIH y SIDA""",
         "mecanismo de accion": "Impiden la formación de pared celular por bloqueo de ácidos grasos",
-        "vias de administración": "• Via Oral",
+        "vias de administración": "Via Oral",
         "metabolismo": """• Excelente biodisponibilidad y absorción
         • Metabolizan en hígado""",
         "excrecion": "Renal",
@@ -932,8 +1077,11 @@ medicine_super_list = [
         • Lactante en población pediátrica
         • Antecedentes severos de alergia en la piel
         • Alteraciones y enfermedades hepaticas""",
-        "posologia": """• Adultos: isoniazida 5 mg/kg/dia (hasta un máximo de 300 mg/dia)
-        • Niños: 10—15 mg/kg una vez al día (hasta un máximo de 300 mg) tratamiento maximo por 6 meses"""
+        "posologia": """Adultos: 
+        • isoniazida 5 mg/kg/dia (hasta un máximo de 300 mg/dia)
+        
+        Niños: 
+        • 10—15 mg/kg una vez al día (hasta un máximo de 300 mg) tratamiento maximo por 6 meses"""
     },
     {
         "medicamento": "Rifampicina",
@@ -944,7 +1092,7 @@ medicine_super_list = [
         • Brucelosis
         • Erradicación de meningococos en portadores asintomáticos""",
         "mecanismo de accion": "Bloquea RNA polimerasa",
-        "vias de administración": "• Via Oral",
+        "vias de administración": "Via Oral",
         "metabolismo": """• Excelente biodisponibilidad y absorción
         • Metabolizan en hígado""",
         "excrecion": "Renal",
@@ -958,52 +1106,63 @@ medicine_super_list = [
         • Pacientes con hipersensibilidad a las rifamicinas
         • Pacientes con enfermedad hepática activa
         • En combinación con la asociación saquinavir/ritonavir""",
-        "posologia": """• Adultos: 10 mg/kg/día, sin superar los 600 mg/día, en una sola toma
-        • Niños mayores de 3 años: 15 mg/Kg día"""
+        "posologia": """Adultos: 
+        • 10 mg/kg/día
+        • Sin superar los 600 mg/día, en una sola toma
+        
+        Niños mayores de 3 años: 
+        • 15 mg/Kg día"""
     },
     {
         "medicamento": "Etambutol",
-        "familia": "Alcohol hidrosoluble y termoestable, síntesis quimica",
+        "familia": """• Alcohol hidrosoluble y termoestable
+        • Síntesis quimica""",
         "presentaciones": "400 mg Tabletas",
         "indicaciones": "Tuberculosis en todas sus formas (en asociación con otros agentes tuberculostáticos)",
         "mecanismo de accion": "Impiden la articulación de la pared celular",
-        "vias de administración": "• Via Oral",
+        "vias de administración": "Via Oral",
         "metabolismo": """• Excelente biodisponibilidad y absorción
         • Metabolizan en hígado""",
-        "excrecion": "No tiene metabolismo",
+        "excrecion": "No tiene excreción",
         "efectos Secundarios":"""• Neuritis óptica (dosis - dependiente)
         • Disminución de la agudeza visual""",
         "contraindicaciones": """• Mujeres en estado de embarazo
         • Lactante en población pediátrica""",
-        "posologia": """• Adultos: 15 - 25 mg/kg/dia cada 24 horas via oral
-        • Niños mayores de 3 años: 2.5 mg una dosis al día"""
+        "posologia": """Adultos: 
+        • 15 - 25 mg/kg/dia cada 24 horas via oral
+        
+        Niños mayores de 3 años: 
+        • 2.5 mg una dosis al día"""
     },
     {
         "medicamento": "Pirazinamida",
         "familia": "Analogo de la nicotinamida",
-        "presentaciones": "400 mg y 500 mg Tabletas",
+        "presentaciones": """• 400 mg Tabletas
+        • 500 mg Tabletas""",
         "indicaciones": "Tuberculosis en todas sus formas (en asociación con otros agentes tuberculostáticos)",
-        "mecanismo de accion": "Impiden la articulación de la pared celular",
-        "vias de administración": "• Via Oral",
+        "mecanismo de accion": "Impiden la articulación de la pared celular bacteriana",
+        "vias de administración": "Via Oral",
         "metabolismo": """• Excelente biodisponibilidad y absorción
-        • Metabolizan en hígado""",
+        • Metabolismo a nivel hepatico""",
         "excrecion": "Hepatico",
         "efectos Secundarios":"""• Lesiones hepaticas graves
         • Necrosis hepatica""",
         "contraindicaciones": """• Mujeres en estado de embarazo
         • Lactante en población pediátrica""",
-        "posologia": "• Adultos: 20-30 mg/Kg/día vía oral, en 2-3 dosis divididas"
+        "posologia": """Adultos: 
+        • 20-30 mg/Kg/día vía oral, cada 8 horas o 12 horas"""
     },
     {
         "medicamento": "Etionamida",
         "familia": "Amina – síntesis química (Amina sintetizada)",
-        "presentaciones": "250 mg Tabletas",
+        "presentaciones": """• 250 mg Tabletas
+        • 500 mg Tableta""",
         "indicaciones": "Tuberculosis en todas sus formas (en asociación con otros agentes tuberculostáticos)",
         "mecanismo de accion": "Impiden la formación de pared celular por bloqueo de ácidos grasos",
-        "vias de administración": "• Via Oral",
+        "vias de administración": "Via Oral",
         "metabolismo": """• Excelente biodisponibilidad y absorción
-        • Metabolizan en hígado""",
-        "excrecion": "No tiene metabolismo",
+        • Metabolismo a nivel hepatico""",
+        "excrecion": "No tiene excresión",
         "efectos Secundarios":"""• Nauseas
         • Vomito
         • Lesiones neurologicas en casos graves
@@ -1013,15 +1172,18 @@ medicine_super_list = [
         • Vision borrosa""",
         "contraindicaciones": """• Mujeres en estado de embarazo
         • Lactante en población pediátrica""",
-        "posologia": "• Adultos: 10-15 mg/Kg/día vía oral (normalmente 500-750 mg) como dosis única diaria, hasta un máximo de 1 g/día"
+        "posologia": """Adultos: 
+        • 10-15 mg/Kg/día vía oral (normalmente 500-750 mg) como dosis única diaria
+        Hasta un máximo de 1 g/día"""
     },
     {
         "medicamento": "Dapsona",
         "familia": "Se deriva de las sulfas por síntesis quimica",
-        "presentaciones": "100 mg Tabletas",
+        "presentaciones": """• 50 mg Tabletas
+        • 100 mg Tabletas""",
         "indicaciones": "Tratamiento para la lepra",
-        "mecanismo de accion": "Afecta la síntesis de ácido fólico",
-        "vias de administración": "• Via Oral",
+        "mecanismo de accion": "Afecta la síntesis normal de ácido fólico",
+        "vias de administración": "Via Oral",
         "metabolismo": """• Metabolismo hepático
         • Lento en acetiladores bajos que hipersensibilidad""",
         "excrecion": """• Renal al 80%
@@ -1032,18 +1194,23 @@ medicine_super_list = [
         • Alteración de gastrointestinales leves""",
         "contraindicaciones": """• Mujeres en estado de embarazo
         • Lactante en población pediátrica""",
-        "posologia": """• Adultos: 50 mg -1 00 mg/día vía oral
-        • Niños: 1 mg - 1,5 mg/Kg/día vía oral"""
+        "posologia": """Adultos: 
+        • 50 mg -1 00 mg/día vía oral
+        
+        Niños: 
+        • 1 mg - 1,5 mg/Kg/día vía oral"""
     },
     {
         "medicamento": "Clofazimina",
-        "familia": "Síntesis química y se creó hace 20 años",
-        "presentaciones": "100 mg Tabletas",
+        "familia": """• Síntesis química
+        • Se creó hace 20 años""",
+        "presentaciones": """• 50 mg Capsulas
+        • 100 mg Capsulas""",
         "indicaciones": """• Tratamiento para la lepra
         • Infecciones atípicas por mycobacterium""",
-        "mecanismo de accion": "Afecta la replicación del ADN",
-        "vias de administración": "• Via Oral",
-        "metabolismo": "No se metaboliza",
+        "mecanismo de accion": "Afecta la replicación del ADN de la mycobacteria",
+        "vias de administración": "Via Oral",
+        "metabolismo": "No tiene proceso metabolico",
         "excrecion": "Se elimina inalterada por orina y heces. (muy lenta)",
         "efectos Secundarios":"""• Coloración roja de la piel
         • Acumulacion de cristales en uñas, lecho ungual y lagrimas
@@ -1051,14 +1218,15 @@ medicine_super_list = [
         • Alteraciones gastro intestinales: diarrea y dolor abdominal""",
         "contraindicaciones": """• Mujeres en estado de embarazo
         • Lactante en población pediátrica""",
-        "posologia": """• Adultos: 
-        - Lepra e infecciones por M. avium complex: 100 mg/día vía oral con comida.
-        - Eritema nudoso leproso: Hasta 200 mg/día vía oral."""
+        "posologia": """Adultos: 
+        • Lepra e infecciones por M. avium complex: 100 mg/día vía oral con comida
+        • Eritema nudoso leproso: Hasta 200 mg/día vía oral"""
     },
     {
         "medicamento": "Cloroquina",
         "familia": "Sintético desarrollado en la segunda guerra mundial",
         "presentaciones": """• 150 mg Tabletas
+        • 250 mg Tabletas
         • 60mg / 2ml Solución inyectable
         • 420mg / 5ml Solución inyectable
         • 25mg / 5ml jarabe""",
@@ -1085,21 +1253,30 @@ medicine_super_list = [
         • Ototoxicidad""",
         "contraindicaciones": """• Mujeres en estado de embarazo
         • NO utilizar en menores de 5 años, por vía parenteral por efecto cardiodepresor severo""",
-        "posologia": """• Adultos: 
-        - Profilaxis de malaria: 500 mg vía oral 1 vez por semana
-        - Tratamiento de la malaria: Comenzar con 1 g, seguir con 500 mg a las 6 horas y con 500 mg 1 vez al día el segundo y tercer días
-        - Amebiasis extraintestinal: 1 g al día durante 2 días, seguidos de 500 mg al día durante 2-3 semanas como mínimo
-        - Artritis reumatoide, lupus eritematoso: 250 mg cada 24 horas por 4 meses
+        "posologia": """Adultos: 
+        • Profilaxis de malaria: 500 mg vía oral 1 vez por semana
+        • Tratamiento de la malaria: Comenzar con 1 g, seguir con 500 mg a las 6 horas y con 500 mg 1 vez al día el segundo y tercer días
+        • Amebiasis extraintestinal: 1 g al día durante 2 días, seguidos de 500 mg al día durante 2-3 semanas como mínimo
+        • Artritis reumatoide, lupus eritematoso: 250 mg cada 24 horas por 4 meses
         
-        • Niños > 45 Kg: 250 mg de mefloquina
-        • Niños entre 15-19 Kg: 1/4 de la dosis de adultos
-        • Niños entre 20-30 Kg: 1/2 de la dosis de adultos
-        • Niños entre 31-45 Kg: 3/4 de la dosis de adultos"""
+        Niños > 45 Kg: 
+        • 250 mg de mefloquina
+        
+        Niños entre 15-19 Kg: 
+        • 1/4 de la dosis de adultos
+        
+        Niños entre 20-30 Kg: 
+        • 1/2 de la dosis de adultos
+        
+        Niños entre 31-45 Kg: 
+        • 3/4 de la dosis de adultos"""
     },
     {
         "medicamento": "Quinina",
         "familia": "Alcaloide de la corteza de la chinchonia",
-        "presentaciones": """• 200 mg, 300 mg y 600 mg Tabletas
+        "presentaciones": """• 200 mg Tabletas
+        • 300 mg Tabletas
+        • 600 mg Tabletas
         • 100mg / 2ml Solución inyectable""",
         "indicaciones": """• Forma circulante de falciparumcomo segunda línea (sulfato de quinina)
         • Esquizonticida eritrocitico de vivax no destruye forma tisular""",
@@ -1107,8 +1284,8 @@ medicine_super_list = [
         "vias de administración": """• Via Oral
         • Via intravenosa
         • Via intramuscular""",
-        "metabolismo": "Hepático",
-        "excrecion": "Renal",
+        "metabolismo": "A nivel Hepático",
+        "excrecion": "A  nivel Renal",
         "efectos Secundarios":"""• Bradicardia
         • Arritmias
         • Hipotensión
@@ -1128,22 +1305,24 @@ medicine_super_list = [
         • Hemolisis
         • Hemoglobinuria""",
         "contraindicaciones": """• Mujeres en estado de embarazo
-        • SOLO utiliar en pacientes hospitalizados""",
-        "posologia": "• Adultos: 275 mg - 825 mg/día vía oral"
+        • SOLO utilizar en pacientes hospitalizados""",
+        "posologia": """Adultos: 
+        • 275 mg - 825 mg/día vía oral"""
     },
     {
         "medicamento": "Mefloquina",
         "familia": "Alcaloide de la corteza de la chinchonia",
-        "presentaciones": """• 200 mg, 300 mg y 600 mg Tabletas
-        • 100mg / 2ml Solución inyectable""",
+        "presentaciones": "250 mg Tabletas",
         "indicaciones": """• Forma circulante de falciparumcomo segunda línea (sulfato de quinina)
         • Esquizonticida eritrocitico de vivax no destruye forma tisular""",
         "mecanismo de accion": "Impide actividad de las enzimas del plasmodium anti R.L actuen",
-        "vias de administración": """• Via Oral
-        • Via intravenosa
-        • Via intramuscular""",
-        "metabolismo": "Hepático",
-        "excrecion": "Renal",
+        "vias de administración": "Via Oral",
+        "metabolismo": """• Se absorbe muy bien en el tubo digestivo
+        • Se concentra en el hígado pero no destruye el parasito (por eso no es ideal en formas tisulares) 
+        • Al concentrar en hígado aumenta su tiempo de vipues retarda el matabolismo hepático. 
+        • Tambien se concentra en musculo
+        • A nivel Hepático""",
+        "excrecion": "A nivel renal",
         "efectos Secundarios":"""• Bradicardia
         • Hipotensión
         • Arritmias
@@ -1163,16 +1342,25 @@ medicine_super_list = [
         • Hemoglobinuria""",
         "contraindicaciones": """• Mujeres en estado de embarazo
         • SOLO utiliar en pacientes hospitalizados""",
-        "posologia": """• Adultos: 10-15 mg/kg (dosis máxima 750 mg) dosis separadas entre 3 y 4 al dia
-        • Niños con peso entre 20-30 kg: 1/2 comprimido (125 mg) 1 vez a la semana
-        • Niños con peso entre 30-45 kg: 3/4 comprimido (187,5 mg) 1 vez a la semana
-        • Niños con peso entre >45 kg: 1 comprimido (250 mg) 1 vez a la semana."""
+        "posologia": """Adultos: 
+        • 10-15 mg/kg (dosis máxima 750 mg) entre 6 a 8 horas cada una
+        
+        Niños con peso entre 20-30 kg: 
+        • 1/2 comprimido (125 mg) 1 vez a la semana
+        
+        Niños con peso entre 30-45 kg: 
+        • 3/4 comprimido (187,5 mg) 1 vez a la semana
+        
+        Niños con peso entre >45 kg: 
+        • 1 comprimido (250 mg) 1 vez a la semana"""
     },
     {
         "medicamento": "Artesunato",
-        "familia": """• Artemisia amia 
-        • síntesis química""",
-        "presentaciones": "600 mg Tabletas",
+        "familia": "Artemisia amia, por síntesis química",
+        "presentaciones": """• 100 mg Tabletas
+        • 200 mg + 600 mg Tabletas (con Amodiaquina)
+        • 240 mg / 5 mL suspención oral botella de 100 mL
+        • Ampolla de 60 mg""",
         "indicaciones": """• Infecciones complicadas por falciparum o vivax en asocio con doxicilina + clindamicina
         • Infecciones por falciparum no complicados (1ra línea)
         • Infecciones por P. Vivas (2da línea)""",
@@ -1180,9 +1368,11 @@ medicine_super_list = [
         • El plasmodium muere de hambre""",
         "vias de administración": """• Via Oral
         • Via Parenteral
-        • Via Rectal""",
+        • Via Rectal
+        • Via intravenosa
+        • Via Intramuscular""",
         "metabolismo": "Hepático con metabolitos inactivos",
-        "excrecion": "Renal",
+        "excrecion": "A nivel renal",
         "efectos Secundarios":"""• Elevación de las enzimas hepaticas
         • Nauseas
         • Vomito
@@ -1208,7 +1398,9 @@ medicine_super_list = [
         "familia": """• Artemisia amia 
         • síntesis química""",
         "presentaciones": """Se administra Artemeter + Lumefantrine:
-        • 20mg + 120mg Tabletas""",
+        • 20mg + 120mg Tabletas
+        • 40mg + 3200mg Tabletas
+        • 80mg + 480mg Tabletas""",
         "indicaciones": """• Infecciones complicadas por falciparum o vivax en asocio con doxicilina + clindamicina
         • Infecciones por falciparum no complicados (1ra línea)
         • Infecciones por P. Vivas (2da línea)""",
@@ -1245,11 +1437,14 @@ medicine_super_list = [
     {
         "medicamento": "Primaquina",
         "familia": "Se deriva del azul de metileno por síntesis química",
-        "presentaciones": """• 5 mg y 15 mg Tabletas
-        • 5 mg y 15 mg Capsulas""",
+        "presentaciones": """• 5 mg Tabletas
+        • 15 mg Tabletas
+        • 100 mg Tabletas
+        • 5 mg Capsulas
+        • 15 mg Capsulas""",
         "indicaciones": """• Cura radical contra el paludismo
         • Es menos utilcontra gametocitos del P. Falciparum en cortar la cadena de transmisión""",
-        "mecanismo de accion": "Afecta el DNA y procesos de transcripción usado en exoeritrocitaria",
+        "mecanismo de accion": "Afecta el DNA y procesos de transcripción usado en exo-eritrocitaria",
         "vias de administración": """• Via Oral
         • Via Parenteral""",
         "metabolismo": "Luego de destruir esquizonte tisulares, se metaboliza en hígado",
@@ -1263,16 +1458,21 @@ medicine_super_list = [
         "contraindicaciones": """• Deficiencia de 6GDP
         • Mujeres en estado de embarazo
         • Nauseas en iños menores a 2 años""",
-        "posologia": """• Adultos: 30 mg cada 12 horas
-        • Niños mayores de 1 año: 0,25 mg / kg cada dia"""
+        "posologia": """Niños mayores de 1 año: 
+        • 0,25 mg / kg cada dia
+        
+        Adultos: 
+        • 30 mg cada 12 horas"""
     },
     {
         "medicamento": "Metronidazol",
         "familia": "Derivado del antibiótico “Azomicina”",
-        "presentaciones": """• 250 mg y 500 mg Tabletas
+        "presentaciones": """• 250 mg Tabletas
+        • 500 mg Tabletas
         • 500 mg Ampolla para inyectar
         • 500mg Ovulo
-        • 125 mg y 250 mg Jarabe""",
+        • 125 mg Jarabe
+        • 250 mg Jarabe""",
         "indicaciones": """• Infecciones parasitarias
         • Amibiasis intestinal
         • Tricomoniasis (Metronidazol en ovulos y Tabletas)
@@ -1280,10 +1480,11 @@ medicine_super_list = [
         "mecanismo de accion": """Todos donan sus componentes nitrogenados y este al unirse con el oxigeno da:
         • Peróxido Nítrico (ONOO)
         • Oxido Nítrico (NO)
+        
         Esto es altamente caustico y va a dañar el ADN del parasito""",
         "vias de administración": """• Via Oral
         • Via Parenteral
-        • Via Vaginal""",
+        • Via Intravaginal""",
         "metabolismo": "Escaso, por hígado en un 20%",
         "excrecion": """• Mediante heces fecales un 20%
         • 80% restante renal en forma activa""",
@@ -1292,20 +1493,25 @@ medicine_super_list = [
         • Vomito
         • Mareo
         • Vertigo
+        
         Estas 2 ultimas son muy raras, si las presenta se debe suspender el medicamento INMEDIATAMENTE""",
         "contraindicaciones": """• Pacientes con enfermedades del sistema nervioso central
         • Discrasias sanguineas
         • Mujeres embarazadas
         • Mujeres en periodo de lactancia""",
         "precaución": "No consumir alcohol durante el tratamiento y hasta 3 días después de finalizado",
-        "posologia": """• Adultos: 500 mg tabletas via oral 1 tableta cada 12 horas
-        15 mg/kg Intravenosa inicialmente, 7.5 mg/kg (normalmente 500mg) cada 8 horas, deben infundirse en 1 hora
-        • Niños: 35 mg - 50 mg/kg/3 dar una dosis cada 8 horas"""
+        "posologia": """Niños: 
+        • 35 mg - 50 mg/kg/3 dar una dosis cada 8 horas
+        
+        Adultos: 
+        • 500 mg tabletas via oral 1 tableta cada 12 horas
+        • 15 mg/kg Intravenosa inicialmente, 7.5 mg/kg (normalmente 500mg) cada 8 horas, deben infundirse en 1 hora"""
     },
     {
         "medicamento": "Teclozan",
         "familia": "Sintesis quimica”",
-        "presentaciones": "500 mg Tabletas",
+        "presentaciones": """• 500 mg Tabletas
+        • 50 mg / 5 mL suspencion oral""",
         "indicaciones": "Es usado solo en el tratamiento de amibiasis intraluminal intestinal",
         "mecanismo de accion": "Es desconocido, solo se sabe que donde hay dicloroacetamidos no hay parasitos",
         "vias de administración": "Via Oral",
@@ -1315,7 +1521,18 @@ medicine_super_list = [
         • Nauseas
         • Flatulencias""",
         "contraindicaciones": "No se recomienda el uso en niños",
-        "posologia": "• Adultos: 500 mg, una tableta cada 12 horas"
+        "posologia": """Niños de 1 a 3 años:
+        • Media cucharada (2,5 mL) suspención oral cada 8 horas durante 5 dias
+        
+        Niños de 4 a 8 años:
+        • 1 cucharada (5 mL) suspención oral cada 8 horas durante 5 dias
+        
+        Niños mayores de 8 años:
+        • 2 cucharada (10 mL) suspención oral cada 8 horas durante 5 dias
+        
+        Adultos: 
+        • 500 mg, una tableta cada 12 horas
+        Dosis maxima de 1500 mg / dia"""
     },
     {
         "medicamento": "Tinidazol",
