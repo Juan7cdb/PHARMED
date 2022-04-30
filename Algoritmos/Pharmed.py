@@ -1014,13 +1014,13 @@ medicine_super_list = [
         • Lactante en población pediátrica
         • Antecedentes severos de alergia en la piel
         • Reacciones alérgicas""",
-        "posologia": """Adultos: 
-        • 250-500 mg cada 12 horas durante 7 a 14 días
-        
-        Niños: 
+        "posologia": """Niños: 
         • 20-30 mg/kg/día divididos en dos dosis cada 12 horas dependiendo de la gravedad de infección. 
         
-        Las dosis máximas son de 1,5 g por día"""
+        Las dosis máximas son de 1,5 g por día
+        
+        Adultos: 
+        • 250-500 mg cada 12 horas durante 7 a 14 días"""
     },
     {
         "medicamento": "Norfloxacina",
@@ -1077,11 +1077,11 @@ medicine_super_list = [
         • Lactante en población pediátrica
         • Antecedentes severos de alergia en la piel
         • Alteraciones y enfermedades hepaticas""",
-        "posologia": """Adultos: 
-        • isoniazida 5 mg/kg/dia (hasta un máximo de 300 mg/dia)
+        "posologia": """Niños: 
+        • 10—15 mg/kg una vez al día (hasta un máximo de 300 mg) tratamiento maximo por 6 meses
         
-        Niños: 
-        • 10—15 mg/kg una vez al día (hasta un máximo de 300 mg) tratamiento maximo por 6 meses"""
+        Adultos: 
+        • isoniazida 5 mg/kg/dia (hasta un máximo de 300 mg/dia)"""
     },
     {
         "medicamento": "Rifampicina",
@@ -1106,12 +1106,12 @@ medicine_super_list = [
         • Pacientes con hipersensibilidad a las rifamicinas
         • Pacientes con enfermedad hepática activa
         • En combinación con la asociación saquinavir/ritonavir""",
-        "posologia": """Adultos: 
-        • 10 mg/kg/día
-        • Sin superar los 600 mg/día, en una sola toma
+        "posologia": """Niños mayores de 3 años: 
+        • 15 mg/Kg día
         
-        Niños mayores de 3 años: 
-        • 15 mg/Kg día"""
+        Adultos: 
+        • 10 mg/kg/día
+        • Sin superar los 600 mg/día, en una sola toma"""
     },
     {
         "medicamento": "Etambutol",
@@ -1128,11 +1128,11 @@ medicine_super_list = [
         • Disminución de la agudeza visual""",
         "contraindicaciones": """• Mujeres en estado de embarazo
         • Lactante en población pediátrica""",
-        "posologia": """Adultos: 
-        • 15 - 25 mg/kg/dia cada 24 horas via oral
+        "posologia": """Niños mayores de 3 años: 
+        • 2.5 mg una dosis al día
         
-        Niños mayores de 3 años: 
-        • 2.5 mg una dosis al día"""
+        Adultos: 
+        • 15 - 25 mg/kg/dia cada 24 horas via oral"""
     },
     {
         "medicamento": "Pirazinamida",
@@ -1194,11 +1194,11 @@ medicine_super_list = [
         • Alteración de gastrointestinales leves""",
         "contraindicaciones": """• Mujeres en estado de embarazo
         • Lactante en población pediátrica""",
-        "posologia": """Adultos: 
-        • 50 mg -1 00 mg/día vía oral
+        "posologia": """Niños: 
+        • 1 mg - 1,5 mg/Kg/día vía oral
         
-        Niños: 
-        • 1 mg - 1,5 mg/Kg/día vía oral"""
+        Adultos: 
+        • 50 mg -1 00 mg/día vía oral"""
     },
     {
         "medicamento": "Clofazimina",
@@ -1253,23 +1253,23 @@ medicine_super_list = [
         • Ototoxicidad""",
         "contraindicaciones": """• Mujeres en estado de embarazo
         • NO utilizar en menores de 5 años, por vía parenteral por efecto cardiodepresor severo""",
-        "posologia": """Adultos: 
-        • Profilaxis de malaria: 500 mg vía oral 1 vez por semana
-        • Tratamiento de la malaria: Comenzar con 1 g, seguir con 500 mg a las 6 horas y con 500 mg 1 vez al día el segundo y tercer días
-        • Amebiasis extraintestinal: 1 g al día durante 2 días, seguidos de 500 mg al día durante 2-3 semanas como mínimo
-        • Artritis reumatoide, lupus eritematoso: 250 mg cada 24 horas por 4 meses
-        
-        Niños > 45 Kg: 
-        • 250 mg de mefloquina
-        
-        Niños entre 15-19 Kg: 
+        "posologia": """Niños entre 15-19 Kg: 
         • 1/4 de la dosis de adultos
         
         Niños entre 20-30 Kg: 
         • 1/2 de la dosis de adultos
         
         Niños entre 31-45 Kg: 
-        • 3/4 de la dosis de adultos"""
+        • 3/4 de la dosis de adultos
+        
+        Niños > 45 Kg: 
+        • 250 mg de mefloquina
+        
+        Adultos: 
+        • Profilaxis de malaria: 500 mg vía oral 1 vez por semana
+        • Tratamiento de la malaria: Comenzar con 1 g, seguir con 500 mg a las 6 horas y con 500 mg 1 vez al día el segundo y tercer días
+        • Amebiasis extraintestinal: 1 g al día durante 2 días, seguidos de 500 mg al día durante 2-3 semanas como mínimo
+        • Artritis reumatoide, lupus eritematoso: 250 mg cada 24 horas por 4 meses"""
     },
     {
         "medicamento": "Quinina",
@@ -1342,17 +1342,17 @@ medicine_super_list = [
         • Hemoglobinuria""",
         "contraindicaciones": """• Mujeres en estado de embarazo
         • SOLO utiliar en pacientes hospitalizados""",
-        "posologia": """Adultos: 
-        • 10-15 mg/kg (dosis máxima 750 mg) entre 6 a 8 horas cada una
-        
-        Niños con peso entre 20-30 kg: 
+        "posologia": """Niños con peso entre 20-30 kg: 
         • 1/2 comprimido (125 mg) 1 vez a la semana
         
         Niños con peso entre 30-45 kg: 
         • 3/4 comprimido (187,5 mg) 1 vez a la semana
         
         Niños con peso entre >45 kg: 
-        • 1 comprimido (250 mg) 1 vez a la semana"""
+        • 1 comprimido (250 mg) 1 vez a la semana
+        
+        Adultos: 
+        • 10-15 mg/kg (dosis máxima 750 mg) entre 6 a 8 horas cada una"""
     },
     {
         "medicamento": "Artesunato",
@@ -1538,7 +1538,8 @@ medicine_super_list = [
         "medicamento": "Tinidazol",
         "familia": "Derivado del antibiótico “Azomicina”",
         "presentaciones": """• 500 mg Tabletas
-        • 1 g Jarabe""",
+        • 1 g Tabletas
+        • 10 mL (1 g / 5 mL) Jarabe""",
         "indicaciones": """• Infecciones parasitarias
         • Amibiasis intestinal
         • Tricomoniasis (Metronidazol en ovulos y Tabletas)
@@ -1546,10 +1547,11 @@ medicine_super_list = [
         "mecanismo de accion": """Todos donan sus componentes nitrogenados y este al unirse con el oxigeno da:
         • Peróxido Nítrico (ONOO)
         • Oxido Nítrico (NO)
+        
         Esto es altamente caustico y va a dañar el ADN del parasito""",
         "vias de administración": """• Via Oral
         • Via Parenteral
-        • Via Vaginal""",
+        • Via Intravaginal""",
         "metabolismo": "Escaso, por hígado en un 20%",
         "excrecion": """• Mediante heces fecales un 20%
         • 80% restante renal en forma activa""",
@@ -1558,15 +1560,19 @@ medicine_super_list = [
         • Vomito
         • Mareo
         • Vertigo
+        
         Estas 2 ultimas son muy raras, si las presenta se debe suspender el medicamento INMEDIATAMENTE""",
         "contraindicaciones": """• Pacientes con enfermedades del sistema nervioso central
         • Discrasias sanguineas
         • Mujeres embarazadas
         • Mujeres en periodo de lactancia""",
         "precaución": "No consumir alcohol durante el tratamiento y hasta 3 días después de finalizado",
-        "posologia": """• Adultos: 50 mg - 60 mg/kg/3 (maximo 2g) una dosis cada 8 horas
-        15 mg/kg Intravenosa inicialmente, 7.5 mg/kg (normalmente 500mg) cada 8 horas, deben infundirse en 1 hora
-        • Niños: Dosis inicial de 2 g y luego se administra 1 g según requiera el tratamiento"""
+        "posologia": """Niños: 
+        • Dosis inicial de 2 g y luego se administra 1 g según requiera el tratamiento
+        
+        Adultos: 
+        • 50 mg - 60 mg/kg/3 (maximo 2g) una dosis cada 8 horas
+        • 15 mg/kg Intravenosa inicialmente, 7.5 mg/kg (normalmente 500mg) cada 8 horas, deben infundirse en 1 hora"""
     },
     {
         "medicamento": "Pirimetamina",
@@ -1585,12 +1591,17 @@ medicine_super_list = [
         • Anemia macrocitica
         • Anemia ferropenica""",
         "contraindicaciones": "No se recomienda el uso en niños",
-        "posologia": """• Adultos y niños mayores de 10 años: 25 mg 1 tableta al dia
-        • Niños entre 10 y 20 kgs: 12.5 mg una tableta diaria
-        • Niños < 10 kg: 6.25 mg una tableta diaria"""
+        "posologia": """Niños < 10 kg: 
+        • 6.25 mg una tableta diaria
+        
+        Niños entre 10 y 20 kgs: 
+        •12.5 mg una tableta diaria
+        
+        Niños mayores de 10 años y adultos: 
+        • 25 mg 1 tableta al dia"""
     },
     {
-        "medicamento": "Pentostan",
+        "medicamento": "Pentostam",
         "Tambien conocido como": "Estiboglucanato sodico",
         "familia": """• Síntesis química
         • Se deriva de tartratos""",
@@ -1600,7 +1611,7 @@ medicine_super_list = [
         • Leshmaniasis visceral""",
         "mecanismo de accion": """• Es una AM pentavalente (es un pro fármaco)
         • Ingresa al fagolisosoma y libera formas toxicas de amonio que destruye los amastigotes dentro del macrófago y se concentra en este""",
-        "vias de administración": "Via Intra Muscular",
+        "vias de administración": "Via Intramuscular",
         "metabolismo": "No se conoce si posee metabolismo",
         "excrecion": "Renal en varias fases tras su liberción en los tejidos",
         "efectos Secundarios":"""• Puede presentar dolor en el area de la inyección
@@ -1614,21 +1625,26 @@ medicine_super_list = [
         "contraindicaciones": """• Mujeres embarazadas
         • Pacientes con enfermedad renal grave
         • Pacientes con enfermedades cardiacas""",
-        "posologia": """• Adultos: 20 mg/kg/día
-        • Niños: 20 mg/kg/día"""
+        "posologia": """Niños: 
+        • 20 mg/kg/día
+        
+        Adultos: 
+        • 20 mg/kg/día"""
     },
     {
         "medicamento": "Miltefosina",
         "familia": """• Síntesis química
         • Se deriva de tartratos""",
         "presentaciones": """• 50 mg Tabletas
-        • 6g / 100 ml Jarabe""",
+        • 6g / 100 ml Jarabe
+        • 20 mg / mL ampolla de 5 mL""",
         "indicaciones": """• Leshmaniasis cutánea
         • Leshmaniasis mucosa
         • Leshmaniasis visceral""",
         "mecanismo de accion": """• Es una AM pentavalente (es un pro fármaco)
         • Ingresa al fagolisosoma y libera formas toxicas de amonio que destruye los amastigotes dentro del macrófago y se concentra en este""",
-        "vias de administración": "Via Intra Muscular",
+        "vias de administración": """• Via oral
+        • Via Intra Muscular""",
         "metabolismo": "No se conoce si posee metabolismo",
         "excrecion": "Renal en varias fases tras su liberción en los tejidos",
         "efectos Secundarios":"""• Puede presentar dolor en el area de la inyección
@@ -1642,12 +1658,20 @@ medicine_super_list = [
         "contraindicaciones": """• Mujeres embarazadas
         • Pacientes con enfermedad renal grave
         • Pacientes con enfermedades cardiacas""",
-        "posologia": """• Adultos: Dosis de 100 a 150 mg/día durante 28 días, con un porcentaje de curaciones del 98%
-        • Niños: Dosis de 2.5 mg/kg durante 28 días con un porcentaje de curaciones del 94%"""
+        "posologia": """Niños: 
+        • 2.5 mg/kg durante 28 días con un porcentaje de curaciones del 94%
+        
+        Adultos:
+        • 100 a 150 mg/día durante 28 días, con un porcentaje de curaciones del 98%"""
     },
     {
         "medicamento": "Mebendazol",
-        "presentaciones": "• 100 mg Tabletas",
+        "presentaciones": """• 100 mg Tabletas
+        • 500 mg Tabletas
+        • 100 mg / 5 mL jarabe
+        
+        Tinidazol + Mebendazol:
+        • 300 mg + 60 mg Tabletas""",
         "indicaciones": """• Ascaridiasis
         • Anquilostomiasis
         • Estrongirloidiasis 
@@ -1667,13 +1691,18 @@ medicine_super_list = [
         "contraindicaciones": """• Son seguros terapeuticamente
         • Se puede dar a mujeres embarazadas durante el 2do y 3er trimestre
         • En niños se da después de 1 año de edad""",
-        "posologia": """• Adultos: 100 mg vía oral en una sola dosis
-        • Niños: 100 mg vía oral en una sola dosis"""
+        "posologia": """Niños: 
+        • 100 mg vía oral en una sola dosis
+        
+        Adultos: 
+        • 100 mg vía oral en una sola dosis"""
     },
     {
         "medicamento": "Albendazol",
         "presentaciones": """• 200 mg Tabletas
-        • 100 mg / 5 ml Jarabe""",
+        • 20 mg / ml Jarabe
+        • 100 mg / 5 ml Jarabe
+        • 400 mg / 20 ml Jarabe""",
         "indicaciones": """• Ascaridiasis
         • Anquilostomiasis
         • Estrongirloidiasis 
@@ -1693,8 +1722,11 @@ medicine_super_list = [
         "contraindicaciones": """• Son seguros terapeuticamente
         • Se puede dar a mujeres embarazadas durante el 2do y 3er trimestre
         • En niños se da después de 1 año de edad""",
-        "posologia": """• Adultos y niños mayores de 2 años: 400 mg dosis unica durante 7 dias
-        • Niños menores de 2 años: 200 mg dosis unica durante 7 dias"""
+        "posologia": """Niños menores de 2 años: 
+        • 200 mg dosis unica durante 7 dias
+        
+        Adultos y niños mayores de 2 años: 
+        • 400 mg dosis unica durante 7 dias"""
     },
     {
         "medicamento": "Praziquantel",
@@ -1714,9 +1746,14 @@ medicine_super_list = [
         • Cefalea""",
         "contraindicaciones": """• NO dar a mujeres embarazadas
         • Se da en niños menores de 7 años""",
-        "posologia": """• Adultos: 40 mg/Kg vía oral como dosis única
-        • Adultos: en infestaciones parasitarias más graves 60 mg/Kg en 3 dosis divididas en intervalos de 4-6 horas
-        • Niños mayores de 4 años: Mismas indicaciones que en adultos"""
+        "posologia": """Niños mayores de 4 años: 
+        • 40 mg/Kg vía oral como dosis única
+        
+        Adultos: 
+        • 40 mg/Kg vía oral como dosis única
+        
+        Adultos: 
+        • En infestaciones parasitarias más graves 60 mg/Kg en 3 dosis divididas en intervalos de 4-6 horas"""
     },
     {
         "medicamento": "Pamoato de pirantel",
@@ -1738,16 +1775,22 @@ medicine_super_list = [
         • Vomito ocasionalmente
         • Cefalea
         • Vertigo
-        Enrrojecimiento de la piel ocasionalmente""",
+        • Enrrojecimiento de la piel ocasionalmente""",
         "contraindicaciones": """• NO dar a mujeres embarazadas
         • Solo administrar en niños mayores de 6 meses""",
-        "posologia": """• Adultos: 10 mg/kg/día 
-        • Niños mayores de 12 años: 10 mg/kg/día dosis maxima de 1g dia"""
+        "posologia": """Niños mayores de 12 años: 
+        • 10 mg/kg/día dosis maxima de 1g dia
+        
+        Adultos: 
+        • 10 mg/kg/día"""
     },
     {
         "medicamento": "Ivermectina",
         "presentaciones": """• 250 mg Tabletas
-        • 250 mg / 5 ml Jarabe""",
+        • 6 mg capsulas comprimidas
+        • 250 mg / 5 ml Jarabe
+        • 1% en 500 mL solución oral
+        • 0,6% solución oral gotas""",
         "indicaciones": """• Estringiloidosis
         • Escabiosis
         • Pediculosis
@@ -1772,30 +1815,35 @@ medicine_super_list = [
         • calcular correctamente con la tabla peso y dosis
         • No se debe administrar en mujeres embarazadas o lactantes
         • No se debe administrar en niños menores de 5 años""",
-        "posologia": "Adultos: 200 µ/kg dosis única"
+        "posologia": """Adultos: 
+        • 200 µ/kg dosis única"""
     },
     {
         "medicamento": "Piperazina",
-        "presentaciones": "• 1 mg Jarabe",
-        "indicaciones": """• Primera elección en pacientes con obstruccón por ascaridiasis.
-        • Enterobiasis (Oxiurasis).""",
-        "mecanismo de accion": """• Produce parálisis flácida por estimulo de los receptores GABA.
-        • El fármaco también es a fin de los receptores GABA del paciente.""",
+        "presentaciones": """• 500 mg / 5 mL jarabe de 120 mL
+        • 1 g Jarabe""",
+        "indicaciones": """• Primera elección en pacientes con obstruccón por ascaridiasis
+        • Enterobiasis (Oxiurasis)""",
+        "mecanismo de accion": """• Produce parálisis flácida por estimulo de los receptores GABA
+        • El fármaco también es a fin de los receptores GABA del paciente""",
         "vias de administración": "Via oral",
-        "metabolismo": "El 25% del fármaco posee metabolismo hepático.",
-        "excrecion": "Excresión del 75% a nivel renal.",
-        "efectos Secundarios":"""• límite entre dosis terapéutica y dosis tóxica es muy estrecho.
-        Se debe calcular correctamente con la tabla peso y dosis.
+        "metabolismo": "El 25% del fármaco posee metabolismo hepático",
+        "excrecion": "Excresión del 75% a nivel renal",
+        "efectos Secundarios":"""• límite entre dosis terapéutica y dosis tóxica es muy estrecho
+        Se debe calcular correctamente con la tabla peso y dosis
 
-        • Reacciones leves gastrointestinales.
-        • Ataxia.
-        • Incoordinación muscular.
-        • Vértigo.
-        Enrrojecimiento de la piel ocasionalmente""",
+        • Reacciones leves gastrointestinales
+        • Ataxia
+        • Incoordinación muscular
+        • Vértigo
+        • Enrrojecimiento de la piel ocasionalmente""",
         "contraindicaciones": """• NO dar a mujeres embarazadas
-        • Pcientes con falla renal.""",
-        "posologia": """• Adultos: 100 mg/kg/día dosis maxima de 3.5g día.
-        • Niños mayores de 12 años: 75 mg/kg/día dosis maxima de 3.5g día"""
+        • Pcientes con falla renal""",
+        "posologia": """Niños mayores de 12 años: 
+        • 75 mg/kg/día dosis maxima de 3.5g día
+        
+        Adultos: 
+        • 100 mg/kg/día dosis maxima de 3.5g día"""
     },
     {
         "medicamento": "Aciclovir",
