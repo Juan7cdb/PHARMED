@@ -1847,217 +1847,265 @@ medicine_super_list = [
     },
     {
         "medicamento": "Aciclovir",
-        "familia": """• Análogos de nucleosidos o análogos de las polimeras.
-        • Antiviral""",
-        "presentaciones": """• 200 mg Tabletas.
-        • 250 mg polvo esteril para inyectar.
-        3% unguento oftalmico.""",
-        "indicaciones": """• Herpes simple genital primario.
-        • Herpes labial en pacientes inmunosuprimidos.
-        • Herpes zoster en pacientes inmuncomprometidos (diabetes,linfomas,etc) 4)Gingivoestomatitis herpética en niños (encías,lengua,mejillas).
-        • Varicela en pacientes inmunocomprometidos.""",
-        "mecanismo de accion": "Inhibe la sintesis de ADN polimerasa o ARN polimerasa.",
-        "vias de administración": """• Via Oral.
-        • Intramuscular.
-        • Intravenosa.""",
+        "familia": """• Antiviral
+        • Análogos de nucleosidos o análogos de las polimeras""",
+        "presentaciones": """• 200 mg Tabletas
+        • 400 mg Tabletas
+        • 800 mg Tabletas
+        • 250 mg polvo esteril para inyectar
+        • 5% unguento oftalmico
+        • 100 mg / 5 mL suspención oral""",
+        "indicaciones": """• Herpes simple genital primario
+        • Herpes labial en pacientes inmunosuprimidos
+        • Herpes zoster en pacientes inmuncomprometidos (diabetes,linfomas,etc) 4)Gingivoestomatitis herpética en niños (encías,lengua,mejillas)
+        • Varicela en pacientes inmunocomprometidos""",
+        "mecanismo de accion": "Inhibe la sintesis de ADN polimerasa o ARN polimerasa",
+        "vias de administración": """• Via Oral
+        • Via topica
+        • Intramuscular
+        • Intravenosa""",
         "metabolismo": "No posee metabolismo",
-        "excrecion": "Actividad glomerular o tubular renal.",
-        "efectos Secundarios":"""• Flebitis.
-        • Lesión renal.
-        • Neurotoxicidad.
-        • Cefalea.
-        • Confusión.""",
-        "contraindicaciones": """• Mujeres en estado de embarazo.
-        • Lactante en población pediátrica.
-        • Pacientes con enfermedades renales.""",
-        "posologia": """• Niños entre 13 meses a 11 años: 750mg/kg/ 3 dosis IV.
-        •20mg/kg/4 dosis via oral dosis maxima de 800mg  
-        • Adultos: 5-10 mg/Kg/día IV.
-        • Adultos: 200-400 mg/kg/3 veces al dia."""
+        "excrecion": "Actividad glomerular o tubular renal",
+        "efectos Secundarios":"""• Flebitis
+        • Lesión renal
+        • Neurotoxicidad
+        • Cefalea
+        • Confusión""",
+        "contraindicaciones": """• Mujeres en estado de embarazo
+        • Lactante en población pediátrica
+        • Pacientes con enfermedades renales""",
+        "posologia": """Niños entre 13 meses a 11 años: 
+        • 750mg/kg/ 3 dosis IV
+        • 20mg/kg/4 dosis via oral dosis maxima de 800mg  
+        
+        Adultos: 
+        • 5-10 mg/Kg/día IV
+        
+        Adultos: 
+        • 200-400 mg/kg/3 veces al dia"""
     },
     {
         "medicamento": "Ganciclovir",
-        "familia": """• Análogos de nucleosidos o análogos de las polimeras.
-        • Antiviral""",
-        "presentaciones": """• 250 mg Tabletas.
-        • 500 mg polvo esteril para inyectar.""",
-        "indicaciones": """• Retinitis por citomegalovirus.
-        • Infeccion por citomegalovirus en otros órganos (pacientes inmunocomprometidos-VIH).
-        • Prevencion de infección por Citomegalovirus en pacientes transplantados.""",
-        "mecanismo de accion": "Inhibe la sintesis de ADN polimerasa o ARN polimerasa.",
-        "vias de administración": """• Via Oral.
-        • Intramuscular.
-        • Intravenosa.""",
+        "familia": """• Antiviral
+        • Análogos de nucleosidos o análogos de las polimeras""",
+        "presentaciones": """• 250 mg Tabletas
+        • 500 mg polvo esteril para inyectar""",
+        "indicaciones": """• Retinitis por citomegalovirus
+        • Infeccion por citomegalovirus en otros órganos (pacientes inmunocomprometidos-VIH)
+        • Prevencion de infección por Citomegalovirus en pacientes transplantados""",
+        "mecanismo de accion": "Inhibe la sintesis de ADN polimerasa o ARN polimerasa",
+        "vias de administración": """• Via Oral
+        • Intramuscular
+        • Intravenosa""",
         "metabolismo": "No posee metabolismo",
-        "excrecion": "Actividad glomerular o tubular renal.",
-        "efectos Secundarios":"""• Mielosupresión.
-        • Neurotoxicidad.""",
-        "contraindicaciones": """• Mujeres en estado de embarazo.
-        • Lactante en población pediátrica.
-        • Pacientes con enfermedades renales.""",
-        "posologia": """• Adultos: 5 mg/Kg/2 veces al día via intravenosa.
-        • Adultos: 5 mg/Kg/dia via oral."""
+        "excrecion": "Actividad glomerular o tubular renal",
+        "efectos Secundarios":"""• Mielosupresión
+        • Neurotoxicidad""",
+        "contraindicaciones": """• Mujeres en estado de embarazo
+        • Lactante en población pediátrica
+        • Pacientes con enfermedades renales""",
+        "posologia": """Adultos:
+        • 5 mg/Kg/2 veces al día via intravenosa
+        • 5 mg/Kg/dia via oral"""
     },
     {
         "medicamento": "Valaciclovir",
-        "familia": """• Análogos de nucleosidos o análogos de las polimeras.
-        • Antiviral""",
-        "presentaciones": "• 1 g Tabletas.",
-        "indicaciones": """• Infecciones por virus de varicela zoster y herpes zoster.
-        • Infecciones por virus de herpes simple.
-        •Infecciones por citomegalovirus.""",
-        "mecanismo de accion": "Inhibe la sintesis de ADN polimerasa o ARN polimerasa.",
-        "vias de administración": "• Via Oral.",
+        "familia": """• Antiviral
+        • Análogos de nucleosidos o análogos de las polimeras""",
+        "presentaciones": """• 500 mg Tabletas
+        • 1 g Tabletas""",
+        "indicaciones": """• Infecciones por virus de varicela zoster y herpes zoster
+        • Infecciones por virus de herpes simple
+        •Infecciones por citomegalovirus""",
+        "mecanismo de accion": "Inhibe la sintesis de ADN polimerasa o ARN polimerasa",
+        "vias de administración": "• Via Oral",
         "metabolismo": "No posee metabolismo",
-        "excrecion": "Actividad glomerular o tubular renal.",
-        "efectos Secundarios":"""• Mielosupresión.
-        • Neurotoxicidad.""",
-        "contraindicaciones": """• Mujeres en estado de embarazo.
-        • Pacientes con hipersensibilidad a este farmaco y el aciclovir.
-        • Pacientes con enfermedades renales.""",
-        "posologia": "• Adultos: 500 mg - 1000 mg/kg/2 veces al dia."
+        "excrecion": "Actividad glomerular o tubular renal",
+        "efectos Secundarios":"""• Mielosupresión
+        • Neurotoxicidad""",
+        "contraindicaciones": """• Mujeres en estado de embarazo
+        • Pacientes con hipersensibilidad a este farmaco y el aciclovir
+        • Pacientes con enfermedades renales""",
+        "posologia": """Adultos:  
+        • 500 mg - 1000 mg/kg/ cada 12 horas"""
     },
     {
         "medicamento": "Foscarnet",
-        "familia": """• Análogos de los pirofosfatos.
-        • Antiviral""",
-        "presentaciones": "• 250 mg polvo esteril para inyectar.",
-        "indicaciones": """• Retinitis por citomegalovirus.
-        • Infeccion por citomegalovirus en otros órganos (pacientes inmunocomprometidos-VIH).
-        • Infecciones por virus Herpes Simplex y Varicela Zoster cuando existe resistencia a aciclovir.""",
-        "mecanismo de accion": "Bloquea la síntesis de DNA polimerasa.",
-        "vias de administración": """• Intramuscular.
-        • Intravenosa.""",
+        "familia": """• Antiviral
+        • Análogos de los pirofosfatos""",
+        "presentaciones": """• 24 mg / ml solucion inyectable
+        • 250 mg polvo esteril para inyectar""",
+        "indicaciones": """• Retinitis por citomegalovirus
+        • Infeccion por citomegalovirus en otros órganos (pacientes inmunocomprometidos-VIH)
+        • Infecciones por virus Herpes Simplex y Varicela Zoster cuando existe resistencia a aciclovir""",
+        "mecanismo de accion": "Bloquea la síntesis de DNA polimerasa",
+        "vias de administración": """• Intramuscular
+        • Intravenosa""",
         "metabolismo": "No posee metabolismo",
-        "excrecion": "Actividad glomerular o tubular renal.",
-        "efectos Secundarios":"""• Nefrotoxicidad.
-        • Neurotoxicidad.
-        • Fiebre.
-        • Nauseas.
-        • Anemia.
-        • Diarrea.
-        • Vomito.
-        • Cefalea.""",
-        "contraindicaciones": """• Mujeres en estado de embarazo.
-        • Lactante en población pediátrica.
-        • Pacientes con enfermedades renales.""",
-        "posologia": """• Niños entre 13 meses a 11 años: 750mg/kg/ 3 dosis IV.
-        •20mg/kg/4 dosis via oral dosis maxima de 800mg  
-        • Adultos: 60 mg/Kg/3 veces al día vía IV.
-        • Adultos: 90-120 mg/Kg/día vía IV."""
+        "excrecion": "Actividad glomerular o tubular renal",
+        "efectos Secundarios":"""• Nefrotoxicidad
+        • Neurotoxicidad
+        • Fiebre
+        • Nauseas
+        • Anemia
+        • Diarrea
+        • Vomito
+        • Cefalea""",
+        "contraindicaciones": """• Mujeres en estado de embarazo
+        • Lactante en población pediátrica
+        • Pacientes con enfermedades renales""",
+        "posologia": """Niños entre 13 meses a 11 años: 
+        • 50mg/kg/ cada 8 horas IntraVenosa
+        • 20mg/kg/ cada 6 horas via oral, dosis maxima de 800mg  
+        
+        Adultos: 
+        • 60 mg/Kg/ cada 8 horas vía IntraVenosa
+        • 90-120 mg/Kg/día vía IntraVenosa"""
     },
     {
         "medicamento": "Amantadina",
-        "familia": "Aminas triciclicas.",
-        "presentaciones": "• 100 mg Tabletas",
+        "familia": "Aminas triciclicas",
+        "presentaciones": """• 100 mg Tabletas
+        • 50 mg Capsulas
+        • 100 mg Capsulas
+        • 25 mg / 5 mL Jarabe
+        • 50 mg / 5 mL Jarabe
+        • 25 mg / mL Solución inyectable""",
         "indicaciones": """• Previene y tratamiento de infecciones por virus de la influenza A de los subgrupos:
-        - H1N1.
-        - H2N2.
-        - H3N3.
-        • Infecciones por Hepatitis C se debe admionistrar por 6 meses y disminuye la carga viral.""",
-        "mecanismo de accion": "Inhibidor de la atividad ARN.",
-        "vias de administración": "Via oral.",
+        - H1N1
+        - H2N2
+        - H3N3
+        
+        • Infecciones por Hepatitis C se debe admionistrar por 6 meses y disminuye la carga viral""",
+        "mecanismo de accion": "Inhibidor de la atividad ARN",
+        "vias de administración": """• Via oral
+        • Via intramuscular
+        • Via intravenosa""",
         "metabolismo": "Insignificante por higado",
-        "excrecion": """• Renal.
-        • Pacientes con falla renal se debe disminuir la dosis.""",
-        "efectos Secundarios":"""• Ansiedad.
-        • Insomnio.
-        • Dificultad para concentrarse.
-        • Nauseas.
-        • Mareo.
-        • Anorexia.""",
-        "contraindicaciones": """• Mujeres en estado de embarazo.
-        • Lactante en población pediátrica.
-        • Pacientes con enfermedades renales.""",
-        "posologia": """• 100 mg tabetas por 2 veces al dia sin superar la dosis de 200 mg/dia.
+        "excrecion": """• Renal
+        • Pacientes con falla renal se debe disminuir la dosis""",
+        "efectos Secundarios":"""• Ansiedad
+        • Insomnio
+        • Dificultad para concentrarse
+        • Nauseas
+        • Mareo
+        • Anorexia""",
+        "contraindicaciones": """• Mujeres en estado de embarazo
+        • Lactante en población pediátrica
+        • Pacientes con enfermedades renales""",
+        "posologia": """• 100 mg tabletas por 2 veces al dia sin superar la dosis de 200 mg/dia
+        
         Se debe modificar la posologia según el indice de filtración gromerular del paciente:
-        • IFG entre 80 - 60: tb 100 mg / diaria durante dias alternos.
-        • IFG entre 60 - 50: tb 100 mg / diario.
-        • IFG entre 50 - 30: 2 tb 100 mg / 2 veces a la semana.
-        • IFG entre 30 - 20: tb 100 mg / 3 veces por semana.
-        • IFG entre 20 - 10: tb 100 mg / 2 veces al dia.
-        • IFG < 10 y hemodialisis: 2 tb 100 mg / 2 veces a la semana."""
+        
+        • IFG entre 80 - 60: tb 100 mg / diaria durante dias alternos
+        • IFG entre 60 - 50: tb 100 mg / diario
+        • IFG entre 50 - 30: 2 tb 100 mg / 2 veces a la semana
+        • IFG entre 30 - 20: tb 100 mg / 3 veces por semana
+        • IFG entre 20 - 10: tb 100 mg / 2 veces al dia
+        • IFG < 10 y hemodialisis: 2 tb 100 mg / 2 veces a la semana
+        
+        *IFG Indice de Filtración Glomerular ó Tasa de Filtración Glomerular"""
     },
     {
         "medicamento": "Rimantadina",
-        "familia": "Aminas triciclicas.",
-        "presentaciones": """• 100 mg Tabletas.
-        • 50 mg / 5 ml solución.""",
+        "familia": "Aminas triciclicas",
+        "presentaciones": """• 100 mg Tabletas
+        • 50 mg / 5 ml solución inyectable""",
         "indicaciones": """• Previene y tratamiento de infecciones por virus de la influenza A de los subgrupos:
-        - H1N1.
-        - H2N2.
-        - H3N3.""",
-        "mecanismo de accion": "Inhibidor de la atividad ARN.",
-        "vias de administración": "Via oral.",
+        - H1N1
+        - H2N2
+        - H3N3""",
+        "mecanismo de accion": "Inhibidor de la atividad ARN",
+        "vias de administración": """• Via oral
+        • via IntraVenosa""",
         "metabolismo": "Insignificante por higado",
-        "excrecion": """• Renal.
-        • Pacientes con falla renal se debe disminuir la dosis.""",
-        "efectos Secundarios":"""• Ansiedad.
-        • Insomnio.
-        • Dificultad para concentrarse.
-        • Nauseas.
-        • Mareo.
-        • Anorexia.""",
-        "contraindicaciones": """• Hipersensibilidad.
-        • Lactante en población pediátrica menor a 1 años.
-        • Pacientes con enfermedades renales.""",
-        "posologia": """• 1 a 2 años: 5 mg/kg/dia.
-        • 3 a 5 años: 5 ml/dia.
-        • 6 a 7 años: 10 ml/dia.
-        • 8 a 11 años: 15 ml/dia.
-        • Mayores de 12 años y adultos: 20 ml/dia ó 2 tb 100 mg cada 12 horas.
-        • Mayores de 65 años y pacientes con insuficiencia renal: 10 ml/dia ó tb 100 mg/dia."""
+        "excrecion": """• A nivel renal
+        • Pacientes con falla renal se debe disminuir la dosis""",
+        "efectos Secundarios":"""• Ansiedad
+        • Insomnio
+        • Dificultad para concentrarse
+        • Nauseas
+        • Mareo
+        • Anorexia""",
+        "contraindicaciones": """• Hipersensibilidad
+        • Lactante en población pediátrica menor a 1 años
+        • Pacientes con enfermedades renales""",
+        "posologia": """Niños de 1 a 2 años: 
+        • 5 mg/kg/dia solución inyectable
+        
+        Niños de 3 a 5 años: 
+        • 5 ml/dia solución inyectable
+        
+        Niños de 6 a 7 años: 
+        • 10 ml/dia solución inyectable 
+        
+        Niños de 8 a 11 años: 
+        • 15 ml/dia solución inyectable
+        
+        Niños mayores de 12 años y adultos: 
+        • 20 ml/dia solución inyectable 
+        • 2 tabletas de 100 mg cada 12 horas
+        
+        Mayores de 65 años y pacientes con insuficiencia renal: 
+        • 10 ml/dia solución inyectable 
+        • 1 tableta de 100 mg/dia"""
     },
     {
         "medicamento": "Ribavirina",
         "familia": """• Antiviral
-        • Derivados de los nucleosidos purinicos.""",
-        "presentaciones": """• 200 mg Tabletas.
-        • 400 mg Tabletas.
-        • 200 mg Capsulas.
-        • 400 mg Capsulas.
-        • 5g al 7,5% crema.
-        • 15g al 7,5% crema.""",
+        • Derivados de los nucleosidos purinicos""",
+        "presentaciones": """• 200 mg Tabletas
+        • 400 mg Tabletas
+        • 200 mg Capsulas
+        • 400 mg Capsulas
+        • 5g al 7,5% crema
+        • 15g al 7,5% crema
+        • 100 mg / 5 mL solución oral""",
         "indicaciones": """• Infección por virus de influenza:
-        - Influenza A.
-        - Influenza B.
-        • Bronquiolitis por virus sincitial respiratorio en niños.
-        • Se administra junto con IF en pacientes con hepatitis activa crónica.""",
-        "mecanismo de accion": "Desconocido pero actua sobre los virus de ADN y ARN.",
-        "vias de administración": """• Via oral.
-        • Topica.""",
-        "metabolismo": "Insignificante por higado",
-        "excrecion": """• Renal.
-        • Pacientes con falla renal se debe disminuir la dosis.""",
-        "efectos Secundarios":"""• Ansiedad.
-        • Insomnio.
-        • Dificultad para concentrarse.
-        • Nauseas.
-        • Mareo.
-        • Anorexia.""",
-        "contraindicaciones": """• Pacientes con problemas o antecedentes cardiovasculares graves.
-        • Lactante en población pediátrica menor a 1 años.
-        • Pacientes con enfermedades renales.""",
-        "posologia": """• Adultos: 1 tb o cap de 400mg cada 6 horas.
-        • Adultos: Posterior a la dosis anterior inicial se administra 1 tb o cap de 200 mg cada 6 horas."""
+        - Influenza A
+        - Influenza B
+        
+        • Bronquiolitis por virus sincitial respiratorio en niños
+        • Se administra junto con IF en pacientes con hepatitis activa crónica""",
+        "mecanismo de accion": "Desconocido pero actúa sobre los virus de ADN y ARN",
+        "vias de administración": """• Via oral
+        • Topica""",
+        "metabolismo": "Insignificante por hígado",
+        "excrecion": """• A nivel renal
+        • Pacientes con falla renal se debe disminuir la dosis""",
+        "efectos Secundarios":"""• Ansiedad
+        • Insomnio
+        • Dificultad para concentrarse
+        • Nauseas
+        • Mareo
+        • Anorexia""",
+        "contraindicaciones": """• Pacientes con problemas o antecedentes cardiovasculares graves
+        • Lactante en población pediátrica menor a 1 años
+        • Pacientes con enfermedades renales""",
+        "posologia": """Niños:
+        • 5 mg / mL por 4 semanas
+        
+        Adultos: 
+        • 1 tableta de 400 mg dosis inicial, posterior 1 tableta de 200 mg cada 6 horas
+        • 1 capsula de 400 mg dosis inicial, posterior 1 capsula de 200 mg cada 6 horas"""
     },
     {
         "medicamento": "Oseltamivir",
         "familia": """• Antiviral
         • Análogo del acido sialico""",
-        "presentaciones": """• 75 mg Capsulas
+        "presentaciones": """• 30 mg Capsulas
         • 45 mg Capsulas
-        • 30 mg Capsulas
-        • 12mg/ml Suspención oral
-        • 6mg/ml suspención oral""",
+        • 75 mg Capsulas
+        • 6mg/ml suspensión oral
+        • 12mg/ml Suspensión oral""",
         "indicaciones": """• Infecciones por virus de Influenza A
         • Infecciones de infuenza subgrupo H1N1
         • Suele administrarse en pandemia como ayuda para tratamiento del SARS-Cov 2 (COVID 19)""",
         "mecanismo de accion": "Inhibe la liberación viral (Exposición Ural)",
-        "vias de administración": "• Via oral",
-        "metabolismo": "Insignificante por higado",
-        "excrecion": """• Renal.
-        • Pacientes con falla renal se debe disminuir la dosis.""",
+        "vias de administración": "Via oral",
+        "metabolismo": "Insignificante por hígado",
+        "excrecion": """• A nivel renal
+        • Pacientes con falla renal se debe disminuir la dosis""",
         "efectos Secundarios":"""• Confusión
         • Delirio
         • Sensación de daño corporal intenso
@@ -2065,37 +2113,56 @@ medicine_super_list = [
         • Vomito
         • Diarrea
         • Cefalea""",
-        "contraindicaciones": """• Pacientes con problemas o antecedentes cardiovasculares graves.
-        • Lactante en población pediátrica menor a 1 años.
-        • Pacientes con enfermedades renales.""",
-        "posologia": """• Niño con peso de 3 Kg: 9 mg cada 12 horas
-        • Niño con peso de 4 Kg: 12 mg cada 12 horas por 10 dias
-        • Niño con peso de 5 Kg: 15 mg cada 12 horas por 10 dias
-        • Niño con peso de 6 Kg: 18 mg cada 12 horas por 10 dias
-        • Niño con peso de 7 kg: 21 mg cada 12 horas por 10 dias
-        • Niño con peso de 8 Kg: 24 mg cada 12 horas por 10 dias
-        • Niño con peso de 9 Kg: 27 mg cada 12 horas por 10 dias
-        • Niño con peso de 10 Kg. 30 mg cada 12 horas por 10 dias
-        • Adolecentes entre 13 y 17 años: 75 mg cada 12 horas por 10 dias
-        • Adultos: 75 mg cada 12 horas durante 1o días"""
+        "contraindicaciones": """• Pacientes con problemas o antecedentes cardiovasculares graves
+        • Lactante en población pediátrica menor a 1 años
+        • Pacientes con enfermedades renales""",
+        "posologia": """Niño con peso de 3 Kg: 
+        • 9 mg cada 12 horas
+        
+        Niño con peso de 4 Kg: 
+        • 12 mg cada 12 horas por 10 dias
+        
+        Niño con peso de 5 Kg: 
+        • 15 mg cada 12 horas por 10 dias
+        
+        Niño con peso de 6 Kg: 
+        • 18 mg cada 12 horas por 10 dias
+        
+        Niño con peso de 7 kg: 
+        • 21 mg cada 12 horas por 10 dias
+        
+        Niño con peso de 8 Kg: 
+        • 24 mg cada 12 horas por 10 dias
+        
+        Niño con peso de 9 Kg: 
+        • 27 mg cada 12 horas por 10 dias
+        
+        Niño con peso de 10 Kg:
+        • 30 mg cada 12 horas por 10 dias
+        
+        Adolecentes entre 13 y 17 años: 
+        • 75 mg cada 12 horas por 10 dias
+        
+        Adultos: 
+        • 75 mg cada 12 horas durante 1o días"""
     },
     {
         "medicamento": "Zanamivir",
         "familia": """• Antiviral
         • Análogo del acido sialico""",
         "presentaciones": """• 75 mg Capsulas
-        • 200mg / 20ml (10 mg/ml) polvo esteril para inyectar
-        • 5mg/dosis inhalatoria""",
+        • 200 mg / 20 mL (10 mg/ml) polvo esteril para inyectar
+        • 5 mg / dosis polvo para inhalar""",
         "indicaciones": """• Infecciones por virus de Influenza A
         • Infecciones de infuenza subgrupo H1N1
         • Suele administrarse en pandemia como ayuda para tratamiento del SARS-Cov 2 (COVID 19)""",
         "mecanismo de accion": "Inhibe la liberación viral (Exposición Ural)",
         "vias de administración": """• Via oral
         • Via inhalación oral
-        • Via intra venosa""",
-        "metabolismo": "Insignificante por higado",
-        "excrecion": """• Renal.
-        • Pacientes con falla renal se debe disminuir la dosis.""",
+        • Via intra Venosa""",
+        "metabolismo": "Insignificante por hígado",
+        "excrecion": """• A nivel renal
+        • Pacientes con falla renal se debe disminuir la dosis""",
         "efectos Secundarios":"""• Confusión
         • Delirio
         • Sensación de daño corporal intenso
@@ -2103,49 +2170,62 @@ medicine_super_list = [
         • Vomito
         • Diarrea
         • Cefalea""",
-        "contraindicaciones": """• Pacientes con problemas o antecedentes cardiovasculares graves.
-        • Lactante en población pediátrica menor a 1 años.
-        • Pacientes con enfermedades renales.""",
-        "posologia": """• Niño mayores de 5 años: 5 mg, 2 inhalaciones cada 12 horas por 5 días
-        • Niño y adolecentes entre 6 y 18 años: 12 mg / kg / 12 horas via intravenosa
-        Niño y adolecentes entre 6 meses y 6 años: 14 mg / kg / 12 horas via intravenosa
-        • Adultos: 2 inhalaciones de 5mg cada 12 horas durante 10 dias
-        • Adultos: 600 mg cada 12 horas via intravenosa"""
+        "contraindicaciones": """• Pacientes con problemas o antecedentes cardiovasculares graves
+        • Lactante en población pediátrica menor a 1 años
+        • Pacientes con enfermedades renales""",
+        "posologia": """Niño mayores de 5 años: 
+        • 5 mg, 2 inhalaciones cada 12 horas por 5 días
+        
+        Niño y adolecentes entre 6 y 18 años: 
+        • 12 mg / kg / 12 horas via intravenosa
+        
+        Niño y adolecentes entre 6 meses y 6 años: 
+        • 14 mg / kg / 12 horas via intravenosa
+        
+        Adultos: 
+        • 2 inhalaciones de 5mg cada 12 horas durante 10 dias
+        
+        Adultos: 
+        • 600 mg cada 12 horas via intravenosa"""
     },
     {
         "medicamento": "Interferon",
-        "familia": "DNA recombinante a partirde productos derivados de los linfocitos y células involucradas en la respuesta inmune",
-        "presentaciones": """• Interferon alfa-2a:
-        - 180mcg/0.5ml solución inyectable
-        • Interferon alfa-2b:
-        - 3 millones UI / 0.5 ml por vial 
-        - 5 millones UI / 0.5 ml por vial 
-        - 10 millones UI / 0.5 ml por vial
-        • Interferon beta-1a:
-        - 22mcg/0.5ml solución inyectable 
-        - 30mcg/0.5ml solución inyectable
-        - 44mcg/0.5ml solución inyectable
-        • Interferon beta-1b:
-        - 300 µg polvo para solución inyectable 
-        - 0.25mg/ml polvo para solución inyectable 
-        • Interferon gamma
-        - 100 µg (2 millones UI)/0.5ml """,
+        "familia": "DNA recombinante a partir de productos derivados de los linfocitos y células involucradas en la respuesta inmune",
+        "presentaciones": """Interferon alfa-2a:
+        • 180 mcg / 0.5 mL solución inyectable
+        
+        Interferon alfa-2b:
+        • 3 millones UI / 0.5 ml por vial 
+        • 5 millones UI / 0.5 ml por vial 
+        • 10 millones UI / 0.5 ml por vial
+        
+        Interferon beta-1a:
+        • 22 mcg / 0.5 mL solución inyectable 
+        • 30 mcg / 0.5 mL solución inyectable
+        • 44 mcg / 0.5 mL solución inyectable
+        
+        Interferon beta-1b:
+        • 300 µg polvo para solución inyectable 
+        • 0.25 mg / mL polvo para solución inyectable 
+        
+        Interferon gamma
+        • 100 µg (2 millones UI) / 0.5 mL""",
         "indicaciones": """• Infección crónica por virus de herpes B
         • Infección crónica por virus de herpes C
         • Infección por herpes simple y diseminado en pacientes VIH +
         • Enfermedades desielinizantes crónicas
         • Esclerosis multiple""",
+        "vias de administración": """• Subcutanea
+        • Via intramuscular
+        • Via intralesional""",
         "mecanismo de accion": """• Induce en las células un estado resistente a infecciones viricas
         • Modula rama efectora del sistema inmune para neutralizar virus y células infectadas
         • Acción antivirica
         • Acción antiploriferativa
         • Acción inmunomoduladora
         • Aumenta citotoxicidad del macrófago""",
-        "vias de administración": """• Subcutanea
-        • Via intramuscular
-        • Via intralesional""",
         "metabolismo": """• No posee metabolismo
-        • Cuando actúan en las celulas blanco son desnaturalizadas
+        • Cuando actúan en las células blanco son desnaturalizadas
         • Vida promedio se mantiene por varios días""",
         "excrecion": "No tiene excreción",
         "efectos Secundarios":"""• Sindrome gripal
@@ -2161,7 +2241,7 @@ medicine_super_list = [
         • Ulceras bucales
         • Exacerbación de enfermedades autoinmunes""",
         "contraindicaciones": """• Mujeres embarazadas
-        • Menroes de 2 años
+        • Menores de 2 años
         • Hipersensibilidad
         • Enfermedades cardiacas
         • Cardiopatias graves
@@ -2170,16 +2250,19 @@ medicine_super_list = [
         • Disminución mieloide grave
         • Enfermedades hepaticas graves
         • Cirrosis""",
-        "posologia": """• Interferón alfa-2a:
-        - Adultos 3 millones UI al día entre 16 - 24 semanas
-        • Interferón beta-1a:
-        - Pacientes mayores de 12 años 22 mcg 3 veces por semana
-        - Adultos 30 - 44 mcg 3 veces por semana 
-        • Interferón beta-1a:
-        - Niños entre 12 - 17 años 250 mcg cada 2 días
-        - Adultos 250 mcg cada 2 días
-        • Interferón gamma:
-        - adultos 1.5 mcg/Kg/dosis 3 veces por semana"""
+        "posologia": """Interferón alfa-2a:
+        • Adultos 3 millones UI al día entre 16 - 24 semanas
+        
+        Interferón beta-1a:
+        • Pacientes mayores de 12 años 22 mcg 3 veces por semana
+        • Adultos 30 - 44 mcg 3 veces por semana 
+        
+        Interferón beta-1a:
+        • Niños entre 12 - 17 años 250 mcg cada 2 días
+        • Adultos 250 mcg cada 2 días
+        
+        Interferón gamma:
+        • Adultos 1.5 mcg/Kg/dosis 3 veces por semana"""
     },
     {
         "medicamento": "Dopamina",
