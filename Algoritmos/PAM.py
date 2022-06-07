@@ -1,22 +1,22 @@
 def blood_pressure(func):
     def wrapper(systolic, dyastolic):
         func(systolic, dyastolic)
-        pam = round(((dyastolic * 2) + systolic) / 3, 1)
-        if pam < 70:
+        mbp = round(((dyastolic * 2) + systolic) / 3, 1)
+        if mbp < 70:
             print(f"""
-                  La presion arterial media de tu paciente es {str(pam)} mmHg
+                  La presion arterial media de tu paciente es {str(mbp)} mmHg
                   
                   Tu paciente se encuentra en los niveles bajos alarmantes de presion arterial
                   """)
-        elif pam >100:
+        elif mbp >100:
             print(f"""
-                  La presion arterial media de tu paciente es {str(pam)} mmHg
+                  La presion arterial media de tu paciente es {str(mbp)} mmHg
                   
                   Tu paciente se encuentra en los niveles altos alarmantes de presion arterial
                   """)
         else:
             print(f"""
-                  La presion arterial media de tu paciente es{str(pam)} mmHg
+                  La presion arterial media de tu paciente es{str(mbp)} mmHg
                   
                   Tu paciente se encuentra en los rangos normales de presion arterial
                   """)

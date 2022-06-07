@@ -37,18 +37,18 @@ def body_surface_algoritm(weight):
 def cardiac_index(body_surface, heart_output):
     heart_index = round((heart_output / body_surface), 1)
     if heart_index < 2.2:
-        print(f"""Tu paciente tiene un gasto cardiaco de {str(heart_index)} L/min/m²
+        print(f"""Tu paciente tiene un indice cardiaco de {str(heart_index)} L/min/m²
               
               Tu paciente esta en estado se shock
               Se recomienda iniciar monitorizacion y maniobras de reanimación y estabilización de signos vitales""")
     
     elif heart_index < 3:
-        print(f"""Tu paciente tiene un gasto cardiaco de {str(heart_index)} L/min/m²
+        print(f"""Tu paciente tiene un indice cardiaco de {str(heart_index)} L/min/m²
               
               Tu paciente presenta un indice cardiaco bajo""")
         
     elif heart_index > 5:
-        print(f"""Tu paciente tiene un gasto cardiaco de {str(heart_index)} L/min/m²
+        print(f"""Tu paciente tiene un indice cardiaco de {str(heart_index)} L/min/m²
               
               Tu paciente presenta un indice cardiaco alto""")
         
